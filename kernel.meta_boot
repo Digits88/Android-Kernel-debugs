@@ -1,0 +1,2068 @@
+MobileLog in Normal
+-----timezone: GMT
+fg loaded.
+<5>[    0.367937] (0)[1:swapper/0][Power/BatMeter] [battery_meter_driver] Initialization : DONE 
+<5>[    0.368091] (0)[1:swapper/0][Power/Battery] ******** battery driver probe!! ********
+<5>[    0.368210] (0)[1:swapper/0][Power/Battery] [BAT_probe] adc_cali prepare : done !!
+<4>[    0.368224] (0)[1:swapper/0] 
+<5>[    0.368440] (0)[1:swapper/0][Power/Battery] [BAT_probe] power_supply_register AC Success !!
+<5>[    0.368631] (0)[1:swapper/0][Power/Battery] [BAT_probe] power_supply_register USB Success !!
+<5>[    0.368933] (0)[1:swapper/0][Power/Battery] [BAT_probe] power_supply_register Battery Success !!
+<5>[    0.369108] (0)[1:swapper/0][Power/Battery] battery_kthread_hrtimer_init : done
+<7>[    0.369189] (1)[2:kthreadd][2:kthreadd] fork [45:kthreadd]
+<5>[    0.369235] (1)[1:swapper/0][Power/Battery] [battery_probe] bat_thread_kthread Done
+<5>[    0.369257] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <150,4179>
+<5>[    0.369282] (0)[45:bat_thread_kthr][Power/BatMeter] 
+<7>[    0.369294] (1)[2:kthreadd][2:kthreadd] fork [46:kthreadd]
+<4>[    0.369310] (0)[45:bat_thread_kthr]<Rbat,VBAT> at 25 = <205,4155>
+<5>[    0.369322] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <210,4136>
+<5>[    0.369343] (0)[45:bat_thread_kthr][Power/BatMeter] 
+<5>[    0.369352] (1)[1:swapper/0][Power/Battery] charger_hv_detect_sw_workaround_init : done
+<4>[    0.369371] (0)[45:bat_thread_kthr]<Rbat,VBAT> at 25 = <215,4118>
+<5>[    0.369384] (0)[45:bat_thread_kthr][Power/BatMeter] 
+<5>[    0.369393] (1)[1:swapper/0][Power/Battery] init_proc_log loaded.
+<4>[    0.369410] (0)[45:bat_thread_kthr]<Rbat,VBAT> at 25 = <215,4098>
+<5>[    0.369423] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <223,4082>
+<5>[    0.369445] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <228,4065>
+<5>[    0.369465] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <230,4048>
+<5>[    0.369485] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <230,4029>
+<5>[    0.369505] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <238,4014>
+<5>[    0.369525] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <240,4000>
+<5>[    0.369546] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <245,3986>
+<5>[    0.369567] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <250,3973>
+<5>[    0.369587] (0)[45:bat_thread_kthr][Power/BatMeter] 
+<5>[    0.369596] (1)[1:swapper/0][Power/Battery] ******** mt_batteryNotify_probe!! ********
+<4>[    0.369616] (0)[45:bat_thread_kthr]<Rbat,VBAT> at 25 = <250,3959>
+<5>[    0.369629] (0)[45:bat_thread_kthr][Power/BatMeter] 
+<5>[    0.369638] (1)[1:swapper/0][Power/Battery] ******** mtk_battery_cmd!! ********
+<4>[    0.369657] (0)[45:bat_thread_kthr]<Rbat,VBAT> at 25 = <253,3946>
+<5>[    0.369670] (0)[45:bat_thread_kthr][Power/BatMeter] 
+<5>[    0.369679] (1)[1:swapper/0][Power/Battery] ****[battery_driver] Initialization : DONE !!
+<4>[    0.369697] (0)[45:bat_thread_kthr]<Rbat,VBAT> at 25 = <265,3936>
+<5>[    0.369710] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <268,3924>
+<5>[    0.369731] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <270,3914>
+<5>[    0.369752] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <270,3901>
+<5>[    0.369815] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <268,3889>
+<5>[    0.369836] (0)[45:bat_thread_kthr][Power/BatMeter] 
+<1>[    0.369846] (1)[1:swapper/0]MT_SCHED: Init complete, device major number = 251
+<4>[    0.369864] (0)[45:bat_thread_kthr]<Rbat,VBAT> at 25 = <240,3867>
+<5>[    0.369877] (0)[45:bat_thread_kthr][Power/BatMeter] [cpu_ntf] <32>c034b074 (sched_cpu_notify)
+<4>[    0.369895] (1)[1:swapper/0]ALMK driver initialize
+<4>[    0.369905] (0)[45:bat_thread_kthr]<Rbat,VBAT> at 25 = <223,3850>
+<5>[    0.369915] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <218,3837>
+<5>[    0.369928] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <213,3827>
+<5>[    0.369941] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <213,3819>
+<5>[    0.369955] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <215,3812>
+<5>[    0.369968] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <220,3806>
+<5>[    0.369982] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <223,3800>
+<5>[    0.369995] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <225,3796>
+<5>[    0.370008] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <228,3791>
+<5>[    0.370021] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <233,3788>
+<5>[    0.370034] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <223,3781>
+<5>[    0.370048] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <230,3778>
+<5>[    0.370061] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <233,3777>
+<5>[    0.370074] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <238,3774>
+<5>[    0.370088] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <238,3771>
+<5>[    0.370101] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <238,3769>
+<5>[    0.370114] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <230,3762>
+<5>[    0.370128] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <228,3755>
+<5>[    0.370141] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <220,3746>
+<5>[    0.370155] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <225,3739>
+<5>[    0.370168] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <230,3730>
+<5>[    0.370181] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <230,3718>
+<5>[    0.370194] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <233,3704>
+<5>[    0.370207] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <223,3688>
+<5>[    0.370220] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <228,3681>
+<5>[    0.370234] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <243,3677>
+<5>[    0.370247] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <263,3670>
+<5>[    0.370261] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <283,3644>
+<5>[    0.370274] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <315,3562>
+<5>[    0.370288] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <403,3408>
+<5>[    0.370302] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <380,3349>
+<5>[    0.370315] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <330,3329>
+<5>[    0.370329] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <305,3319>
+<5>[    0.370342] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <288,3313>
+<5>[    0.370355] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <275,3309>
+<5>[    0.370368] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <273,3304>
+<5>[    0.370382] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <260,3302>
+<5>[    0.370395] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <260,3300>
+<5>[    0.370408] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <248,3296>
+<5>[    0.370421] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <243,3295>
+<5>[    0.370434] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <250,3297>
+<5>[    0.370448] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <248,3296>
+<5>[    0.370461] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <243,3296>
+<5>[    0.370475] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <243,3296>
+<5>[    0.370488] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <235,3293>
+<5>[    0.370501] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <223,3289>
+<5>[    0.370514] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <233,3289>
+<5>[    0.370528] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <228,3286>
+<5>[    0.370541] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <223,3285>
+<5>[    0.370555] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <225,3284>
+<5>[    0.370568] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <225,3284>
+<5>[    0.370581] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <218,3284>
+<5>[    0.370594] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <220,3284>
+<5>[    0.370608] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <218,3283>
+<5>[    0.370621] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <220,3282>
+<5>[    0.370635] (0)[45:bat_thread_kthr][Power/BatMeter] <Rbat,VBAT> at 25 = <213,3281>
+<4>[    0.370650] (1)[1:swapper/0]Register the ALMK driver device
+<5>[    0.370659] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <0,4198>
+<5>[    0.370673] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <2,4164>
+<5>[    0.370687] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <4,4125>
+<5>[    0.370700] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <6,4107>
+<5>[    0.370713] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <8,4098>
+<5>[    0.370727] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <10,4082>
+<5>[    0.370740] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <12,4065>
+<5>[    0.370754] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <14,4048>
+<5>[    0.370767] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <16,4029>
+<5>[    0.370780] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <18,4014>
+<5>[    0.370794] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <20,4000>
+<5>[    0.370807] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <22,3986>
+<5>[    0.370820] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <24,3973>
+<5>[    0.370834] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <26,3959>
+<5>[    0.370847] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <28,3946>
+<5>[    0.370860] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <30,3936>
+<5>[    0.370873] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <32,3924>
+<5>[    0.370887] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <34,3914>
+<5>[    0.370901] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <36,3901>
+<5>[    0.370914] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <38,3889>
+<5>[    0.370927] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <40,3867>
+<5>[    0.370941] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <42,3850>
+<5>[    0.370954] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <44,3837>
+<5>[    0.370967] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <46,3827>
+<5>[    0.370980] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <48,3819>
+<5>[    0.370994] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <50,3812>
+<5>[    0.371007] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <52,3806>
+<5>[    0.371020] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <54,3800>
+<5>[    0.371033] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <56,3796>
+<5>[    0.371046] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <58,3791>
+<5>[    0.371060] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <60,3788>
+<5>[    0.371073] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <62,3781>
+<5>[    0.371086] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <64,3778>
+<5>[    0.371099] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <66,3777>
+<5>[    0.371113] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <68,3774>
+<5>[    0.371126] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <70,3771>
+<5>[    0.371139] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <72,3769>
+<5>[    0.371152] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <74,3762>
+<5>[    0.371166] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <76,3755>
+<5>[    0.371179] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <78,3746>
+<5>[    0.371193] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <80,3739>
+<5>[    0.371206] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <82,3730>
+<5>[    0.371219] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <84,3718>
+<5>[    0.371232] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <86,3704>
+<5>[    0.371245] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <88,3688>
+<5>[    0.371259] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <90,3681>
+<5>[    0.371273] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <92,3677>
+<5>[    0.371286] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <94,3670>
+<5>[    0.371300] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <96,3644>
+<5>[    0.371313] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <98,3562>
+<5>[    0.371326] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <100,3408>
+<5>[    0.371339] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <100,3349>
+<5>[    0.371352] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <100,3329>
+<5>[    0.371366] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <100,3319>
+<5>[    0.371380] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <100,3313>
+<5>[    0.371393] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <100,3309>
+<5>[    0.371407] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <100,3304>
+<5>[    0.371420] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <100,3302>
+<5>[    0.371433] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <100,3300>
+<5>[    0.371446] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <100,3296>
+<5>[    0.371460] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <100,3295>
+<5>[    0.371473] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <100,3297>
+<5>[    0.371487] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <100,3296>
+<5>[    0.371500] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <100,3296>
+<5>[    0.371514] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <100,3296>
+<5>[    0.371527] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <100,3293>
+<5>[    0.371541] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <100,3289>
+<5>[    0.371554] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <100,3289>
+<5>[    0.371567] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <100,3286>
+<5>[    0.371581] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <100,3285>
+<5>[    0.371594] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <100,3284>
+<5>[    0.371607] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <100,3284>
+<5>[    0.371621] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <100,3284>
+<5>[    0.371634] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <100,3284>
+<5>[    0.371647] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <100,3283>
+<5>[    0.371660] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <100,3282>
+<5>[    0.371674] (0)[45:bat_thread_kthr][Power/BatMeter] <DOD,Voltage> at 25 = <100,3281>
+<4>[    0.371810] (1)[1:swapper/0]Register the ALMK driver 
+<4>[    0.371856] (1)[1:swapper/0]-------------almk driver probe-------
+<4>[    0.371874] (1)[1:swapper/0]Get ALMK Device Major number (262144000)
+<4>[    0.371955] (1)[1:swapper/0]ALMK Probe Done
+<5>[    0.372102] (1)[1:swapper/0][mtkfb_vsync] initializeing driver...
+<4>[    0.372260] (1)[1:swapper/0]
+<4>[    0.372266] (1)[1:swapper/0]=== MTKFB_VSYNC probe ===
+<4>[    0.372284] (1)[1:swapper/0]get device major number (261095424)
+<5>[    0.372365] (1)[1:swapper/0][mtkfb_vsync] probe is done
+<4>[    0.372404] (1)[1:swapper/0]mtkfb_proc_intf_init
+<4>[    0.372417] (1)[1:swapper/0]mtkfb_proc_intf_register: register mtk fb proc interface
+<5>[    0.372448] (1)[1:swapper/0][HID:] hid_keyboard_init OK
+<0>[    0.372504] (1)[1:swapper/0][LED]mt65xx_leds_init
+<6>[    0.372787] (1)[1:swapper/0]BT network driver init 
+<3>[    0.372806] (1)[1:swapper/0]register BT chr device (0)
+<3>[    0.372901] (1)[1:swapper/0]register BT chr device done
+<6>[    0.372950] (1)[1:swapper/0][thermal/cooler/shutdown] init
+<6>[    0.372976] (1)[1:swapper/0][thermal/cooler/shutdown] register ltf
+<6>[    0.373161] (1)[1:swapper/0][thermal/cooler/backlight] init
+<6>[    0.373176] (1)[1:swapper/0][thermal/cooler/backlight] register ltf
+<6>[    0.373362] (1)[1:swapper/0][thermal/cooler/kshutdown] init
+<6>[    0.373377] (1)[1:swapper/0][thermal/cooler/kshutdown] register ltf
+<5>[    0.373392] (0)[45:bat_thread_kthr][Power/BatMeter] [oam] get_hw_ocv (pchr) : adc_result_reg=18409, adc_result=4044
+<5>[    0.373425] (0)[45:bat_thread_kthr][Power/BatMeter] [oam_init_inf] gFG_capacity_by_v=87, vbat_capacity=79, 
+<5>[    0.373453] (0)[45:bat_thread_kthr][Power/BatMeter] [FGADC] g_rtc_fg_soc=78, gFG_capacity_by_v=78
+<5>[    0.373475] (0)[45:bat_thread_kthr][Power/BatMeter] [FGADC] gFG_15_vlot = 3704mV
+<5>[    0.373496] (0)[45:bat_thread_kthr][Power/BatMeter] [oam_init] oam_v_ocv_1,oam_v_ocv_2,oam_r_1,oam_r_2,oam_d0,oam_i_ori
+<5>[    0.373517] (0)[45:bat_thread_kthr][Power/BatMeter] [oam_init] 3986,3986,229,229,22,0
+<5>[    0.373538] (0)[45:bat_thread_kthr][Power/BatMeter] [oam_init_inf] hw_OCV, hw_D0, RTC, D0, oam_OCV_init, tbat
+<5>[    0.373555] (1)[1:swapper/0][MDM_TxPower/PA_Thermal] [mtk_mdm_txpwr_init] 
+<5>[    0.373573] (0)[45:bat_thread_kthr][Power/BatMeter] [oam_run_inf] oam_OCV1, oam_OCV2, vbat, I1, I2, R1, R2, Car1, Car2, qmax, tbat
+<6>[    0.373592] (1)[1:swapper/0][Power/WMT_Thermal] [wmt_tm_init] start -->
+<6>[    0.373604] (1)[1:swapper/0][Power/WMT_Thermal] [wmt_tm_proc_register]
+<5>[    0.373617] (0)[45:bat_thread_kthr][Power/BatMeter] [oam_result_inf] D1, D2, D3, D4, D5, UI_SOC
+<5>[    0.373636] (0)[45:bat_thread_kthr][Power/BatMeter] 
+<6>[    0.373645] (1)[1:swapper/0][Power/WMT_Thermal] [wmt_tm_thz_cl_register]
+<4>[    0.373661] (0)[45:bat_thread_kthr][oam_init_inf] 4052, 13, 78, 22, 3986, 25
+<5>[    0.373675] (0)[45:bat_thread_kthr][Power/BatMeter] [battery_meter_initial] SOC_BY_SW_FG done
+<7>[    0.373703] (0)[45:bat_thread_kthr][MUSB]mt_usb_is_device 285: mtk_musb is NULL
+<5>[    0.373716] (0)[45:bat_thread_kthr][Power/Battery] [BAT_thread]Cable out 
+<4>[    0.373734] (0)[45:bat_thread_kthr][MUSB] USB is ready for disconnect
+<6>[    0.373906] (1)[1:swapper/0][Power/WMT_Thermal] [wmt_thz_bind] mtktswmt-pa2
+<6>[    0.373944] (1)[1:swapper/0][Power/WMT_Thermal] [wmt_thz_bind]] binding OK
+<6>[    0.373960] (1)[1:swapper/0][Power/WMT_Thermal] [wmt_thz_bind] mtktswmt-pa1
+<6>[    0.373986] (1)[1:swapper/0][Power/WMT_Thermal] [wmt_thz_bind]] binding OK
+<6>[    0.374001] (1)[1:swapper/0][Power/WMT_Thermal] [wmt_thz_bind]] mtktswmt-sysrst
+<6>[    0.374025] (1)[1:swapper/0][Power/WMT_Thermal] [wmt_thz_bind]] binding OK
+<4>[    0.374052] (1)[1:swapper/0][cmb_stub] thermal_ctrl_cb null
+<5>[    0.374066] (1)[1:swapper/0][Power/WMT_Thermal] [wmt_thz_get_temp] temp = 0
+<6>[    0.374109] (1)[1:swapper/0][Power/WMT_Thermal] [wmt_tm_init] end <--
+<6>[    0.374211] (1)[1:swapper/0]xLog: inited.
+<6>[    0.374270] (1)[1:swapper/0]logger: created 32K log 'log_ksystem'
+<4>[    0.374281] (1)[1:swapper/0]mtk_evdo_host_interface_init
+<4>[    0.374302] (1)[1:swapper/0]add /proc/EVDO_HOST_RESET ok
+<3>[    0.374320] (1)[1:swapper/0]MTK-BTIF[I]hal_btif_info_get:_btif_tx_fifo_init succeed
+<3>[    0.374413] (1)[1:swapper/0]MTK-BTIF[I]_btif_vfifo_init:alloc vFIFO memory for BTIF succeed, vir addr:0xffdfe000, phy addr:0x9da6a000
+<3>[    0.374451] (1)[1:swapper/0]MTK-BTIF[I]_btif_vfifo_init:alloc vFIFO memory for BTIF succeed, vir addr:0xffdfc000, phy addr:0x9da6c000
+<7>[    0.374559] (0)[2:kthreadd][2:kthreadd] fork [47:kthreadd]
+<3>[    0.374618] (0)[1:swapper/0]MTK-BTIF[I]_btif_rx_btm_init:btif_rx_worker init succeed
+<3>[    0.374638] (0)[1:swapper/0]MTK-BTIF[I]_btif_rx_btm_init:rx_spin_lock init succeed
+<3>[    0.374654] (0)[1:swapper/0]MTK-BTIF[I]_btif_tx_ctx_init:nothing is done when btif tx in user's thread
+<3>[    0.374670] (0)[1:swapper/0]MTK-BTIF[I]_btif_tx_ctx_init:succeed
+<3>[    0.374759] (0)[1:swapper/0]MTK-BTIF[I]btif_chrdev_init:devuce number allocation succeed
+<3>[    0.374780] (0)[1:swapper/0]MTK-BTIF[I]btif_chrdev_init:add btif dev to kernel succeed
+<3>[    0.374817] (0)[1:swapper/0]MTK-BTIF[I]btif_chrdev_init:create class for btif succeed
+<3>[    0.374895] (0)[1:swapper/0]MTK-BTIF[I]btif_chrdev_init:create device for btif succeed
+<4>[    0.374912] (0)[1:swapper/0]ion_init()
+<4>[    0.375091] (0)[1:swapper/0]ion_drv_probe()
+<6>[    0.375239] (0)[1:swapper/0][StorageLogger]add /proc/driver/storage_logger entry fail <- storage_logger_init(): L<1765>  PID<swapper/0><1>
+<6>[    0.375259] (0)[1:swapper/0][StorageLogger]add /proc/driver/storage_logger_config entry fail <- storage_logger_init(): L<1773>  PID<swapper/0><1>
+<6>[    0.375277] (0)[1:swapper/0][StorageLogger]add /proc/driver/usb_logger_config entry fail <- storage_logger_init(): L<1780>  PID<swapper/0><1>
+<6>[    0.375294] (0)[1:swapper/0][StorageLogger]add /proc/driver/thermal_logger_config entry fail <- storage_logger_init(): L<1789>  PID<swapper/0><1>
+<6>[    0.375311] (0)[1:swapper/0][StorageLogger]add /proc/driver/storage_logger entry fail <- storage_logger_init(): L<1797>  PID<swapper/0><1>
+<6>[    0.375329] (0)[1:swapper/0][StorageLogger]add /proc/driver/fs_rectime entry fail <- storage_logger_init(): L<1902>  PID<swapper/0><1>
+<6>[    0.375345] (0)[1:swapper/0][StorageLogger]storage_logger_init success
+<6>[    0.375353] (0)[1:swapper/0] <- storage_logger_init(): L<1904>  PID<swapper/0><1>
+<6>[    0.375387] (0)[1:swapper/0][IOLogger]add /proc/driver/io_logger entry fail <- io_logger_init(): L<877>  PID<swapper/0><1>
+<6>[    0.375404] (0)[1:swapper/0][IOLogger]add /proc/driver/io_logger_config entry fail <- io_logger_init(): L<885>  PID<swapper/0><1>
+<6>[    0.375420] (0)[1:swapper/0][IOLogger]add /proc/driver/io_logger entry fail <- io_logger_init(): L<894>  PID<swapper/0><1>
+<6>[    0.375436] (0)[1:swapper/0][IOLogger]io_logger_init success
+<6>[    0.375443] (0)[1:swapper/0] <- io_logger_init(): L<930>  PID<swapper/0><1>
+<4>[    0.375455] (0)[1:swapper/0][Gsensor] kxtj2_1009_init
+<4>[    0.375468] (0)[1:swapper/0][Gsensor] kxtj2_1009_init: i2c_number=1
+<4>[    0.375485] (0)[1:swapper/0]<HWMSEN> hwmsen_gsensor_add
+<4>[    0.375500] (0)[1:swapper/0]<HWMSEN> hwmsen_gsensor_add
+<6>[    0.375915] (0)[1:swapper/0][KD_CAMERA_FLASHLIGHT]flashlight_init: [flashlight_probe] start
+<6>[    0.376067] (0)[1:swapper/0][KD_CAMERA_FLASHLIGHT]flashlight_probe: [flashlight_probe] start
+<6>[    0.376086] (0)[1:swapper/0][KD_CAMERA_FLASHLIGHT]flashlight_probe: [flashlight_probe] major: 245, minor: 0
+<6>[    0.376175] (0)[1:swapper/0][KD_CAMERA_FLASHLIGHT]flashlight_probe: [flashlight_probe] Done
+<6>[    0.376210] (0)[1:swapper/0][KD_CAMERA_FLASHLIGHT]flashlight_init: [flashlight_probe] done!
+<4>[    0.376295] (0)[1:swapper/0]mmc3416x_init: i2c_number=1
+<3>[    0.376352] (0)[1:swapper/0][SSW] sim_switch_driver_init
+<3>[    0.376413] (0)[1:swapper/0][SSW] sim_switch_init
+<3>[    0.376431] (0)[1:swapper/0][SSW] set_sim_gpio 1
+<3>[    0.376454] (0)[1:swapper/0][SSW] Current sim mode(1), GPIO0_MODE(1, 1), GPIO1_MODE(1, 0), GPIO2_MODE(1, 1), GPIO3_MODE(1, 0)
+<4>[    0.376471] (0)[1:swapper/0]MediaTek FTS touch panel driver init
+<4>[    0.376488] (0)[1:swapper/0]<<-GTP-INFO->> MediaTek gt91xx touch panel driver init
+<4>[    0.376497] (0)[1:swapper/0]
+<4>[    0.376511] (0)[1:swapper/0]MediaTek touch panel driver init
+<4>[    0.376622] (0)[1:swapper/0][tpd_em_log] :register device successfully 
+<4>[    0.376726] (0)[1:swapper/0]Mali<2>: Inserting Mali v19 device driver. 
+<4>[    0.376745] (0)[1:swapper/0]Mali<2>: Compiled: Jul 16 2015, time: 16:11:37.
+<4>[    0.376762] (0)[1:swapper/0]Mali<2>: Driver revision: 
+<4>[    0.376780] (0)[1:swapper/0]Mali<1>: mali_module_init() registering device
+<4>[    0.376796] (0)[1:swapper/0]Mali<1>: mali_platform_device_register
+<4>[    0.376943] (0)[1:swapper/0]Mali<1>: mali_pmm_init
+<4>[    0.376962] (0)[1:swapper/0]Mali<2>: [+]MFG enable_clock 
+<4>[    0.377001] (0)[1:swapper/0]Mali<2>: [-]MFG enable_clock 
+<4>[    0.377016] (0)[1:swapper/0]Mali<1>: mali_module_init() registering driver
+<4>[    0.377066] (0)[1:swapper/0]Mali<1>: mali_probe(): Called for platform device mali-utgard
+<4>[    0.377095] (0)[1:swapper/0]Mali<2>: Memory system initializing
+<4>[    0.377114] (0)[1:swapper/0]Mali<2>: Using device defined memory settings (dedicated: 0x00000000@0x00000000, shared: 0x40000000)
+<4>[    0.377140] (0)[1:swapper/0]Mali<2>: Mali OS memory allocator created with max allocation size of 0x40000000 bytes, cpu_usage_adjust 0x00000000
+<4>[    0.377165] (0)[1:swapper/0]Mali<2>: Using device defined frame buffer settings (0x80000000@0x80000000)
+<4>[    0.377187] (0)[1:swapper/0]Mali<2>: Memory Validator installed for Mali physical address base=0x80000000, size=0x80000000
+<4>[    0.377221] (0)[1:swapper/0]Mali<2>: Mali PP: Creating Mali PP core: Mali_PP0
+<4>[    0.377240] (0)[1:swapper/0]Mali<2>: Mali PP: Base address of PP core: 0x13018000
+<4>[    0.377269] (0)[1:swapper/0]Mali<2>: _mali_osk_irq_init irqnum 148
+<4>[    0.377329] (0)[1:swapper/0]Mali<2>: Found Mali GPU Mali-400 MP r1p1
+<4>[    0.377480] (0)[1:swapper/0]Mali<2>: Mali L2 cache: Creating Mali L2 cache: Mali_L2
+<4>[    0.377516] (0)[1:swapper/0]Mali<2>: Mali MMU: Creating Mali MMU: Mali_GP_MMU
+<4>[    0.377542] (0)[1:swapper/0]Mali<2>: _mali_osk_irq_init irqnum 147
+<4>[    0.377575] (0)[1:swapper/0]Mali<2>: Mali GP: Creating Mali GP core: Mali_GP
+<4>[    0.377599] (0)[1:swapper/0]Mali<2>: _mali_osk_irq_init irqnum 146
+<4>[    0.377634] (0)[1:swapper/0]Mali<2>: Mali MMU: Creating Mali MMU: Mali_PP0_MMU
+<4>[    0.377657] (0)[1:swapper/0]Mali<2>: _mali_osk_irq_init irqnum 149
+<4>[    0.377683] (0)[1:swapper/0]Mali<2>: Mali PP: Creating Mali PP core: Mali_PP0
+<4>[    0.377701] (0)[1:swapper/0]Mali<2>: Mali PP: Base address of PP core: 0x13018000
+<4>[    0.377721] (0)[1:swapper/0]Mali<2>: _mali_osk_irq_init irqnum 148
+<4>[    0.377752] (0)[1:swapper/0]Mali<2>: 1+0 PP cores initialized
+<4>[    0.377776] (0)[1:swapper/0]Mali<2>: Mali GPU Utilization: Utilization handler installed with interval 200
+<4>[    0.377921] (0)[1:swapper/0]Mali<1>: [proc_mali_register] pentry=dd93a980
+<4>[    0.378222] (0)[1:swapper/0]Mali<2>: mali_probe(): Successfully initialized driver for platform device mali-utgard
+<4>[    0.378276] (0)[1:swapper/0]Mali: Mali device driver loaded
+<4>[    0.378295] (0)[1:swapper/0]+AudDrv_btcvsd_mod_init 
+<4>[    0.378412] (0)[1:swapper/0]AudDrv_btcvsd_mod_init: Init Audio WakeLock
+<4>[    0.378429] (0)[1:swapper/0][PWRAP] MT6572 PWRAP: version $Revision$
+<6>[    0.378607] (0)[1:swapper/0]mtk-msdc: MediaTek MSDC Driver
+<4>[    0.378628] (0)[1:swapper/0][msdc_debug_proc_init]: successfully create /proc/msdc_debug
+<4>[    0.378650] (0)[1:swapper/0][msdc_debug_proc_init]: successfully create /proc/msdc_help
+<4>[    0.378671] (0)[1:swapper/0][msdc_debug_proc_init]: successfully create /proc/msdc_FT
+<6>[    0.378786] (0)[1:swapper/0]misc-sd: MediaTek simple SD/MMC Card Driver
+<0>[    0.378857] (0)[1:swapper/0]EMMC/SD dump init
+<4>[    0.378871] (0)[1:swapper/0]+AudDrv_mod_init 
+<4>[    0.378984] (0)[1:swapper/0]AudDrv_mod_init: Init Audio WakeLock
+<4>[    0.378999] (0)[1:swapper/0]dumchar_int
+<4>[    0.379020] (0)[1:swapper/0]dumchar: register /proc/dumchar_info success c040e9ac
+<4>[    0.379093] (0)[1:swapper/0]DumChar: init USIF  Done!
+<4>[    0.379193] (0)[1:swapper/0][SPI-UT]: [spi_dev_init]:[796]SPI_DEV_INIT.
+<4>[    0.379237] (0)[1:swapper/0]
+<4>[    0.379243] (0)[1:swapper/0]******** uvvp_pmic_init  ********
+<1>[    0.379408] (0)[1:swapper/0]i2c_common device init
+<1>[    0.379588] (0)[1:swapper/0]i2c_common device probe
+<4>[    0.379629] (0)[1:swapper/0][DDP]Register disp device
+<4>[    0.379757] (0)[1:swapper/0][DDP]Register the disp driver
+<4>[    0.379865] (0)[1:swapper/0][DDP]
+<4>[    0.379872] (0)[1:swapper/0]disp driver probe...
+<4>[    0.379879] (0)[1:swapper/0]
+<4>[    0.379899] (0)[1:swapper/0][DDP]Get DISP Device Major number (255852544)
+<7>[    0.380148] (1)[2:kthreadd][2:kthreadd] fork [48:kthreadd]
+<4>[    0.380211] (1)[1:swapper/0][DDP]DISP Probe Done
+<3>[    0.380635] (1)[1:swapper/0][Accdet]accdet_mod_init begin!
+<3>[    0.380711] (1)[1:swapper/0][Accdet]platform_driver_register done!
+<3>[    0.380724] (1)[1:swapper/0][Accdet]accdet_mod_init done!
+<4>[    0.380738] (1)[1:swapper/0]MediaTek MTK vibrator driver register, version v 0.1
+<7>[    0.380959] (1)[2:kthreadd][2:kthreadd] fork [49:kthreadd]
+<4>[    0.381159] (1)[1:swapper/0][vibrator]vibrator voltage = 2800
+<4>[    0.381175] (1)[1:swapper/0][vibrator]vib_mod_init Done 
+<1>[    0.381188] (1)[1:swapper/0]mtk_wdt_init  entry!
+<3>[    0.381220] (1)[1:swapper/0][wdk/mtk_wdt] ******** [MTK_WDT] CONFIG_KICK_SPM_WDT!! ********
+<1>[    0.381238] (1)[1:swapper/0]mtk_wdt_init:  enable CONFIG_KICK_SPM_WDT  QQ!
+<4>[    0.381696] (1)[1:swapper/0]******** MTK WDT driver probe!! ********
+<4>[    0.381711] (1)[1:swapper/0]******** MTK WDT register fiq ********
+<5>[    0.381725] (1)[1:swapper/0][SPM] spm_wdt_set_fiq_cb:0xC043C42C
+<4>[    0.381736] (1)[1:swapper/0]mtk_wdt_probe : Success to request irq
+<1>[    0.381750] (1)[1:swapper/0]mtk_wdt_set_time_out_value: value=30 !
+<5>[    0.381763] (1)[1:swapper/0][SPM] spm_wdt_set_reset_length:-1065506376
+<4>[    0.381778] (1)[1:swapper/0]WDT:[mtk_wdt_restart] type  =1, pid=1
+<5>[    0.381792] (1)[1:swapper/0][SPM] spm_wdt_restart
+<4>[    0.381803] (1)[1:swapper/0]mtk_wdt_probe : Initialize to dual mode 
+<5>[    0.381817] (1)[1:swapper/0][SPM] spm_let_the_dog_out
+<2>[    0.381836] (1)[1:swapper/0][SPM] WDT with cpu_pdn=0, infra_pdn=0
+<4>[    0.382413] (1)[1:swapper/0]mtk_wdt_probe : done WDT_MODE(5c)
+<4>[    0.382566] (1)[1:swapper/0]mtk_wdt_probe : done MTK_WDT_REQ_MODE(380003)
+<4>[    0.382718] (1)[1:swapper/0]mtk_wdt_probe : done MTK_WDT_REQ_IRQ_EN(380000)
+<4>[    0.383089] (1)[1:swapper/0]pmt_interface_init: register /proc/sd_upgrade success c0445da0
+<4>[    0.383271] (1)[1:swapper/0][cpu_ntf] <33>c0590a90 (flow_cache_cpu)
+<6>[    0.383311] (1)[1:swapper/0]Mirror/redirect action on
+<6>[    0.383325] (1)[1:swapper/0]u32 classifier
+<6>[    0.383334] (1)[1:swapper/0]    Performance counters on
+<6>[    0.383343] (1)[1:swapper/0]    input device check on
+<6>[    0.383353] (1)[1:swapper/0]    Actions configured
+<6>[    0.383365] (1)[1:swapper/0]Netfilter messages via NETLINK v0.30.
+<6>[    0.383442] (1)[1:swapper/0]nf_conntrack version 0.5.0 (7466 buckets, 29864 max)
+<6>[    0.383799] (1)[1:swapper/0]ctnetlink v0.93: registering with nfnetlink.
+<6>[    0.383832] (1)[1:swapper/0]NF_TPROXY: Transparent proxy support initialized, version 4.1.0
+<6>[    0.383846] (1)[1:swapper/0]NF_TPROXY: Copyright (c) 2006-2007 BalaBit IT Ltd.
+<6>[    0.384007] (1)[1:swapper/0]xt_time: kernel timezone is -0000
+<6>[    0.384157] (1)[1:swapper/0]IPv4 over IPv4 tunneling driver
+<6>[    0.384579] (1)[1:swapper/0][mtk_net]rtmsg_ifinfo type:16, dev:tunl0, change:4294967295, pid = 1
+<6>[    0.384923] (1)[1:swapper/0]ip_tables: (C) 2000-2006 Netfilter Core Team
+<6>[    0.385097] (1)[1:swapper/0]arp_tables: (C) 2002 David S. Miller
+<6>[    0.385118] (1)[1:swapper/0]TCP: cubic registered
+<6>[    0.385558] (1)[1:swapper/0]NET: Registered protocol family 10
+<6>[    0.386690] (1)[1:swapper/0]Mobile IPv6
+<6>[    0.386737] (1)[1:swapper/0]ip6_tables: (C) 2000-2006 Netfilter Core Team
+<6>[    0.386940] (1)[1:swapper/0]IPv6 over IPv4 tunneling driver
+<6>[    0.387496] (1)[1:swapper/0][mtk_net]rtmsg_ifinfo type:16, dev:sit0, change:4294967295, pid = 1
+<6>[    0.388041] (1)[1:swapper/0][mtk_net]rtmsg_ifinfo type:16, dev:ip6tnl0, change:4294967295, pid = 1
+<6>[    0.388091] (1)[1:swapper/0]NET: Registered protocol family 17
+<6>[    0.388129] (1)[1:swapper/0]NET: Registered protocol family 15
+<5>[    0.388226] (1)[1:swapper/0]Bridge firewalling registered
+<6>[    0.388252] (1)[1:swapper/0]8021q: 802.1Q VLAN Support v1.8
+<6>[    0.388283] (1)[1:swapper/0]lib80211: common routines for IEEE802.11 drivers
+<7>[    0.388298] (1)[1:swapper/0]lib80211_crypt: registered algorithm 'NULL'
+<6>[    0.388462] (1)[1:swapper/0]VFP support v0.3: [cpu_ntf] <34>c0008d8c (vfp_hotplug)
+<4>[    0.388493] (1)[1:swapper/0]implementor 41 architecture 2 part 30 variant 7 rev 3
+<6>[    0.388510] (1)[1:swapper/0]ThumbEE CPU extension supported.
+<5>[    0.388542] (1)[1:swapper/0]Registering SWP/SWPB emulation handler
+<6>[    0.388749] (1)[1:swapper/0]mtk-uart.0: ttyMT0 at MMIO 0x11005000 (irq = 63) is a MTK UART
+<4>[    0.388902] (1)[1:swapper/0][UART 0] create[ 0] ffdf7000 (1024) ;[ 1] ffdf6000 (1024) ;
+<4>[    0.388993] (1)[1:swapper/0]register uart device
+<6>[    0.389150] (1)[1:swapper/0]mtk-uart.1: ttyMT1 at MMIO 0x11006000 (irq = 64) is a MTK UART
+<4>[    0.389269] (1)[1:swapper/0][UART 1] create[ 2] ffdf4000 (8192) ;[ 3] ffdf2000 (8192) ;
+<4>[    0.389390] (1)[1:swapper/0]register uart device
+<2>[    0.389962] (1)[1:swapper/0]Fail to set sensitivity of interrupt 14
+<2>[    0.389980] (1)[1:swapper/0]Fail to set polarity of interrupt 14
+<4>[    0.390160] (1)[1:swapper/0][GPIO] Registering GPIO device
+<4>[    0.390534] (1)[1:swapper/0][PWRAP] Registering PWRAP device
+<6>[    0.390915] (1)[1:swapper/0]input: mtk-kpd as /devices/platform/mtk-kpd/input/input0
+<4>[    0.391092] (1)[1:swapper/0]mute_mute_init_mute_proc_log loaded.
+<4>[    0.391109] (1)[1:swapper/0]mute_mute_gpio mute is 1 !!!!  . . . 
+<4>[    0.393618] (1)[1:swapper/0]kpd: Other Boot Mode long press reboot selection
+<4>[    0.393647] (1)[1:swapper/0]kpd: Enable ONE KEY other mode LPRST
+<4>[    0.393677] (1)[1:swapper/0]kpd: disable kpd as wake up source operation!
+<5>[    0.393825] (1)[1:swapper/0][HID:] *** hidkeyboard probe ***
+<3>[    0.395164] (1)[1:swapper/0]msdc0 -> msdc drving<clk 2,cmd 2,dat 2> <- msdc_init_hw() : L<6795> PID<swapper/0><0x1>
+<2>[    0.395211] (1)[1:swapper/0]msdc0 register emi_mpu_notifier
+<4>[    0.396418] (1)[5:kworker/u:0]msdc LDO<4> power on<3300>
+<6>[    0.396487] (1)[5:kworker/u:0][Power/PMIC] [hwPowerOn] init done.
+<6>[    0.396502] (1)[5:kworker/u:0][Power/PMIC] [hwPowerOn] 0,NOP,0
+<5>[    0.396517] (1)[5:kworker/u:0][Power/PMIC] [hwPowerOn] acquire powerId:4 index:0 mod_name: msdc powerVolt:3300
+<5>[    0.396540] (1)[5:kworker/u:0][Power/PMIC] [4] PMU LDO Enable
+<6>[    0.396557] (1)[5:kworker/u:0][Power/PMIC] [hwPowerOn] enable 4 by msdc 
+<5>[    0.396573] (1)[5:kworker/u:0][Power/PMIC] ****[dct_pmic_VEMC_3V3_sel] value=3300 
+<6>[    0.396600] (1)[5:kworker/u:0][Power/PMIC] [pmic_ldo_vol_sel] Receive powerId 4, action is 3300
+<5>[    0.396617] (1)[5:kworker/u:0][Power/PMIC] [dct_pmic_VEMC_3V3_enable] 1
+<6>[    0.396641] (1)[5:kworker/u:0][Power/PMIC] [pmic_ldo_enable] Receive powerId 4, action is 1
+<5>[    0.397425] (0)[45:bat_thread_kthr][Power/BatMeter] [oam_run] 10,60,0,21,0,21,22,0
+<5>[    0.397451] (0)[45:bat_thread_kthr][Power/BatMeter] [oam_total_s] 78,78,78,78,78,79,79,78,78,78
+<5>[    0.397477] (0)[45:bat_thread_kthr][Power/BatMeter] [oam_init_inf] 4052, 13, 78, 22, 3986, 25
+<5>[    0.397499] (0)[45:bat_thread_kthr][Power/BatMeter] [oam_run_inf] 3987, 3986, 3993, -305, -305, 244, 245, 0, 0, 1375, 25, 22
+<5>[    0.397527] (0)[45:bat_thread_kthr][Power/BatMeter] [oam_result_inf] 22, 22, 21, 21, 22, 0
+<5>[    0.397554] (0)[45:bat_thread_kthr][Power/Battery] AvgVbat=(3992),bat_vol=(3992),AvgI=(460),I=(460),VChr=(4569),AvgT=(25),T=(25),pre_SOC=(78),SOC=(78),ZCV=(4052)
+<5>[    0.397586] (0)[45:bat_thread_kthr][Power/Battery] [BATTERY] BATTERY_NOTIFY_CASE_0001_VCHARGER (0)
+<5>[    0.397727] (0)[45:bat_thread_kthr][Power/Battery] UI_SOC=(78), resetBatteryMeter=(0)
+<6>[    0.398067] (0)[1:swapper/0]msdc: 0,mmc_schedule_delayed_work ret= 1
+<3>[    0.398349] (0)[1:swapper/0]msdc1 -> msdc drving<clk 4,cmd 4,dat 4> <- msdc_init_hw() : L<6795> PID<swapper/0><0x1>
+<3>[    0.398495] (0)[1:swapper/0]msdc1 on clock failed ===> retry once
+<6>[    0.399572] (0)[1:swapper/0]msdc: 1,mmc_schedule_delayed_work ret= 1
+<4>[    0.399736] (0)[1:swapper/0]+AudDrv_probe 
+<4>[    0.399749] (0)[1:swapper/0]+request_irq 
+<4>[    0.399869] (0)[1:swapper/0]AFE_BASE_ADDRESS =   (null) AFE_SRAM_ADDRESS = f1141000
+<4>[    0.399887] (0)[1:swapper/0]-AudDrv_probe 
+<4>[    0.399955] (0)[1:swapper/0]AudDrv_driver_device 
+<4>[    0.399961] (0)[1:swapper/0]!AudDrv_btcvsd_probe 
+<4>[    0.400121] (0)[1:swapper/0]AudDrv_btcvsd_probe disable BT IRQ disableBTirq = 0BTSYS_PKV_BASE_ADDRESS = f8000000 BTSYS_SRAM_BANK2_BASE_ADDRESS = f8080000
+<4>[    0.400165] (0)[1:swapper/0]-AudDrv_btcvsd_probe 
+<4>[    0.400182] (0)[1:swapper/0]AudioMTKBTCVSD AudDrv_device2 
+<4>[    0.400189] (0)[1:swapper/0]!register MTK_SMI device
+<5>[    0.400427] (0)[1:swapper/0][MAU] [pid=1]mau config: larb=0,entry=0,rd=1,wr=1,vir=1,start=0x20000000,end=0xffffffff,port_msk=0xffff
+<5>[    0.400460] (0)[1:swapper/0][SMI] [pid=1]set as SMI_BWC_SCEN_NORMAL
+<4>[    0.400485] (0)[1:swapper/0]register M4U device: 0
+<5>[    0.400633] (0)[1:swapper/0][M4U] [pid=1]MTK_M4U_Init
+<5>[    0.400653] (0)[1:swapper/0][M4U] [pid=1]Get M4U Device Major number (0)
+<5>[    0.401179] (0)[1:swapper/0][M4U] [pid=1]dma_alloc_coherent success! pagetable_va=0xffd00000, pagetable_pa=0x9db80000.
+<5>[    0.401992] (0)[1:swapper/0][M4U_K] [pid=1]allocate for pMlock_cnt done: size=652800
+<5>[    0.402028] (0)[1:swapper/0][M4U] [pid=1]id=0 , name=MDP       , max=0    KB, current=0    KB, locked_page=0   
+<5>[    0.402053] (0)[1:swapper/0][M4U] [pid=1]id=1 , name=DISP      , max=0    KB, current=0    KB, locked_page=0   
+<5>[    0.402076] (0)[1:swapper/0][M4U] [pid=1]id=2 , name=VIDEO     , max=0    KB, current=0    KB, locked_page=0   
+<5>[    0.402100] (0)[1:swapper/0][M4U] [pid=1]id=3 , name=CAM       , max=0    KB, current=0    KB, locked_page=0   
+<5>[    0.402123] (0)[1:swapper/0][M4U] [pid=1]id=4 , name=CMDQ      , max=0    KB, current=0    KB, locked_page=0   
+<5>[    0.402146] (0)[1:swapper/0][M4U] [pid=1]id=5 , name=LCDC_UI   , max=0    KB, current=0    KB, locked_page=0   
+<5>[    0.402170] (0)[1:swapper/0][M4U] [pid=1]invalid module id=6
+<5>[    0.402187] (0)[1:swapper/0][M4U] [pid=1]id=6 , name=UNKNOWN   , max=0    KB, current=0    KB, locked_page=0   
+<5>[    0.402230] (0)[1:swapper/0][M4U] [pid=1]init done
+<4>[    0.402254] (0)[1:swapper/0]FB is initialized by BL(1)
+<4>[    0.402268] (0)[1:swapper/0]FB start: 0x9f600000 end: 0x9fffffff
+<4>[    0.402416] (0)[1:swapper/0]mtkfb_probe, console=ttyMT1,921600n1 vmalloc=500M slub_max_order=0 lcm=1-hx8389b_qhd_dsi_vdo fps=4746 pl_t=2824 lk_t=2544 printk.disable_uart=1 boot_reason=1
+<4>[    0.402445] (0)[1:swapper/0][FB driver] fps = 4746
+<4>[    0.402460] (0)[1:swapper/0][MTKFB] XRES=540, YRES=960
+<6>[    0.403242] (0)[1:swapper/0][M4U] [pid=1]m4u_alloc_mva done: id=LCDC_UI, addr=0x9f600000, size=10485760, mva=0x40000, mva_end=0xa3ffff
+<4>[    0.403268] (0)[1:swapper/0][MTKFB] FB MVA is 0x00040000 PA is 0x9F600000
+<4>[    0.403284] (0)[1:swapper/0][MTKFB] max RAM = 20000000, actual RAM = 1ff00000
+<4>[    0.403299] (0)[1:swapper/0][FB Driver] fbdev->fb_pa_base = 9f600000, fbdev->fb_va_base = e0000000
+<7>[    0.403404] (1)[2:kthreadd][2:kthreadd] fork [50:kthreadd]
+<7>[    0.403489] (1)[2:kthreadd][2:kthreadd] fork [51:kthreadd]
+<4>[    0.403539] (1)[1:swapper/0][DDP]disp_path_power_on, caller:reg_non_restore 
+<5>[    0.406612] (1)[1:swapper/0][DISP/DSI] [DISP] - kernel - DSI_PHY_TIMCONFIG, Cycle Time = 21(ns), Unit Interval = 3(ns). div1 = 2, div2 = 2, fbk_div = 30, lane# = 2 
+<5>[    0.406645] (1)[1:swapper/0][DISP/DSI] [DISP] - kernel - DSI_PHY_TIMCONFIG, HS_TRAIL = 14, HS_ZERO = 7, HS_PRPR = 3, LPX = 3, TA_GET = 15, TA_SURE = 4, TA_GO = 12, CLK_TRAIL = 14, CLK_ZERO = 19, CLK_HS_PRPR = 3 
+<5>[    0.406692] (1)[1:swapper/0][DISP/DSI] [DISP] kernel - video timing, mode = 1 
+<5>[    0.406712] (1)[1:swapper/0][DISP/DSI] [DISP] kernel - VSA : 8 0(us)
+<5>[    0.406731] (1)[1:swapper/0][DISP/DSI] [DISP] kernel - VBP : 8 0(us)
+<5>[    0.406750] (1)[1:swapper/0][DISP/DSI] [DISP] kernel - VFP : 18 0(us)
+<5>[    0.406768] (1)[1:swapper/0][DISP/DSI] [DISP] kernel - VACT: 960 
+<4>[    0.407787] (1)[1:swapper/0][DISP] pa:0x40000, va:0xe0000000 
+<4>[    0.418239] (0)[0:swapper/0][DDP] Error:IRQ: RDMA0 abnormal! 
+<4>[    0.418252] (1)[1:swapper/0][DISP] cnt:16570 
+<4>[    0.418261] (1)[1:swapper/0]dsi_init, config done
+<7>[    0.418327] (0)[2:kthreadd][2:kthreadd] fork [52:kthreadd]
+<4>[    0.419969] (1)[5:kworker/u:0]msdc0 -> !!! Set<400KHz> Source<200000KHz> -> sclk<400KHz> DDR<0> mode<0> div<125>DISP Info: DSI, VDO MOde, HY Vsync enable
+<4>[    0.440085] (0)[1:swapper/0][wwy]lcm_parms->active_width = 0
+<4>[    0.440100] (0)[1:swapper/0][wwy]lcm_parms->active_height = 0
+<4>[    0.440118] (0)[1:swapper/0]ERROR!!!Layer 3 format error!!!
+<5>[    0.440137] (0)[1:swapper/0][DISP/MTKFB] [FB Driver] mtkfb_set_overlay_layer():layer id = 3, layer en = 1, src format = 0x102, direct link: 0, src vir addr = 0xe0000000, src phy addr = 0x40000, src pitch=544, src xoff=0, src yoff=0, src w=540, src h=960
+<5>[    0.440179] (0)[1:swapper/0][DISP/MTKFB] [FB Driver] mtkfb_set_overlay_layer():target xoff=0, target yoff=0, target w=540, target h=960
+<3>[    0.444432] (1)[5:kworker/u:0][MSDC] msdc0 -> XXX CMD<8><0x1aa> Error<-110> Resp<0x0> <- msdc_dump_trans_error() : L<5333> PID<kworker/u:0><0x5>
+<3>[    0.444842] (1)[5:kworker/u:0][MSDC] msdc0 -> XXX CMD<5><0x0> Error<-110> Resp<0x0> <- msdc_dump_trans_error() : L<5333> PID<kworker/u:0><0x5>
+<3>[    0.445247] (1)[5:kworker/u:0][MSDC] msdc0 -> XXX CMD<5><0x0> Error<-110> Resp<0x0> <- msdc_dump_trans_error() : L<5333> PID<kworker/u:0><0x5>
+<3>[    0.445645] (1)[5:kworker/u:0][MSDC] msdc0 -> XXX CMD<5><0x0> Error<-110> Resp<0x0> <- msdc_dump_trans_error() : L<5333> PID<kworker/u:0><0x5>
+<3>[    0.446044] (1)[5:kworker/u:0][MSDC] msdc0 -> XXX CMD<5><0x0> Error<-110> Resp<0x0> <- msdc_dump_trans_error() : L<5333> PID<kworker/u:0><0x5>
+<3>[    0.446450] (1)[5:kworker/u:0][MSDC] msdc0 -> XXX CMD<55><0x0> Error<-110> Resp<0x0> <- msdc_dump_trans_error() : L<5333> PID<kworker/u:0><0x5>
+<3>[    0.446855] (1)[5:kworker/u:0][MSDC] msdc0 -> XXX CMD<55><0x0> Error<-110> Resp<0x0> <- msdc_dump_trans_error() : L<5333> PID<kworker/u:0><0x5>
+<3>[    0.447261] (1)[5:kworker/u:0][MSDC] msdc0 -> XXX CMD<55><0x0> Error<-110> Resp<0x0> <- msdc_dump_trans_error() : L<5333> PID<kworker/u:0><0x5>
+<3>[    0.447667] (1)[5:kworker/u:0][MSDC] msdc0 -> XXX CMD<55><0x0> Error<-110> Resp<0x0> <- msdc_dump_trans_error() : L<5333> PID<kworker/u:0><0x5>
+<3>[    0.447697] (1)[5:kworker/u:0]sd card rocr <0x0>
+<5>[    0.460924] (1)[1:swapper/0][DISP/MTKFB] mtkfb_fb_565_to_8888 xres=540 yres=960 fbsize=0xFF000 x_virtual=544 s=0xE0000000 d=0xE01FE000
+<4>[    0.491487] (0)[5:kworker/u:0]msdc0 select card<0x00010000>
+<3>[    0.504187] (0)[5:kworker/u:0]msdc0 -> !!! Set<52000KHz> Source<200000KHz> -> sclk<50000KHz> DDR<0> mode<0> div<1>
+<3>[    0.504536] (0)[5:kworker/u:0]msdc0 -> !!! Set<52000KHz> Source<200000KHz> -> sclk<50000KHz> DDR<1> mode<2> div<0>
+<6>[    0.504601] (0)[5:kworker/u:0]mmc0: new high speed DDR MMC card at address 0001
+<4>[    0.504770] (0)[5:kworker/u:0]name = preloader
+<4>[    0.504783] (0)[5:kworker/u:0]name = mbr
+<4>[    0.504794] (0)[5:kworker/u:0]name = ebr1
+<4>[    0.504805] (0)[5:kworker/u:0]name = pro_info
+<4>[    0.504816] (0)[5:kworker/u:0]name = nvram
+<4>[    0.504827] (0)[5:kworker/u:0]name = protect_f
+<4>[    0.504837] (0)[5:kworker/u:0]name = protect_s
+<4>[    0.504848] (0)[5:kworker/u:0]name = seccfg
+<4>[    0.504859] (0)[5:kworker/u:0]name = uboot
+<4>[    0.504869] (0)[5:kworker/u:0]name = bootimg
+<4>[    0.504880] (0)[5:kworker/u:0]name = recovery
+<4>[    0.504891] (0)[5:kworker/u:0]name = sec_ro
+<4>[    0.504902] (0)[5:kworker/u:0]name = misc
+<4>[    0.504912] (0)[5:kworker/u:0]name = logo
+<4>[    0.504923] (0)[5:kworker/u:0]name = expdb
+<4>[    0.504933] (0)[5:kworker/u:0]name = android
+<4>[    0.504944] (0)[5:kworker/u:0]name = cache
+<4>[    0.504954] (0)[5:kworker/u:0]name = usrdata
+<4>[    0.504965] (0)[5:kworker/u:0]name = fat
+<4>[    0.504975] (0)[5:kworker/u:0]name = bmtpool
+<4>[    0.504986] (0)[5:kworker/u:0]size = 22020096
+<4>[    0.504998] (0)[5:kworker/u:0]mtk reserve: start address = 4294901928
+<4>[    0.505012] (0)[5:kworker/u:0]total reserve: l_otp_reserve = 0x0 blocks, l_mtk_reserve = 0xa800 blocks, l_offset = 0x3000 blocks
+<4>[    0.505029] (0)[5:kworker/u:0]l_reserve = 0xd800
+<7>[    0.505247] (0)[2:kthreadd][2:kthreadd] fork [53:kthreadd]
+<6>[    0.505327] (0)[5:kworker/u:0]mmcblk0: mmc0:0001 SEM04G 3.66 GiB 
+<7>[    0.505508] (1)[2:kthreadd][2:kthreadd] fork [54:kthreadd]
+<6>[    0.505573] (1)[5:kworker/u:0]mmcblk0boot0: mmc0:0001 SEM04G partition 1 2.00 MiB
+<7>[    0.505749] (0)[2:kthreadd][2:kthreadd] fork [55:kthreadd]
+<6>[    0.505808] (0)[5:kworker/u:0]mmcblk0boot1: mmc0:0001 SEM04G partition 2 2.00 MiB
+<3>[    0.506278] (1)[53:mmcqd/0][MSDC] msdc0 -> Address offset in USER REGION(Capacity 3776 MB) is 0x3000 <- msdc_cal_offset() : L<2852> PID<mmcqd/0><0x35>
+<7>[    0.506740] (0)[2:kthreadd][2:kthreadd] fork [56:kthreadd]
+<6>[    0.507133] (1)[5:kworker/u:0] mmcblk0: p1 < p5 p6 p7 > p2 p3 p4
+<4>[    0.507188] (1)[5:kworker/u:0]add_partition==[mmcblk0:p1]==start = 1024,size = 2
+<4>[    0.507326] (1)[5:kworker/u:0]add_partition==[mmcblk0:p2]==start = 18432,size = 20480
+<4>[    0.507425] (1)[5:kworker/u:0]add_partition==[mmcblk0:p3]==start = 38912,size = 20480
+<4>[    0.507527] (1)[5:kworker/u:0]add_partition==[mmcblk0:p4]==start = 113152,size = 1331200
+<4>[    0.507622] (1)[5:kworker/u:0]add_partition==[mmcblk0:p5]==start = 1444352,size = 770048
+<4>[    0.507714] (1)[5:kworker/u:0]add_partition==[mmcblk0:p6]==start = 2214400,size = 2711552
+<4>[    0.507819] (1)[5:kworker/u:0]mmcblk0: p7 size 4290042367 extends beyond EOD, truncated
+<4>[    0.507841] (1)[5:kworker/u:0]add_partition==[mmcblk0:p7]==start = 4925952,size = 2752000
+<6>[    0.508937] (1)[5:kworker/u:0] mmcblk0boot1: unknown partition table
+<6>[    0.509971] (1)[5:kworker/u:0] mmcblk0boot0: unknown partition table
+<6>[    0.510214] (1)[5:kworker/u:0]mtk-msdcemmc_create_sys_symlink: target=/dev/block/mmcblk0p1, name=/emmc@ebr1  
+<6>[    0.510288] (1)[5:kworker/u:0]mtk-msdcemmc_create_sys_symlink: target=/dev/block/mmcblk0p2, name=/emmc@protect_f  
+<6>[    0.510330] (1)[5:kworker/u:0]mtk-msdcemmc_create_sys_symlink: target=/dev/block/mmcblk0p3, name=/emmc@protect_s  
+<6>[    0.510369] (1)[5:kworker/u:0]mtk-msdcemmc_create_sys_symlink: target=/dev/block/mmcblk0p4, name=/emmc@android  
+<6>[    0.510409] (1)[5:kworker/u:0]mtk-msdcemmc_create_sys_symlink: target=/dev/block/mmcblk0p5, name=/emmc@cache  
+<6>[    0.510446] (1)[5:kworker/u:0]mtk-msdcemmc_create_sys_symlink: target=/dev/block/mmcblk0p6, name=/emmc@usrdata  
+<6>[    0.510484] (1)[5:kworker/u:0]mtk-msdcemmc_create_sys_symlink: target=/dev/block/mmcblk0p7, name=/emmc@fat  
+<4>[    0.510528] (1)[5:kworker/u:0][init_pmt]start
+<4>[    0.510546] (1)[5:kworker/u:0][Dumchar_init_region_info]emmc_size = 0xec600000, user region size = 0xec000000, header size = 0x600000
+<5>[    0.510567] (1)[5:kworker/u:0]============func=load_pt_from_fixed_addr===scan pmt from ebf00000=====
+<3>[    0.553782] (1)[5:kworker/u:0][MSDC] msdc0 -> XXX CMD<18><0x75f800> Error<0> Resp<0x80000900> <- msdc_dump_trans_error() : L<5333> PID<kworker/u:0><0x5>
+<3>[    0.553818] (1)[5:kworker/u:0][MSDC] msdc0 -> XXX DAT block<8> Error<-110> <- msdc_dump_trans_error() : L<5336> PID<kworker/u:0><0x5>
+<3>[    0.553844] (1)[5:kworker/u:0][MSDC] msdc0 -> XXX STOP<12><0x0> Error<-110> Resp<0x0> <- msdc_dump_trans_error() : L<5340> PID<kworker/u:0><0x5>
+<3>[    0.553879] (1)[5:kworker/u:0][MSDC] msdc0 -> check card state<4> <- msdc_abort_data() : L<2108> PID<kworker/u:0><0x5>
+<5>[    0.561783] (0)[1:swapper/0][DISP/MTKFB] [FB Driver] mtkfb_set_overlay_layer():layer id = 3, layer en = 1, src format = 0x404, direct link: 0, src vir addr = 0xe01fe000, src phy addr = 0x23e000, src pitch=544, src xoff=0, src yoff=0, src w=540, src h=960
+<5>[    0.561826] (0)[1:swapper/0][DISP/MTKFB] [FB Driver] mtkfb_set_overlay_layer():target xoff=0, target yoff=0, target w=540, target h=960
+<3>[    0.596770] (1)[5:kworker/u:0][MSDC] msdc0 -> XXX CMD<18><0x75f800> Error<0> Resp<0x80000900> <- msdc_dump_trans_error() : L<5333> PID<kworker/u:0><0x5>
+<3>[    0.596803] (1)[5:kworker/u:0][MSDC] msdc0 -> XXX DAT block<8> Error<-110> <- msdc_dump_trans_error() : L<5336> PID<kworker/u:0><0x5>
+<3>[    0.596829] (1)[5:kworker/u:0][MSDC] msdc0 -> XXX STOP<12><0x0> Error<-110> Resp<0x0> <- msdc_dump_trans_error() : L<5340> PID<kworker/u:0><0x5>
+<3>[    0.596864] (1)[5:kworker/u:0][MSDC] msdc0 -> check card state<4> <- msdc_abort_data() : L<2108> PID<kworker/u:0><0x5>
+<3>[    0.596891] (1)[5:kworker/u:0][MSDC] msdc0 -> msdc0 exceed max read timeout retry times(2) or SW timeout(0) or read timeout tuning times(0),Power cycle
+<4>[    0.596913] (1)[5:kworker/u:0] <- msdc_ops_request_legacy() : L<5479> PID<kworker/u:0><0x5>
+<3>[    0.596945] (1)[5:kworker/u:0]read pt error
+<0>[    0.603199] (1)[1:swapper/0][LED]mt65xx_leds_probe
+<7>[    0.603283] (1)[1:swapper/0]Registered led device: red
+<7>[    0.603346] (1)[1:swapper/0]Registered led device: green
+<7>[    0.603424] (1)[1:swapper/0]Registered led device: blue
+<7>[    0.603488] (1)[1:swapper/0]Registered led device: button-backlight
+<7>[    0.603551] (1)[1:swapper/0]Registered led device: lcd-backlight
+<4>[    0.603580] (1)[1:swapper/0][LED]led probe last_level = 0, limit = 255, limit_flag = 0, current_level = 0
+<4>[    0.603600] (1)[1:swapper/0]bei:device LEDS register
+<6>[    0.603847] (1)[1:swapper/0]mt-spi mt-spi.0: master is unqueued, this is deprecated
+<4>[    0.603923] (1)[1:swapper/0][SPI-UT]: [spi_test_probe]:[765]spi test probe  enter
+<4>[    0.604058] (1)[1:swapper/0]******** MT6589 AUXADC driver probe!! ********
+<4>[    0.604168] (1)[1:swapper/0][MT6589 AUXADC_probe] NVRAM prepare : done !!
+<3>[    0.604452] (1)[1:swapper/0][Accdet]accdet_probe begin!
+<6>[    0.604751] (1)[1:swapper/0]input: ACCDET as /devices/virtual/input/input1
+<3>[    0.604832] (1)[1:swapper/0][Accdet]kpd_accdet_dev register : success!!
+<7>[    0.604939] (0)[2:kthreadd][2:kthreadd] fork [57:kthreadd]
+<7>[    0.605040] (0)[2:kthreadd][2:kthreadd] fork [58:kthreadd]
+<3>[    0.605098] (1)[58:keyEvent_send] accdet:sendKeyEvent wait
+<3>[    0.605110] (0)[1:swapper/0][Accdet]accdet_probe : ACCDET_INIT
+<3>[    0.605126] (0)[1:swapper/0]ACCDET use in 1.9V mode!! 
+<3>[    0.605139] (0)[1:swapper/0][Accdet]accdet hardware init
+<3>[    0.605159] (0)[1:swapper/0][Accdet]accdet TOP_CKPDN=0x8042!
+<3>[    0.605171] (0)[1:swapper/0]ACCDET reset : reset start!! 
+<3>[    0.605178] (0)[1:swapper/0]
+<3>[    0.605192] (0)[1:swapper/0]ACCDET reset function test: reset finished!! 
+<3>[    0.605201] (0)[1:swapper/0]
+<3>[    0.605239] (0)[1:swapper/0][Accdet]init:IRQ Clear bit:[0x0]!
+<3>[    0.605259] (0)[1:swapper/0][Accdet]accdet IRQ enable INT_CON_ACCDET=0x14!
+<7>[    0.605327] (0)[2:kthreadd][2:kthreadd] fork [59:kthreadd]
+<7>[    0.605362] (0)[2:kthreadd][2:kthreadd] fork [60:kthreadd]
+<3>[    0.605371] (1)[1:swapper/0][Accdet]accdet_setup_eint
+<3>[    0.605433] (1)[37:kworker/u:1][Accdet]accdet interrupt happen:[Plug_out]current AB = 3
+<3>[    0.605453] (1)[37:kworker/u:1][Accdet]check_cable_type: ACCDET_IRQ_STS = 0x0
+<3>[    0.605467] (1)[37:kworker/u:1][Accdet]PLUG_OUT state not change!
+<3>[    0.605489] (1)[37:kworker/u:1][Accdet]clear_accdet_interrupt: ACCDET_IRQ_STS = 0x100
+<3>[    0.605718] (1)[37:kworker/u:1][Accdet]disable_accdet:Clear interrupt:Done[0x0]!
+<3>[    0.605731] (1)[37:kworker/u:1]accdet: disable_accdet
+<3>[    0.605751] (1)[37:kworker/u:1][Accdet] do not send plug out event in plug out
+<3>[    0.605779] (1)[37:kworker/u:1][Accdet]check_cable_type:Clear interrupt:Done[0x0]!
+<3>[    0.605794] (1)[37:kworker/u:1][Accdet]cable type:[No_device], status switch:[Plug_out]->[Plug_out]
+<3>[    0.605810] (1)[37:kworker/u:1] [accdet] set state in cable_type  status:0 
+<3>[    0.606221] (0)[1:swapper/0][Accdet]accdet set EINT finished, accdet_eint_num=0, accdet_eint_debounce_en=1, accdet_eint_polarity=1
+<7>[    0.606289] (1)[2:kthreadd][2:kthreadd] fork [61:kthreadd]
+<3>[    0.606336] (1)[1:swapper/0][Accdet]accdet_probe done!
+<4>[    0.606361] (1)[1:swapper/0]register accdet device
+<4>[    0.606373] (1)[1:swapper/0]platform_device_accdet_register done!
+<4>[    0.606548] (1)[1:swapper/0]register usbacm temp device
+<4>[    0.606562] (1)[1:swapper/0]platform_device_usbacm_register done!
+<4>[    0.606693] (1)[1:swapper/0]<HWMSEN> hwmsen_probe
+<4>[    0.606711] (1)[1:swapper/0]<HWMSEN> hwmsen_alloc_object
+<6>[    0.606879] (1)[1:swapper/0]input: hwmdata as /devices/virtual/input/input2
+<4>[    0.607016] (1)[1:swapper/0]<HWMSEN> hwmsen_create_attr
+<4>[    0.607056] (1)[1:swapper/0]hwmon_sensor device!<HWMSEN>  gsensor_probe +
+<4>[    0.607191] (1)[1:swapper/0]<HWMSEN>  i=0
+<4>[    0.607202] (1)[1:swapper/0]<HWMSEN>  !!!!!!!!
+<4>[    0.607214] (1)[1:swapper/0][Gsensor] kxtj2_1009_local_init
+<4>[    0.607265] (1)[1:swapper/0][Gsensor] kxtj2_1009_i2c_probe
+<3>[    0.607465] (1)[1:swapper/0]i2c i2c-1: I2C_ACKERR
+<3>[    0.607482] (1)[1:swapper/0]i2c i2c-1: addr: 1c, transfer error
+<3>[    0.607503] (1)[1:swapper/0]i2c i2c-1: I2C structure:
+<3>[    0.607510] (1)[1:swapper/0]Mode 0
+<3>[    0.607515] (1)[1:swapper/0]St_rs 0
+<3>[    0.607520] (1)[1:swapper/0]Dma_en 0
+<3>[    0.607525] (1)[1:swapper/0]Op 1
+<3>[    0.607531] (1)[1:swapper/0]Poll_en 0
+<3>[    0.607536] (1)[1:swapper/0]Trans_len 1
+<3>[    0.607541] (1)[1:swapper/0]Trans_num 1
+<3>[    0.607547] (1)[1:swapper/0]Trans_auxlen 0
+<3>[    0.607553] (1)[1:swapper/0]Data_size ffff
+<3>[    0.607558] (1)[1:swapper/0]Irq_stat 2
+<3>[    0.607564] (1)[1:swapper/0]Trans_stop 1
+<3>[    0.607569] (1)[1:swapper/0]Trans_comp 0
+<3>[    0.607575] (1)[1:swapper/0]Trans_error 2
+<3>[    0.607615] (1)[1:swapper/0]i2c i2c-1: base address f100a000
+<3>[    0.607640] (1)[1:swapper/0]i2c i2c-1: I2C register:
+<3>[    0.607646] (1)[1:swapper/0]SLAVE_ADDR 1c
+<3>[    0.607652] (1)[1:swapper/0]INTR_MASK 0
+<3>[    0.607658] (1)[1:swapper/0]INTR_STAT 1
+<3>[    0.607663] (1)[1:swapper/0]CONTROL 128
+<3>[    0.607669] (1)[1:swapper/0]TRANSFER_LEN 1
+<3>[    0.607674] (1)[1:swapper/0]TRANSAC_LEN 1
+<3>[    0.607680] (1)[1:swapper/0]DELAY_LEN 2
+<3>[    0.607685] (1)[1:swapper/0]TIMING 1036
+<3>[    0.607691] (1)[1:swapper/0] START 0
+<3>[    0.607696] (1)[1:swapper/0]FIFO_STAT 1101
+<3>[    0.607702] (1)[1:swapper/0]IO_CONFIG 3
+<3>[    0.607707] (1)[1:swapper/0]HS 102
+<3>[    0.607712] (1)[1:swapper/0]DEBUGSTAT 40
+<3>[    0.607718] (1)[1:swapper/0]EXT_CONF 8001
+<3>[    0.607724] (1)[1:swapper/0]TRANSFER_LEN_AUX 0
+<3>[    0.607730] (1)[1:swapper/0]TIMEOUT ffff
+<3>[    0.607781] (1)[1:swapper/0]i2c i2c-1: GPIO113(SCL):1,mode1; GPIO114(SDA):1,mode1
+<3>[    0.607803] (1)[1:swapper/0][Gsensor] kxtj2_1009_i2c_probe 1996 : kxtj2_1009_i2c_probe: err = -1
+<4>[    0.607831] (1)[1:swapper/0]KXTJ2_1009: probe of 1-000e failed with error -1
+<4>[    0.607888] (1)[1:swapper/0]<HWMSEN>  i=1
+<4>[    0.607899] (1)[1:swapper/0]<HWMSEN>  !!!!!!!!
+<6>[    0.607913] (1)[1:swapper/0][Gsensor] mc3xxx_local_init
+<6>[    0.607951] (1)[1:swapper/0][Gsensor] mc3xxx_i2c_probe
+<6>[    0.608836] (1)[1:swapper/0][Gsensor] [MC3XXX_ValidateSensorIC] *pbPCode: 0x60, *pbHwID: 0x23
+<6>[    0.608850] (1)[1:swapper/0][Gsensor] [MC3XXX_SaveDefaultOffset]
+<6>[    0.610036] (1)[1:swapper/0][Gsensor] s_baOTP_OffsetData: 0x9D - 0x02 - 0xE2 - 0x7F - 0x09 - 0x04
+<3>[    0.612058] (1)[1:swapper/0]i2c i2c-1: I2C_ACKERR
+<3>[    0.612073] (1)[1:swapper/0]i2c i2c-1: addr: 98, transfer error
+<3>[    0.612093] (1)[1:swapper/0]i2c i2c-1: I2C structure:
+<3>[    0.612100] (1)[1:swapper/0]Mode 0
+<3>[    0.612105] (1)[1:swapper/0]St_rs 0
+<3>[    0.612110] (1)[1:swapper/0]Dma_en 0
+<3>[    0.612116] (1)[1:swapper/0]Op 1
+<3>[    0.612121] (1)[1:swapper/0]Poll_en 0
+<3>[    0.612126] (1)[1:swapper/0]Trans_len 2
+<3>[    0.612132] (1)[1:swapper/0]Trans_num 1
+<3>[    0.612137] (1)[1:swapper/0]Trans_auxlen 0
+<3>[    0.612143] (1)[1:swapper/0]Data_size ffff
+<3>[    0.612148] (1)[1:swapper/0]Irq_stat 2
+<3>[    0.612154] (1)[1:swapper/0]Trans_stop 1
+<3>[    0.612159] (1)[1:swapper/0]Trans_comp 0
+<3>[    0.612165] (1)[1:swapper/0]Trans_error 2
+<3>[    0.612205] (1)[1:swapper/0]i2c i2c-1: base address f100a000
+<3>[    0.612230] (1)[1:swapper/0]i2c i2c-1: I2C register:
+<3>[    0.612236] (1)[1:swapper/0]SLAVE_ADDR 98
+<3>[    0.612242] (1)[1:swapper/0]INTR_MASK 0
+<3>[    0.612247] (1)[1:swapper/0]INTR_STAT 1
+<3>[    0.612253] (1)[1:swapper/0]CONTROL 128
+<3>[    0.612258] (1)[1:swapper/0]TRANSFER_LEN 2
+<3>[    0.612264] (1)[1:swapper/0]TRANSAC_LEN 1
+<3>[    0.612270] (1)[1:swapper/0]DELAY_LEN 2
+<3>[    0.612275] (1)[1:swapper/0]TIMING 1036
+<3>[    0.612281] (1)[1:swapper/0] START 0
+<3>[    0.612286] (1)[1:swapper/0]FIFO_STAT 1210
+<3>[    0.612292] (1)[1:swapper/0]IO_CONFIG 3
+<3>[    0.612297] (1)[1:swapper/0]HS 102
+<3>[    0.612302] (1)[1:swapper/0]DEBUGSTAT 40
+<3>[    0.612308] (1)[1:swapper/0]EXT_CONF 8001
+<3>[    0.612314] (1)[1:swapper/0]TRANSFER_LEN_AUX 0
+<3>[    0.612319] (1)[1:swapper/0]TIMEOUT ffff
+<3>[    0.612370] (1)[1:swapper/0]i2c i2c-1: GPIO113(SCL):1,mode1; GPIO114(SDA):1,mode1
+<4>[    0.612389] (1)[1:swapper/0]<HWMSEN> hwmsen_write_block 218 : send command error!!
+<3>[    0.640167] (1)[5:kworker/u:0][MSDC] msdc0 -> XXX CMD<18><0x75f808> Error<0> Resp<0x80000900> <- msdc_dump_trans_error() : L<5333> PID<kworker/u:0><0x5>
+<3>[    0.640199] (1)[5:kworker/u:0][MSDC] msdc0 -> XXX DAT block<8> Error<-110> <- msdc_dump_trans_error() : L<5336> PID<kworker/u:0><0x5>
+<3>[    0.640225] (1)[5:kworker/u:0][MSDC] msdc0 -> XXX STOP<12><0x0> Error<-110> Resp<0x0> <- msdc_dump_trans_error() : L<5340> PID<kworker/u:0><0x5>
+<3>[    0.640262] (1)[5:kworker/u:0][MSDC] msdc0 -> check card state<4> <- msdc_abort_data() : L<2108> PID<kworker/u:0><0x5>
+<3>[    0.640290] (1)[5:kworker/u:0][MSDC] msdc0 -> msdc0 exceed max read timeout retry times(3) or SW timeout(0) or read timeout tuning times(0),Power cycle
+<4>[    0.640312] (1)[5:kworker/u:0] <- msdc_ops_request_legacy() : L<5479> PID<kworker/u:0><0x5>
+<3>[    0.640350] (1)[5:kworker/u:0]read mpt error
+<4>[    0.640362] (1)[5:kworker/u:0]can not find pmt,use default part info
+<4>[    0.640375] (1)[5:kworker/u:0][init_pmt]done
+<4>[    0.640421] (1)[5:kworker/u:0]msdc LDO<2> power on<3300>
+<6>[    0.640436] (1)[5:kworker/u:0][Power/PMIC] [hwPowerOn] 0,NOP,0
+<5>[    0.640451] (1)[5:kworker/u:0][Power/PMIC] [hwPowerOn] acquire powerId:2 index:0 mod_name: msdc powerVolt:3300
+<5>[    0.640474] (1)[5:kworker/u:0][Power/PMIC] [2] PMU LDO Enable
+<6>[    0.640491] (1)[5:kworker/u:0][Power/PMIC] [hwPowerOn] enable 2 by msdc 
+<5>[    0.640507] (1)[5:kworker/u:0][Power/PMIC] ****[dct_pmic_VMC_sel] value=3300 
+<6>[    0.640534] (1)[5:kworker/u:0][Power/PMIC] [pmic_ldo_vol_sel] Receive powerId 2, action is 3300
+<5>[    0.640552] (1)[5:kworker/u:0][Power/PMIC] [dct_pmic_VMC_enable] 1
+<6>[    0.640576] (1)[5:kworker/u:0][Power/PMIC] [pmic_ldo_enable] Receive powerId 2, action is 1
+<4>[    0.640592] (1)[5:kworker/u:0]msdc LDO<3> power on<3300>
+<6>[    0.640605] (1)[5:kworker/u:0][Power/PMIC] [hwPowerOn] 0,NOP,0
+<5>[    0.640619] (1)[5:kworker/u:0][Power/PMIC] [hwPowerOn] acquire powerId:3 index:0 mod_name: msdc powerVolt:3300
+<5>[    0.640642] (1)[5:kworker/u:0][Power/PMIC] [3] PMU LDO Enable
+<6>[    0.640658] (1)[5:kworker/u:0][Power/PMIC] [hwPowerOn] enable 3 by msdc 
+<5>[    0.640673] (1)[5:kworker/u:0][Power/PMIC] ****[dct_pmic_VMCH_sel] value=3300 
+<6>[    0.640699] (1)[5:kworker/u:0][Power/PMIC] [pmic_ldo_vol_sel] Receive powerId 3, action is 3300
+<5>[    0.640715] (1)[5:kworker/u:0][Power/PMIC] [dct_pmic_VMCH_enable] 1
+<6>[    0.640739] (1)[5:kworker/u:0][Power/PMIC] [pmic_ldo_enable] Receive powerId 3, action is 1
+<6>[    0.652218] (1)[1:swapper/0][Gsensor] [MC3XXX_ValidateSensorIC] *pbPCode: 0x60, *pbHwID: 0x23
+<6>[    0.652234] (1)[1:swapper/0][Gsensor] [MC3XXX_SaveDefaultOffset]
+<6>[    0.653409] (1)[1:swapper/0][Gsensor] s_baOTP_OffsetData: 0x9D - 0x02 - 0xE2 - 0x7F - 0x09 - 0x04
+<6>[    0.654235] (1)[1:swapper/0][Gsensor] [MC3XXX_Init]
+<6>[    0.654540] (1)[1:swapper/0][Gsensor] [MC3XXX_SetResolution]
+<6>[    0.654553] (1)[1:swapper/0][Gsensor] [MC3XXX_SetResolution] s_bResolution: 1
+<6>[    0.654564] (1)[1:swapper/0][Gsensor] [MC3XXX_SetSampleRate]
+<6>[    0.655009] (1)[1:swapper/0][Gsensor] [MC3XXX_SetSampleRate] REG(0x2A) = 0xCB
+<6>[    0.655608] (1)[1:swapper/0][Gsensor] [MC3XXX_ConfigRegRange] set 0x2
+<6>[    0.655622] (1)[1:swapper/0][Gsensor] [MC3XXX_SetGain] gain: 64 / 64 / 64
+<6>[    0.656650] (1)[1:swapper/0][Gsensor] [MC3XXX_Init] init ok.
+<4>[    0.656819] (1)[1:swapper/0]<HWMSEN> hwmsen_attach
+<6>[    0.656837] (1)[1:swapper/0][Gsensor] mc3xxx_i2c_probe: OK
+<4>[    0.656886] (1)[1:swapper/0]<HWMSEN>  gsensor MC3XXX probe ok
+<4>[    0.656905] (1)[1:swapper/0]sensor_gsensor device!
+<6>[    0.657089] (1)[1:swapper/0]mmc3416x mmc3416x_i2c_probe: ++++
+<6>[    0.657098] (1)[1:swapper/0]
+<4>[    0.669980] (0)[5:kworker/u:0]msdc1 -> !!! Set<400KHz> Source<200000KHz> -> sclk<400KHz> DDR<0> mode<0> div<125>
+<3>[    0.706429] (1)[5:kworker/u:0]sd card rocr <0xff8000>
+<4>[    0.929902] (0)[1:swapper/0]<HWMSEN> hwmsen_attach
+<4>[    0.929918] (0)[1:swapper/0]<HWMSEN> hwmsen_attach
+<6>[    0.929932] (0)[1:swapper/0]mmc3416x mmc3416x_i2c_probe: OK
+<6>[    0.929939] (0)[1:swapper/0]
+<4>[    0.929990] (0)[1:swapper/0]sensor_msensor device!sensor_osensor device!sensor_alsps device!mt_device_usb register
+<6>[    0.930405] (0)[1:swapper/0][Power/PMIC] [hwPowerOn] 0,NOP,0
+<5>[    0.930421] (0)[1:swapper/0][Power/PMIC] [hwPowerOn] acquire powerId:1 index:0 mod_name: VUSB_LDO powerVolt:3300
+<5>[    0.930444] (0)[1:swapper/0][Power/PMIC] [1] PMU LDO Enable
+<6>[    0.930461] (0)[1:swapper/0][Power/PMIC] [hwPowerOn] enable 1 by VUSB_LDO 
+<5>[    0.930476] (0)[1:swapper/0][Power/PMIC] [dct_pmic_VUSB_enable] 1
+<6>[    0.930501] (0)[1:swapper/0][Power/PMIC] [pmic_ldo_enable] Receive powerId 1, action is 1
+<4>[    0.930516] (0)[1:swapper/0]musb_platform_init, enable VBUS_LDO 
+<4>[    0.930532] (0)[1:swapper/0]musb_platform_enable, 0, 0
+<7>[    0.930548] (0)[1:swapper/0]enable(1), count(1) res=1
+<7>[    0.930561] (0)[1:swapper/0][MUSB]musb_readl 72: [MUSB]:access musb_readl function when usb clock is off 0xA4
+<7>[    0.930577] (0)[1:swapper/0]enable(0), count(0) res=0
+<7>[    0.930589] (0)[1:swapper/0]enable(1), count(1) res=0
+<7>[    0.930601] (0)[1:swapper/0][MUSB]musb_writel 106: [MUSB]:access musb_writel function when usb clock is off 0xA4
+<7>[    0.930616] (0)[1:swapper/0]enable(0), count(0) res=0
+<7>[    0.930627] (0)[1:swapper/0][MUSB]musb_platform_enable 388: usb init first
+<7>[    0.930634] (0)[1:swapper/0]musb_platform_enable, enable UPLL before connect
+<7>[    0.940643] (0)[1:swapper/0]enable(1), count(1) res=0
+<4>[    0.941519] (0)[1:swapper/0][USBPHY]slew calibration:FM_OUT =339,x=4059,value=4
+<4>[    0.941538] (0)[1:swapper/0]USB HW reg: index18=0x2b00, index7=0x0
+<4>[    0.941551] (0)[1:swapper/0]usb recovery success
+<7>[    0.941597] (0)[1:swapper/0][MUSB]musb_core_init 1060: mt_usb: ConfigData=0x1f (UTMI-16, dyn FIFOs, HB-ISO Rx, HB-ISO Tx, SoftConn)
+<7>[    0.941619] (0)[1:swapper/0][MUSB]fifo_setup 831: Tx ep 1 fifo size is 512 fifo address is 8
+<7>[    0.941634] (0)[1:swapper/0][MUSB]fifo_setup 840: Rx ep 1 fifo size is 512 fifo address is 48
+<7>[    0.941648] (0)[1:swapper/0][MUSB]fifo_setup 831: Tx ep 2 fifo size is 512 fifo address is 88
+<7>[    0.941663] (0)[1:swapper/0][MUSB]fifo_setup 840: Rx ep 2 fifo size is 512 fifo address is c8
+<7>[    0.941677] (0)[1:swapper/0][MUSB]fifo_setup 831: Tx ep 3 fifo size is 512 fifo address is 108
+<7>[    0.941692] (0)[1:swapper/0][MUSB]fifo_setup 840: Rx ep 3 fifo size is 512 fifo address is 148
+<7>[    0.941706] (0)[1:swapper/0][MUSB]fifo_setup 831: Tx ep 4 fifo size is 512 fifo address is 188
+<7>[    0.941721] (0)[1:swapper/0][MUSB]fifo_setup 840: Rx ep 4 fifo size is 512 fifo address is 1c8
+<7>[    0.941736] (0)[1:swapper/0][MUSB]fifo_setup 831: Tx ep 5 fifo size is 64 fifo address is 208
+<7>[    0.941750] (0)[1:swapper/0][MUSB]fifo_setup 840: Rx ep 5 fifo size is 512 fifo address is 210
+<7>[    0.941765] (0)[1:swapper/0][MUSB]fifo_setup 831: Tx ep 6 fifo size is 64 fifo address is 250
+<7>[    0.941779] (0)[1:swapper/0][MUSB]fifo_setup 840: Rx ep 6 fifo size is 512 fifo address is 258
+<7>[    0.941794] (0)[1:swapper/0][MUSB]fifo_setup 831: Tx ep 7 fifo size is 512 fifo address is 298
+<7>[    0.941808] (0)[1:swapper/0][MUSB]fifo_setup 840: Rx ep 7 fifo size is 512 fifo address is 2d8
+<7>[    0.941823] (0)[1:swapper/0][MUSB]fifo_setup 831: Tx ep 8 fifo size is 512 fifo address is 318
+<7>[    0.941837] (0)[1:swapper/0][MUSB]fifo_setup 840: Rx ep 8 fifo size is 512 fifo address is 358
+<7>[    0.941880] (0)[1:swapper/0][MUSB]init_peripheral_ep 2831: EP 0 name is ep0-control
+<7>[    0.941896] (0)[1:swapper/0][MUSB]init_peripheral_ep 2831: EP 1 name is ep1in-bulk
+<7>[    0.941911] (0)[1:swapper/0][MUSB]init_peripheral_ep 2831: EP 1 name is ep1out-bulk
+<7>[    0.941925] (0)[1:swapper/0][MUSB]init_peripheral_ep 2831: EP 2 name is ep2in-bulk
+<7>[    0.941939] (0)[1:swapper/0][MUSB]init_peripheral_ep 2831: EP 2 name is ep2out-bulk
+<7>[    0.941953] (0)[1:swapper/0][MUSB]init_peripheral_ep 2831: EP 3 name is ep3in-bulk
+<7>[    0.941967] (0)[1:swapper/0][MUSB]init_peripheral_ep 2831: EP 3 name is ep3out-bulk
+<7>[    0.941982] (0)[1:swapper/0][MUSB]init_peripheral_ep 2831: EP 4 name is ep4in-bulk
+<7>[    0.941996] (0)[1:swapper/0][MUSB]init_peripheral_ep 2831: EP 4 name is ep4out-bulk
+<7>[    0.942010] (0)[1:swapper/0][MUSB]init_peripheral_ep 2831: EP 5 name is ep5in-int
+<7>[    0.942024] (0)[1:swapper/0][MUSB]init_peripheral_ep 2831: EP 5 name is ep5out-int
+<7>[    0.942038] (0)[1:swapper/0][MUSB]init_peripheral_ep 2831: EP 6 name is ep6in-int
+<7>[    0.942052] (0)[1:swapper/0][MUSB]init_peripheral_ep 2831: EP 6 name is ep6out-int
+<7>[    0.942066] (0)[1:swapper/0][MUSB]init_peripheral_ep 2831: EP 7 name is ep7in-bulk
+<7>[    0.942080] (0)[1:swapper/0][MUSB]init_peripheral_ep 2831: EP 7 name is ep7out-bulk
+<7>[    0.942094] (0)[1:swapper/0][MUSB]init_peripheral_ep 2831: EP 8 name is ep8in-iso
+<7>[    0.942109] (0)[1:swapper/0][MUSB]init_peripheral_ep 2831: EP 8 name is ep8out-iso
+<4>[    0.942289] (0)[1:swapper/0]mtk-tpd: enter tpd_probe, 263
+<4>[    0.942373] (0)[1:swapper/0]mtk_tpd: TPD_RES_X = 540, TPD_RES_Y = 960
+<4>[    0.942390] (0)[1:swapper/0]mtk-tpd: FTS I2C Touchscreen Driver (Built Jul 16 2015 @ 16:11:21)
+<4>[    0.959804] (1)[1:swapper/0]mtk-tpd:  fts ic reset
+<6>[    0.959823] (1)[1:swapper/0][Power/PMIC] [hwPowerOn] 0,NOP,0
+<5>[    0.959838] (1)[1:swapper/0][Power/PMIC] [hwPowerOn] acquire powerId:5 index:0 mod_name: TP powerVolt:2800
+<5>[    0.959862] (1)[1:swapper/0][Power/PMIC] [5] PMU LDO Enable
+<6>[    0.959879] (1)[1:swapper/0][Power/PMIC] [hwPowerOn] enable 5 by TP 
+<5>[    0.959895] (1)[1:swapper/0][Power/PMIC] ****[dct_pmic_VGP1_sel] value=2800 
+<6>[    0.959923] (1)[1:swapper/0][Power/PMIC] [pmic_ldo_vol_sel] Receive powerId 5, action is 2800
+<5>[    0.959941] (1)[1:swapper/0][Power/PMIC] [dct_pmic_VGP1_enable] 1
+<6>[    0.959965] (1)[1:swapper/0][Power/PMIC] [pmic_ldo_enable] Receive powerId 5, action is 1
+<4>[    0.979801] (0)[1:swapper/0]mtk-tpd:  fts ic reset
+<2>[    0.979830] (0)[1:swapper/0]Can't enable debounce of eint_num:1, deb_time:0, is_deb_en:0, en:0
+<3>[    0.980400] (1)[5:kworker/u:0]sd card rocr <0xc0ff8000>
+<4>[    0.981766] (1)[5:kworker/u:0]msdc1 select card<0x59b40000>
+<3>[    0.992630] (1)[5:kworker/u:0]msdc1 -> !!! Set<50000KHz> Source<200000KHz> -> sclk<50000KHz> DDR<0> mode<0> div<1>
+<6>[    0.992676] (1)[5:kworker/u:0]mmc1: new high speed SDHC card at address 59b4
+<7>[    0.993060] (0)[2:kthreadd][2:kthreadd] fork [62:kthreadd]
+<6>[    0.993130] (0)[5:kworker/u:0]mmcblk1: mmc1:59b4 SMI   7.40 GiB 
+<6>[    0.995434] (0)[5:kworker/u:0] mmcblk1: p1
+<4>[    0.995487] (0)[5:kworker/u:0]add_partition==[mmcblk1:p1]==start = 8192,size = 15523840
+<6>[    0.995844] (0)[5:kworker/u:0]mtk-msdcemmc_create_sys_symlink: NOT emmc card,  
+<6>[    1.369805] (1)[0:swapper/1][Power/WMT_Thermal] [wmt_cal_stats] cur_time(1) < pre_time
+<4>[    1.390434] (1)[1:swapper/0]mtk-tpd: gao_i2c:err 1,data:0
+<4>[    1.390881] (1)[1:swapper/0]focaltech_get_upgrade_array chip_id = 6
+<6>[    1.390932] (1)[1:swapper/0]FT 1-0038: Create proc entry success!
+<4>[    1.390964] (1)[1:swapper/0]FTP: I2CDMABuf_pa=c09d0b2c,val=9d4d6000 val2=9d4d6000
+<6>[    1.390999] (1)[1:swapper/0]ft6x06:fts_create_sysfs() - sysfs_create_group() succeeded.
+<4>[    1.391017] (1)[1:swapper/0]ft_rw_iic_drv_myinitdev: client=dda31000 
+<4>[    1.391033] (1)[1:swapper/0]ft_rw_iic_drv_myinitdev: 2.client=dda31000  
+<4>[    1.391050] (1)[1:swapper/0]ft_rw_iic_drv_myinitdev: client=dda31000  
+<4>[    1.391170] (1)[1:swapper/0]mtk-tpd: create FT_GESTURE_PROC_FILE  tpd_gesture_flag success
+<7>[    1.391328] (0)[2:kthreadd][2:kthreadd] fork [63:kthreadd]
+<4>[    1.391386] (0)[1:swapper/0]mtk-tpd: FTS Touch Panel Device Probe PASS
+<4>[    1.391404] (0)[1:swapper/0]<HWMSEN> hwmsen_attach
+<4>[    1.391417] (0)[1:swapper/0]<<proximity>> proxi_fts attach ok = 0
+<4>[    1.391424] (0)[1:swapper/0]
+<4>[    1.391480] (0)[1:swapper/0]mtk-tpd: end tpd_local_init, 1075
+<4>[    1.391495] (0)[1:swapper/0]mtk-tpd: [mtk-tpd]tpd_probe, tpd_driver_name=FT
+<4>[    1.391514] (0)[1:swapper/0]mtk-tpd: Cap touch panel driver
+<6>[    1.391682] (0)[1:swapper/0]input: mtk-tpd as /devices/virtual/input/input3
+<6>[    1.391945] (0)[1:swapper/0]input: mtk-tpd-kpd as /devices/virtual/input/input4
+<4>[    1.392199] (0)[1:swapper/0][Dumchar_probe]*******************Introduction******************
+<4>[    1.392218] (0)[1:swapper/0][Dumchar_probe]There are 3 address in eMMC Project: Linear Address, Logical Address, Physical Address
+<4>[    1.392235] (0)[1:swapper/0][Dumchar_probe]Linear Address: Used in scatter file, uboot, preloader,flash tool etc. 
+<4>[    1.392251] (0)[1:swapper/0][Dumchar_probe]Linear Address: MBR linear address is fixed in eMMCComo.mk, that is same for all chips in the project 
+<4>[    1.392270] (0)[1:swapper/0][Dumchar_probe]Logical Address: Used in /proc/dumchar_info, mmcblk0 etc. MBR logical address is 0
+<4>[    1.392287] (0)[1:swapper/0][Dumchar_probe]Physical Address: Used in eMMC driver, MBR Physical Address = MBR Linear Address - (BOOT1 size + BOOT2 Size + RPMB Size)
+<4>[    1.392306] (0)[1:swapper/0][Dumchar_probe]define  User_Region_Header (BOOT1 size + BOOT2 Size + RPMB Size)
+<4>[    1.392322] (0)[1:swapper/0][Dumchar_probe]*******************Introduction******************
+<4>[    1.392341] (0)[1:swapper/0][Dumchar]MBR address c00000
+<4>[    1.392361] (0)[1:swapper/0][Dumchar] preloader start address=0 size=c00000
+<4>[    1.392376] (0)[1:swapper/0][Dumchar] mbr start address=0 size=80000
+<4>[    1.392392] (0)[1:swapper/0][Dumchar] ebr1 start address=80000 size=80000
+<4>[    1.392408] (0)[1:swapper/0][Dumchar] pro_info start address=100000 size=300000
+<4>[    1.392423] (0)[1:swapper/0][Dumchar] nvram start address=400000 size=500000
+<4>[    1.392439] (0)[1:swapper/0][Dumchar] protect_f start address=900000 size=a00000
+<4>[    1.392454] (0)[1:swapper/0][Dumchar] protect_s start address=1300000 size=a00000
+<4>[    1.392470] (0)[1:swapper/0][Dumchar] seccfg start address=1d00000 size=20000
+<4>[    1.392486] (0)[1:swapper/0][Dumchar] uboot start address=1d20000 size=60000
+<4>[    1.392502] (0)[1:swapper/0][Dumchar] bootimg start address=1d80000 size=600000
+<4>[    1.392518] (0)[1:swapper/0][Dumchar] recovery start address=2380000 size=600000
+<4>[    1.392533] (0)[1:swapper/0][Dumchar] sec_ro start address=2980000 size=40000
+<4>[    1.392549] (0)[1:swapper/0][Dumchar] misc start address=29c0000 size=80000
+<4>[    1.392564] (0)[1:swapper/0][Dumchar] logo start address=2a40000 size=300000
+<4>[    1.392580] (0)[1:swapper/0][Dumchar] expdb start address=2d40000 size=a00000
+<4>[    1.392595] (0)[1:swapper/0][Dumchar] android start address=3740000 size=28a00000
+<4>[    1.392612] (0)[1:swapper/0][Dumchar] cache start address=2c140000 size=17800000
+<4>[    1.392628] (0)[1:swapper/0][Dumchar] usrdata start address=43940000 size=52c00000
+<4>[    1.392643] (0)[1:swapper/0]name = preloader
+<4>[    1.392655] (0)[1:swapper/0]name = mbr
+<4>[    1.392665] (0)[1:swapper/0]name = ebr1
+<4>[    1.392675] (0)[1:swapper/0]name = pro_info
+<4>[    1.392685] (0)[1:swapper/0]name = nvram
+<4>[    1.392696] (0)[1:swapper/0]name = protect_f
+<4>[    1.392706] (0)[1:swapper/0]name = protect_s
+<4>[    1.392717] (0)[1:swapper/0]name = seccfg
+<4>[    1.392727] (0)[1:swapper/0]name = uboot
+<4>[    1.392738] (0)[1:swapper/0]name = bootimg
+<4>[    1.392748] (0)[1:swapper/0]name = recovery
+<4>[    1.392759] (0)[1:swapper/0]name = sec_ro
+<4>[    1.392769] (0)[1:swapper/0]name = misc
+<4>[    1.392779] (0)[1:swapper/0]name = logo
+<4>[    1.392789] (0)[1:swapper/0]name = expdb
+<4>[    1.392800] (0)[1:swapper/0]name = android
+<4>[    1.392810] (0)[1:swapper/0]name = cache
+<4>[    1.392820] (0)[1:swapper/0]name = usrdata
+<4>[    1.392830] (0)[1:swapper/0]name = fat
+<4>[    1.392840] (0)[1:swapper/0]name = bmtpool
+<4>[    1.392851] (0)[1:swapper/0]size = 22020096
+<4>[    1.392862] (0)[1:swapper/0]mtk reserve: start address = 4294901928
+<4>[    1.392877] (0)[1:swapper/0]total reserve: l_otp_reserve = 0x0 blocks, l_mtk_reserve = 0xa800 blocks, l_offset = 0x3000 blocks
+<4>[    1.392895] (0)[1:swapper/0][Dumchar] fat start address=96540000 size=53fc0000
+<4>[    1.392911] (0)[1:swapper/0][Dumchar] bmtpool start address=ff3f00a8 size=1500000
+<4>[    1.393805] (0)[1:swapper/0][LK_ENV]ENV initialize env_part_addr 29c0000
+<3>[    1.394640] (1)[1:swapper/0][MSDC] msdc0 -> Read recover <- msdc_ops_request_legacy() : L<5543> PID<swapper/0><0x1>
+<3>[    1.394670] (1)[1:swapper/0][MSDC] msdc0 -> XXX CMD<18><0x14f00> Error<0> Resp<0x900> <- msdc_dump_trans_error() : L<5333> PID<swapper/0><0x1>
+<3>[    1.394699] (1)[1:swapper/0][MSDC] msdc0 -> XXX DAT block<32> Error<0> <- msdc_dump_trans_error() : L<5336> PID<swapper/0><0x1>
+<3>[    1.394725] (1)[1:swapper/0][MSDC] msdc0 -> XXX STOP<12><0x0> Error<0> Resp<0xb00> <- msdc_dump_trans_error() : L<5340> PID<swapper/0><0x1>
+<4>[    1.394875] (1)[1:swapper/0][LK_ENV]ENV initialize sucess
+<4>[    1.394888] (1)[1:swapper/0][LK_ENV]load default env
+<4>[    1.394900] (1)[1:swapper/0][LK_ENV]get_env data_free_size_th
+<4>[    1.394918] (1)[1:swapper/0][LK_ENV]find data_free_size_th = 3200000
+<4>[    1.394940] (1)[1:swapper/0]PMEM start: 0x9f600000 size: 0x1700000
+<6>[    1.395096] (1)[1:swapper/0]pmem_multimedia: 1 init
+<4>[    1.397128] (1)[1:swapper/0][cpu_ntf] <35>c0590778 (cpufreq_cpu_callback)
+<5>[    1.397159] (1)[1:swapper/0][Power/DVFS] PMIC_WRAP_DVFS_WDATA0: 0x58
+<5>[    1.397179] (1)[1:swapper/0][Power/DVFS] PMIC_WRAP_DVFS_WDATA1: 0x48
+<5>[    1.397197] (1)[1:swapper/0][Power/DVFS] PMIC_WRAP_DVFS_WDATA2: 0x38
+<5>[    1.397215] (1)[1:swapper/0][Power/DVFS] PMIC_WRAP_DVFS_WDATA3: 0x48
+<5>[    1.397233] (1)[1:swapper/0][Power/DVFS] PMIC_WRAP_DVFS_WDATA4: 0x48
+<5>[    1.397251] (1)[1:swapper/0][Power/DVFS] PMIC_WRAP_DVFS_WDATA5: 0x48
+<5>[    1.397268] (1)[1:swapper/0][Power/DVFS] PMIC_WRAP_DVFS_WDATA6: 0x2
+<5>[    1.397286] (1)[1:swapper/0][Power/DVFS] PMIC_WRAP_DVFS_WDATA7: 0x2
+<5>[    1.397304] (1)[1:swapper/0][Power/DVFS] mediatek cpufreq initialized
+<6>[    1.398130] (1)[1:swapper/0][[kd_sensorlist]] [CAMERA_HW] Attach I2C 
+<6>[    1.398239] (1)[1:swapper/0][[kd_sensorlist]] [CAMERA_HW] Attached!! 
+<4>[    1.398527] (1)[1:swapper/0]ISP platform device registering...
+<6>[    1.398877] (1)[1:swapper/0][GPS: ] mt3326_gps_power: Switching GPS device on
+<6>[    1.398895] (1)[1:swapper/0][GPS: ] mt3326_gps_power: ignore power control: 1
+<6>[    1.398911] (1)[1:swapper/0][GPS: ] mt3326_gps_probe: Registering chardev
+<6>[    1.398926] (1)[1:swapper/0][GPS: ] mt3326_gps_probe: major: 233, minor: 0
+<6>[    1.399037] (1)[1:swapper/0][GPS: ] mt3326_gps_probe: Done
+<7>[    1.399285] (1)[1:swapper/0][CamPipeMgr] [CamPipeMgr_Probe]E
+<7>[    1.399301] (1)[1:swapper/0][CamPipeMgr] [CamPipeMgr_RegCharDev]E
+<7>[    1.399318] (1)[1:swapper/0][CamPipeMgr] [CamPipeMgr_RegCharDev]X
+<7>[    1.399404] (1)[1:swapper/0][CamPipeMgr] [CamPipeMgr_Probe]X
+<4>[    1.399534] (1)[1:swapper/0]mtk_device_btif register ret 0
+<3>[    1.399665] (1)[1:swapper/0][SSW] Enter sim_switch_probe
+<5>[    1.399689] (1)[1:swapper/0][Power/GPU_DVFS] mt_gpufreq_init
+<5>[    1.399751] (1)[1:swapper/0][Power/GPU_DVFS] setup gpufreqs table
+<5>[    1.399821] (1)[1:swapper/0][Power/GPU_DVFS] mt_gpufreqs_power[0].gpufreq_khz = 416000
+<5>[    1.399843] (1)[1:swapper/0][Power/GPU_DVFS] mt_gpufreqs_power[0].gpufreq_volt = 1250
+<5>[    1.399863] (1)[1:swapper/0][Power/GPU_DVFS] mt_gpufreqs_power[0].gpufreq_power = 276
+<5>[    1.399882] (1)[1:swapper/0][Power/GPU_DVFS] mt_gpufreqs_power[1].gpufreq_khz = 416000
+<5>[    1.399902] (1)[1:swapper/0][Power/GPU_DVFS] mt_gpufreqs_power[1].gpufreq_volt = 1150
+<5>[    1.399922] (1)[1:swapper/0][Power/GPU_DVFS] mt_gpufreqs_power[1].gpufreq_power = 232
+<4>[    1.400404] (1)[1:swapper/0][cpu_ntf] <36>c058e820 (console_cpu_notify)
+<6>[    1.400447] (1)[1:swapper/0]TuxOnIce 3.3 (http://tuxonice.net)
+<7>[    1.401071] (0)[2:kthreadd][2:kthreadd] fork [64:kthreadd]
+<6>[    1.401306] (0)[1:swapper/0]android usb init android_usb
+<6>[    1.401325] (0)[1:swapper/0][USB] usb_composite_probe: driver->name = android_usb
+<7>[    1.401362] (0)[1:swapper/0]enable(1), count(2) res=1
+<5>[    1.611386] (0)[1:swapper/0][Power/Battery] step A2 : Standard USB Host!
+<7>[    1.611445] (0)[1:swapper/0]enable(0), count(1) res=1
+<7>[    1.611459] (0)[1:swapper/0][MUSB]musb_pullup 2723: MUSB: gadget pull up 0 start
+<7>[    1.611472] (0)[1:swapper/0][MUSB]musb_stop 721: start, is_host=0
+<7>[    1.611489] (0)[1:swapper/0][USB] android_disconnect: 
+<6>[    1.611503] (0)[1:swapper/0][USB] composite_disconnect:  reassign the complete function!!
+<7>[    1.611526] (0)[1:swapper/0][USB] android_disconnect: dev->connected = 0 
+<4>[    1.611559] (0)[1:swapper/0]musb_platform_disable, 1, 1
+<7>[    1.611573] (0)[1:swapper/0][MUSB]musb_platform_disable 423: usb init first
+<7>[    1.611581] (0)[1:swapper/0]
+<7>[    1.612403] (0)[1:swapper/0]enable(0), count(0) res=0
+<4>[    1.612413] (0)[1:swapper/0]usb save current success
+<7>[    1.612426] (0)[1:swapper/0][MUSB]musb_stop 742: disabled
+<7>[    1.612437] (0)[1:swapper/0][MUSB]musb_pullup 2730: MUSB: gadget pull up 0 end
+<7>[    1.612450] (0)[1:swapper/0][MUSB]musb_gadget_pullup 2770: musb pullup 0
+<6>[    1.612465] (0)[1:swapper/0][USB] android_init_functions: f->dev_name = f_ffs, f->name = ffs
+<6>[    1.612554] (0)[1:swapper/0]file system registered
+<6>[    1.612566] (0)[1:swapper/0][USB] android_init_functions: init ffs success!!
+<6>[    1.612587] (0)[1:swapper/0][USB] android_init_functions: f->dev_name = f_adb, f->name = adb
+<6>[    1.612706] (0)[1:swapper/0][USB] android_init_functions: init adb success!!
+<6>[    1.612723] (0)[1:swapper/0][USB] android_init_functions: f->dev_name = f_acm, f->name = acm
+<6>[    1.613037] (0)[1:swapper/0][USB] android_init_functions: init acm success!!
+<6>[    1.613059] (0)[1:swapper/0][USB] android_init_functions: f->dev_name = f_mtp, f->name = mtp
+<7>[    1.613183] (1)[2:kthreadd][2:kthreadd] fork [65:kthreadd]
+<6>[    1.613308] (1)[1:swapper/0][USB] android_init_functions: init mtp success!!
+<6>[    1.613326] (1)[1:swapper/0][USB] android_init_functions: f->dev_name = f_ptp, f->name = ptp
+<6>[    1.613385] (1)[1:swapper/0][USB] android_init_functions: init ptp success!!
+<6>[    1.613402] (1)[1:swapper/0][USB] android_init_functions: f->dev_name = f_ecm, f->name = ecm
+<6>[    1.613470] (1)[1:swapper/0][USB] android_init_functions: init ecm success!!
+<6>[    1.613494] (1)[1:swapper/0][USB] android_init_functions: f->dev_name = f_eem, f->name = eem
+<6>[    1.613549] (1)[1:swapper/0][USB] android_init_functions: init eem success!!
+<6>[    1.613571] (1)[1:swapper/0][USB] android_init_functions: f->dev_name = f_gser, f->name = gser
+<6>[    1.613629] (1)[1:swapper/0][USB] android_init_functions: init gser success!!
+<6>[    1.613651] (1)[1:swapper/0][USB] android_init_functions: f->dev_name = f_rndis, f->name = rndis
+<6>[    1.613712] (1)[1:swapper/0][USB] android_init_functions: init rndis success!!
+<6>[    1.613745] (1)[1:swapper/0][USB] android_init_functions: f->dev_name = f_mass_storage, f->name = mass_storage
+<7>[    1.613931] (0)[2:kthreadd][2:kthreadd] fork [66:kthreadd]
+<6>[    1.613982] (0)[1:swapper/0]android_usb gadget: Mass Storage Function, version: 2009/09/11
+<6>[    1.613997] (0)[1:swapper/0]android_usb gadget: Number of LUNs=2
+<6>[    1.614011] (0)[1:swapper/0] lun0: LUN: removable file: (no medium)
+<6>[    1.614024] (0)[1:swapper/0] lun1: LUN: removable file: (no medium)
+<6>[    1.614055] (0)[1:swapper/0][USB] android_init_functions: init mass_storage success!!
+<6>[    1.614082] (0)[1:swapper/0][USB] android_init_functions: f->dev_name = f_accessory, f->name = accessory
+<6>[    1.614214] (0)[1:swapper/0][USB] android_init_functions: init accessory success!!
+<6>[    1.614231] (0)[1:swapper/0][USB] android_init_functions: f->dev_name = f_audio_source, f->name = audio_source
+<6>[    1.614298] (0)[1:swapper/0][USB] android_init_functions: init audio_source success!!
+<6>[    1.614334] (0)[1:swapper/0]android_usb gadget: android_usb ready
+<5>[    1.615176] (0)[1:swapper/0][Power/RTC] read tc time = 2013/01/01 (2) 02:37:16
+<6>[    1.615227] (0)[1:swapper/0]mt-rtc mt-rtc: setting system clock to 2013-01-01 02:37:16 UTC (1357007836)
+<3>[    1.663871] (0)[1:swapper/0]ram_console_late_init
+<3>[    1.663897] (0)[1:swapper/0]ram console old log is null!
+<7>[    1.664184] (1)[2:kthreadd][2:kthreadd] fork [67:kthreadd]
+<4>[    1.664245] (1)[1:swapper/0][wdk]bind thread[67] to cpu[0]
+<7>[    1.664316] (0)[2:kthreadd][2:kthreadd] fork [68:kthreadd]
+<4>[    1.669801] (0)[0:swapper/0][printk_delayed:start]
+<4>[    1.669818] (0)[0:swapper/0][WDK], local_bit:0x0, cpu:0,RT[1664352383]
+<4>[    1.669825] (0)[0:swapper/0][WDK], local_bit:0x1, cpu:0, check bit0x:3,RT[1664356768]
+<4>[    1.669834] (0)[0:swapper/0][thread:67][RT:1664364845] 2013-01-01 02:37:16.549161 UTC; android time 2013-01-01 02:37:16.549161
+<4>[    1.669856] (0)[0:swapper/0][printk_delayed:done]
+<4>[    1.674384] (0)[1:swapper/0][wdk]bind thread[68] to cpu[1]
+<4>[    1.674429] (1)[68:wdtk-1]WDT:[mtk_wdt_restart] type  =1, pid=68
+<4>[    1.674438] (0)[1:swapper/0][WDK] Initialize proc
+<5>[    1.674457] (1)[68:wdtk-1][SPM] spm_wdt_restart
+<4>[    1.674466] (0)[1:swapper/0][cpu_ntf] <37>c05908fc (wk_cpu_callback)
+<5>[    1.674495] (0)[1:swapper/0][Power/RTC] RTC_IRQ_EN = 0x4, RTC_PDN1 = 0x0
+<5>[    1.674519] (0)[1:swapper/0][Power/RTC] There is no Crystal
+<6>[    1.674625] (0)[1:swapper/0]ALSA device list:
+<6>[    1.674635] (0)[1:swapper/0]  No soundcards found.
+<5>[    1.674877] (0)[1:swapper/0]Linux default SW Flow Control
+<7>[    1.674933] (0)[1:swapper/0]Scanning swap devices for TuxOnIce signature...
+<3>[    1.675277] (1)[53:mmcqd/0][MSDC] msdc0 -> Address offset in USER REGION(Capacity 3776 MB) is 0x3000 <- msdc_cal_offset() : L<2852> PID<mmcqd/0><0x35>
+<4>[    1.679795] (1)[0:swapper/1][printk_delayed:start]
+<4>[    1.679817] (1)[0:swapper/1][WDK], local_bit:0x1, cpu:1,RT[1674415999]
+<4>[    1.679825] (1)[0:swapper/1][WDK], local_bit:0x3, cpu:1, check bit0x:3,RT[1674420614]
+<4>[    1.679833] (1)[0:swapper/1][WDK]: kick Ex WDT,RT[1674424076]
+<4>[    1.679840] (1)[0:swapper/1][thread:68][RT:1674483153] 2013-01-01 02:37:16.559281 UTC; android time 2013-01-01 02:37:16.559281
+<4>[    1.679865] (1)[0:swapper/1][printk_delayed:done]
+<7>[    1.694520] (0)[1:swapper/0]TuxOnIce scan: No image found.
+<7>[    1.694542] (0)[1:swapper/0]Scanning swap devices for TuxOnIce signature...
+<3>[    1.694699] (1)[53:mmcqd/0][MSDC] msdc0 -> Address offset in USER REGION(Capacity 3776 MB) is 0x3000 <- msdc_cal_offset() : L<2852> PID<mmcqd/0><0x35>
+<7>[    1.713013] (0)[1:swapper/0]TuxOnIce scan: No image found.
+<4>[    1.713068] (0)[1:swapper/0]TuxOnIce: Can't translate "" into a device id yet.
+<6>[    1.713086] (0)[1:swapper/0]TuxOnIce: No matching enabled allocator found. Resuming disabled.
+<6>[    1.713335] (0)[1:swapper/0]Freeing init memory: 220K
+<4>[    1.713351] (0)[1:swapper/0]BOOTPROF:      1713.346768:Kernel_init_done
+<7>[    1.713745] (1)[1:init][exec] /init(3)
+<6>[    1.715325] (1)[1:init]init: property init
+<6>[    1.715454] (1)[1:init]init: reading AEE config file
+<6>[    1.715713] (1)[1:init]init: reading config file
+<3>[    1.715732] (1)[1:init]init: USE_BUILT_IN_FACTORY
+<3>[    1.715901] (1)[1:init]init: Unsupported factory mode
+<3>[    1.716000] (1)[1:init]init: Parsing meta_init.rc ...
+<6>[    1.716941] (1)[1:init]init: reading project config file
+<3>[    1.717674] (1)[1:init]init: Unsupported Kernel Power Off Charging mode
+<6>[    1.717778] (1)[1:init]init: processing action 0x36cf0 (early-init)
+<4>[    1.717870] (1)[1:init]init (1): /proc/1/oom_adj is deprecated, please use /proc/1/oom_score_adj instead.
+<6>[    1.717902] (1)[1:init]init: command 'write' r=0
+<5>[    1.717953] (1)[1:init]init: starting 'ueventd'
+<7>[    1.718110] (1)[1:init][1:init] fork [69:init]
+<6>[    1.718234] (1)[1:init]init: command 'start' r=0
+<6>[    1.718314] (1)[1:init]init: command 'mkdir' r=0
+<6>[    1.718362] (1)[1:init]init: command 'mkdir' r=0
+<6>[    1.718408] (1)[1:init]init: command 'mkdir' r=0
+<6>[    1.718450] (1)[1:init]init: command 'mkdir' r=0
+<6>[    1.718508] (1)[1:init]init: command 'mkdir' r=0
+<6>[    1.718562] (1)[1:init]init: command 'symlink' r=0
+<6>[    1.718604] (1)[1:init]init: command 'symlink' r=0
+<6>[    1.718646] (1)[1:init]init: command 'symlink' r=0
+<6>[    1.718692] (1)[1:init]init: processing action 0x3ac88 (early-init)
+<6>[    1.718742] (1)[1:init]init: command 'mkdir' r=0
+<6>[    1.718784] (1)[1:init]init: command 'mkdir' r=0
+<6>[    1.718803] (1)[1:init]init: processing action 0x3b158 (wait_for_coldboot_done)
+<6>[    1.718820] (1)[1:init]init: wait for /dev/.coldboot_done
+<7>[    1.730826] (1)[69:ueventd][exec] /sbin/ueventd(3)
+<6>[    1.731241] (1)[69:ueventd]init: starting ueventd
+<6>[    1.731823] (1)[69:ueventd]init: /sys/ rule /sys/kernel/ccci modem_info
+<6>[    1.731858] (1)[69:ueventd]init: /sys/ rule /sys/kernel/ccci md1_postfix
+<6>[    1.731882] (1)[69:ueventd]init: /sys/ rule /sys/kernel/ccci md2_postfix
+<6>[    1.731920] (1)[69:ueventd]init: /sys/ rule /sys/devices/virtual/input/input* enable
+<6>[    1.731943] (1)[69:ueventd]init: /sys/ rule /sys/devices/virtual/input/input* poll_delay
+<6>[    1.731964] (1)[69:ueventd]init: /sys/ rule /sys/devices/virtual/usb_composite/* enable
+<6>[    1.731986] (1)[69:ueventd]init: /sys/ rule /sys/devices/platform/leds-mt65xx/leds/green delay_on
+<6>[    1.732009] (1)[69:ueventd]init: /sys/ rule /sys/devices/platform/leds-mt65xx/leds/green delay_off
+<6>[    1.732031] (1)[69:ueventd]init: /sys/ rule /sys/devices/platform/leds-mt65xx/leds/red delay_on
+<6>[    1.732053] (1)[69:ueventd]init: /sys/ rule /sys/devices/platform/leds-mt65xx/leds/red delay_off
+<6>[    1.732076] (1)[69:ueventd]init: /sys/ rule /sys/devices/platform/leds-mt65xx/leds/blue delay_on
+<6>[    1.732099] (1)[69:ueventd]init: /sys/ rule /sys/devices/platform/leds-mt65xx/leds/blue delay_off
+<6>[    1.732209] (1)[69:ueventd]socket_create[1152]:fd=4 
+<6>[    1.759312] (1)[69:ueventd]init: fixup /sys/devices/virtual/input/input1/enable 0 1004 0660
+<6>[    1.759398] (1)[69:ueventd]init: fixup /sys/devices/virtual/input/input1/poll_delay 0 1004 0660
+<6>[    1.759655] (1)[69:ueventd]init: fixup /sys/devices/virtual/input/input1/event1/enable 0 1004 0660
+<6>[    1.759718] (1)[69:ueventd]init: fixup /sys/devices/virtual/input/input1/event1/poll_delay 0 1004 0660
+<6>[    1.760364] (1)[69:ueventd]init: fixup /sys/devices/virtual/input/input2/enable 0 1004 0660
+<6>[    1.760429] (1)[69:ueventd]init: fixup /sys/devices/virtual/input/input2/poll_delay 0 1004 0660
+<6>[    1.760680] (1)[69:ueventd]init: fixup /sys/devices/virtual/input/input2/event2/enable 0 1004 0660
+<6>[    1.760747] (1)[69:ueventd]init: fixup /sys/devices/virtual/input/input2/event2/poll_delay 0 1004 0660
+<6>[    1.761075] (1)[69:ueventd]init: fixup /sys/devices/virtual/input/input3/enable 0 1004 0660
+<6>[    1.761134] (1)[69:ueventd]init: fixup /sys/devices/virtual/input/input3/poll_delay 0 1004 0660
+<6>[    1.761356] (1)[69:ueventd]init: fixup /sys/devices/virtual/input/input3/event3/enable 0 1004 0660
+<6>[    1.761418] (1)[69:ueventd]init: fixup /sys/devices/virtual/input/input3/event3/poll_delay 0 1004 0660
+<6>[    1.761664] (1)[69:ueventd]init: fixup /sys/devices/virtual/input/input3/mouse0/enable 0 1004 0660
+<6>[    1.761725] (1)[69:ueventd]init: fixup /sys/devices/virtual/input/input3/mouse0/poll_delay 0 1004 0660
+<6>[    1.762029] (1)[69:ueventd]init: fixup /sys/devices/virtual/input/input4/enable 0 1004 0660
+<6>[    1.762087] (1)[69:ueventd]init: fixup /sys/devices/virtual/input/input4/poll_delay 0 1004 0660
+<6>[    1.762309] (1)[69:ueventd]init: fixup /sys/devices/virtual/input/input4/event4/enable 0 1004 0660
+<6>[    1.762377] (1)[69:ueventd]init: fixup /sys/devices/virtual/input/input4/event4/poll_delay 0 1004 0660
+<6>[    1.774569] (1)[69:ueventd]init: adding platform device Accdet_Driver
+<6>[    1.774755] (1)[69:ueventd]init: adding platform device mt_ahb_abt
+<6>[    1.774902] (1)[69:ueventd]init: adding platform device mtk_vibrator
+<6>[    1.775048] (1)[69:ueventd]init: adding platform device MTK_SMI.0
+<6>[    1.775193] (1)[69:ueventd]init: adding platform device mtkfb_vsync.0
+<6>[    1.775361] (1)[69:ueventd]init: adding platform device mt3326-gps
+<6>[    1.775512] (1)[69:ueventd]init: adding platform device mtk_btif
+<6>[    1.775655] (1)[69:ueventd]init: adding platform device hid-keyboard
+<6>[    1.776028] (1)[69:ueventd]init: adding platform device mmp.0
+<6>[    1.776217] (1)[69:ueventd]init: adding platform device M4U_device.0
+<6>[    1.776364] (1)[69:ueventd]init: adding platform device image_sensor_bus2
+<6>[    1.776525] (1)[69:ueventd]init: adding platform device battery_meter
+<6>[    1.776689] (1)[69:ueventd]init: adding platform device image_sensor
+<6>[    1.776839] (1)[69:ueventd]init: adding platform device alarmtimer
+<6>[    1.777059] (1)[69:ueventd]init: adding platform device mt-cpufreq
+<6>[    1.777228] (1)[69:ueventd]init: adding platform device mt-i2c.0
+<6>[    1.777640] (1)[69:ueventd]init: adding platform device mt-i2c.1
+<6>[    1.778818] (1)[69:ueventd]init: adding platform device sim-switch
+<6>[    1.778971] (1)[69:ueventd]init: adding platform device leds-mt65xx
+<6>[    1.779136] (1)[69:ueventd]init: fixup /sys/devices/platform/leds-mt65xx/leds/red/delay_on 1000 1000 0664
+<6>[    1.779211] (1)[69:ueventd]init: fixup /sys/devices/platform/leds-mt65xx/leds/red/delay_off 1000 1000 0664
+<6>[    1.779409] (1)[69:ueventd]init: fixup /sys/devices/platform/leds-mt65xx/leds/blue/delay_on 1000 1000 0664
+<6>[    1.779472] (1)[69:ueventd]init: fixup /sys/devices/platform/leds-mt65xx/leds/blue/delay_off 1000 1000 0664
+<6>[    1.779669] (1)[69:ueventd]init: fixup /sys/devices/platform/leds-mt65xx/leds/green/delay_on 1000 1000 0664
+<6>[    1.779736] (1)[69:ueventd]init: fixup /sys/devices/platform/leds-mt65xx/leds/green/delay_off 1000 1000 0664
+<6>[    1.780300] (1)[69:ueventd]init: adding platform device dummy_eeprom.0
+<6>[    1.780449] (1)[69:ueventd]init: adding platform device mali-utgard.0
+<6>[    1.780840] (1)[69:ueventd]init: adding platform device mt-pwm.0
+<6>[    1.780994] (1)[69:ueventd]init: adding platform device mt-spi.0
+<6>[    1.781444] (1)[69:ueventd]init: adding platform device dummy_cam_cal.0
+<6>[    1.781593] (1)[69:ueventd]init: adding platform device als_ps
+<6>[    1.781750] (1)[69:ueventd]init: adding platform device fiq_debugger
+<6>[    1.781897] (1)[69:ueventd]init: adding platform device ccci-helper.0
+<6>[    1.782043] (1)[69:ueventd]init: adding platform device mt-auxadc
+<6>[    1.782244] (1)[69:ueventd]init: adding platform device mt-gpio
+<6>[    1.782393] (1)[69:ueventd]init: adding platform device mt-pmic
+<6>[    1.782590] (1)[69:ueventd]init: adding platform device mt-wifi
+<6>[    1.782739] (1)[69:ueventd]init: adding platform device mt-i2cd.0
+<6>[    1.782903] (1)[69:ueventd]init: adding platform device msensor
+<6>[    1.783056] (1)[69:ueventd]init: adding platform device mtk-kpd
+<6>[    1.783905] (1)[69:ueventd]init: adding platform device mtk-ptp
+<6>[    1.784066] (1)[69:ueventd]init: adding platform device mtk-tpd
+<6>[    1.784214] (1)[69:ueventd]init: adding platform device mtkfb.0
+<6>[    1.784615] (1)[69:ueventd]init: adding platform device mt-rtc
+<6>[    1.784988] (1)[69:ueventd]init: adding platform device pmic_mt6323
+<6>[    1.785149] (1)[69:ueventd]init: adding platform device AudDrv_driver_device.0
+<6>[    1.785324] (1)[69:ueventd]init: adding platform device mt_usb
+<6>[    1.786489] (1)[69:ueventd]init: adding platform device USB_ACM_Temp_Driver
+<6>[    1.786648] (1)[69:ueventd]init: adding platform device gsensor
+<6>[    1.786808] (1)[69:ueventd]init: adding platform device dummy_char.0
+<6>[    1.786955] (1)[69:ueventd]init: adding platform device mtk-spm-mcdi
+<6>[    1.787103] (1)[69:ueventd]init: adding platform device swsusp-helper
+<6>[    1.787254] (1)[69:ueventd]init: adding platform device android_pmem.1
+<6>[    1.787426] (1)[69:ueventd]init: adding platform device battery
+<6>[    1.788180] (1)[69:ueventd]init: adding platform device pmic_wrap
+<6>[    1.788339] (1)[69:ueventd]init: adding platform device mtk-golden-setting
+<6>[    1.788487] (1)[69:ueventd]init: adding platform device orientation
+<6>[    1.788648] (1)[69:ueventd]init: adding platform device camera-isp.0
+<6>[    1.788795] (1)[69:ueventd]init: adding platform device mtk-wdt.0
+<6>[    1.788946] (1)[69:ueventd]init: adding platform device mtk-msdc.0
+<6>[    1.789421] (1)[69:ueventd]init: found platform device mtk-msdc.0
+<6>[    1.790339] (1)[69:ueventd]init: found platform device mtk-msdc.0
+<6>[    1.790859] (1)[69:ueventd]init: found platform device mtk-msdc.0
+<6>[    1.791234] (1)[69:ueventd]init: found platform device mtk-msdc.0
+<6>[    1.791570] (1)[69:ueventd]init: found platform device mtk-msdc.0
+<6>[    1.791932] (1)[69:ueventd]init: found platform device mtk-msdc.0
+<6>[    1.792271] (1)[69:ueventd]init: found platform device mtk-msdc.0
+<6>[    1.792612] (1)[69:ueventd]init: found platform device mtk-msdc.0
+<6>[    1.793099] (1)[69:ueventd]init: found platform device mtk-msdc.0
+<6>[    1.793575] (1)[69:ueventd]init: found platform device mtk-msdc.0
+<6>[    1.794195] (1)[69:ueventd]init: adding platform device mtk-msdc.1
+<6>[    1.794611] (1)[69:ueventd]init: found platform device mtk-msdc.1
+<6>[    1.794872] (1)[69:ueventd]init: found platform device mtk-msdc.1
+<6>[    1.795537] (1)[69:ueventd]init: adding platform device mtk-thermal
+<6>[    1.795703] (1)[69:ueventd]init: adding platform device AudioMTKBTCVSD.0
+<6>[    1.795858] (1)[69:ueventd]init: adding platform device kd_camera_flashlight.0
+<6>[    1.796007] (1)[69:ueventd]init: adding platform device ion-drv.0
+<6>[    1.796172] (1)[69:ueventd]init: adding platform device regulatory.0
+<6>[    1.796318] (1)[69:ueventd]init: adding platform device mtk-therm-mon
+<6>[    1.796464] (1)[69:ueventd]init: adding platform device mtk-uart.0
+<6>[    1.796849] (1)[69:ueventd]init: adding platform device mtk-uart.1
+<6>[    1.797236] (1)[69:ueventd]init: adding platform device mtk_almk.0
+<6>[    1.797392] (1)[69:ueventd]init: adding platform device lens_actuator
+<6>[    1.797538] (1)[69:ueventd]init: adding platform device hwmsensor
+<6>[    1.797687] (1)[69:ueventd]init: adding platform device mt-battery
+<6>[    1.797851] (1)[69:ueventd]init: adding platform device mtk_disp.0
+<6>[    1.798000] (1)[69:ueventd]init: adding platform device camera-pipemgr
+<6>[    1.798223] (1)[69:ueventd]init: adding platform device mt-freqhopping
+<6>[    1.799855] (1)[1:init]init: command 'wait_for_coldboot_done' r=0
+<6>[    1.799886] (1)[1:init]init: processing action 0x3b1a0 (keychord_init)
+<6>[    1.799906] (1)[1:init]init: command 'keychord_init' r=0
+<6>[    1.799937] (1)[1:init]init: processing action 0x3b1e8 (console_init)
+<6>[    1.800039] (1)[1:init]init: command 'console_init' r=0
+<6>[    1.800064] (1)[1:init]init: processing action 0x342d8 (init)
+<6>[    1.800180] (1)[1:init]init: command 'write' r=0
+<6>[    1.800202] (1)[1:init]init: processing action 0x36ed0 (init)
+<6>[    1.800263] (1)[1:init]init: command 'sysclktz' r=0
+<4>[    1.800322] (1)[1:init]BOOTPROF:      1800.316537:INIT: on init start
+<4>[    1.891388] (0)[1:init]BOOTPROF:      1891.371153:INIT:eMMC:Mount_START
+<7>[    1.891999] (0)[1:init][1:init] fork [70:init]
+<7>[    1.892874] (0)[70:e2fsck][exec] /sbin/e2fsck(3)
+<7>[    1.900788] (0)[70:e2fsck][70:e2fsck] exit
+<7>[    1.900950] (0)[70:e2fsck][70:e2fsck] sig 17 to [1:init]
+<7>[    1.906312] (0)[2:kthreadd][2:kthreadd] fork [71:kthreadd]
+<7>[    1.906447] (1)[2:kthreadd][2:kthreadd] fork [72:kthreadd]
+<7>[    1.907682] (1)[2:kthreadd][2:kthreadd] fork [73:kthreadd]
+<6>[    1.907793] (1)[1:init]EXT4-fs (mmcblk0p4): mounted filesystem with ordered data mode. Opts: commit=1,noauto_da_alloc
+<7>[    1.908953] (0)[2:kthreadd][2:kthreadd] fork [74:kthreadd]
+<6>[    1.927446] (0)[1:init]EXT4-fs (mmcblk0p4): re-mounted. Opts: (null)
+<7>[    1.928791] (0)[1:init][1:init] fork [75:init]
+<7>[    1.929428] (0)[75:e2fsck][exec] /sbin/e2fsck(3)
+<7>[    3.011665] (0)[75:e2fsck][75:e2fsck] exit
+<7>[    3.011933] (0)[75:e2fsck][75:e2fsck] sig 17 to [1:init]
+<7>[    3.012369] (1)[1:init][1:init] fork [76:init]
+<7>[    3.013030] (1)[76:tune2fs][exec] /sbin/tune2fs(3)
+<7>[    3.015564] (0)[76:tune2fs][76:tune2fs] exit
+<7>[    3.015707] (0)[76:tune2fs][76:tune2fs] sig 17 to [1:init]
+<7>[    3.016015] (1)[1:init][1:init] fork [77:init]
+<7>[    3.023763] (0)[77:ext4_resize][exec] /system/bin/ext4_resize(3)
+<7>[    3.044129] (0)[77:ext4_resize][77:ext4_resize] exit
+<7>[    3.044345] (0)[77:ext4_resize][77:ext4_resize] sig 17 to [1:init]
+<4>[    3.044484] (1)[1:init][dumchar_open][init] will open /dev/block/mmcblk0 for misc!
+<7>[    3.050539] (0)[2:kthreadd][2:kthreadd] fork [78:kthreadd]
+<7>[    3.050670] (1)[2:kthreadd][2:kthreadd] fork [79:kthreadd]
+<6>[    3.051907] (0)[1:init]EXT4-fs (mmcblk0p6): mounted filesystem with ordered data mode. Opts: commit=1,nodelalloc,noauto_da_alloc
+<7>[    3.052303] (0)[1:init][1:init] fork [80:init]
+<7>[    3.062047] (0)[80:sh][exec] /system/bin/sh(3)
+<7>[    3.070783] (0)[80:sh][80:sh] fork [81:sh]
+<7>[    3.073727] (0)[81:rm][exec] /system/bin/rm(3)
+<7>[    3.078204] (0)[81:rm][81:rm] exit
+<7>[    3.078426] (0)[81:rm][81:rm] sig 17 to [80:sh]
+<7>[    3.078711] (1)[80:sh][80:sh] exit
+<7>[    3.078953] (1)[80:sh][80:sh] sig 17 to [1:init]
+<4>[    3.109712] (0)[1:init]BOOTPROF:      3109.695460:INIT:eMMC:Mount_END
+<4>[    3.109851] (0)[1:init]BOOTPROF:      3109.843999:INIT:PROTECT:Mount_START
+<7>[    3.110945] (0)[1:init][1:init] fork [82:init]
+<7>[    3.111581] (0)[82:e2fsck][exec] /sbin/e2fsck(3)
+<7>[    3.162795] (0)[82:e2fsck][82:e2fsck] exit
+<7>[    3.162966] (0)[82:e2fsck][82:e2fsck] sig 17 to [1:init]
+<7>[    3.163350] (1)[1:init][1:init] fork [83:init]
+<7>[    3.164927] (1)[83:tune2fs][exec] /sbin/tune2fs(3)
+<7>[    3.167434] (0)[83:tune2fs][83:tune2fs] exit
+<7>[    3.167568] (0)[83:tune2fs][83:tune2fs] sig 17 to [1:init]
+<7>[    3.172779] (1)[2:kthreadd][2:kthreadd] fork [84:kthreadd]
+<7>[    3.172906] (0)[2:kthreadd][2:kthreadd] fork [85:kthreadd]
+<6>[    3.174136] (0)[1:init]EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: commit=1,nodelalloc,noauto_da_alloc
+<7>[    3.174707] (0)[1:init][1:init] fork [86:init]
+<7>[    3.175339] (1)[86:e2fsck][exec] /sbin/e2fsck(3)
+<7>[    3.216625] (0)[86:e2fsck][86:e2fsck] exit
+<7>[    3.216783] (0)[86:e2fsck][86:e2fsck] sig 17 to [1:init]
+<7>[    3.217158] (1)[1:init][1:init] fork [87:init]
+<7>[    3.217834] (1)[87:tune2fs][exec] /sbin/tune2fs(3)
+<7>[    3.220376] (0)[87:tune2fs][87:tune2fs] exit
+<7>[    3.220493] (0)[87:tune2fs][87:tune2fs] sig 17 to [1:init]
+<7>[    3.225711] (0)[2:kthreadd][2:kthreadd] fork [88:kthreadd]
+<7>[    3.225834] (1)[2:kthreadd][2:kthreadd] fork [89:kthreadd]
+<6>[    3.227075] (0)[1:init]EXT4-fs (mmcblk0p3): mounted filesystem with ordered data mode. Opts: commit=1,nodelalloc,noauto_da_alloc
+<4>[    3.227202] (0)[1:init]BOOTPROF:      3227.194691:INIT:PROTECT:Mount_END
+<4>[    3.239716] (0)[1:init][ASF] version 'Thu Nov 1 17:35:20 CST 2012(ASF.JB.6589)', enter.
+<5>[    3.240945] (0)[1:init][DEVINFO]  init
+<7>[    3.242000] (0)[1:init][1:init] fork [90:init]
+<7>[    3.250742] (0)[90:partition_permi][exec] /system/etc/partition_permission.sh(3)
+<7>[    3.254104] (0)[90:partition_permi][90:partition_permi] fork [91:partition_permi]
+<7>[    3.255145] (0)[91:chown][exec] /system/bin/chown(3)
+<7>[    3.258742] (0)[91:chown][91:chown] exit
+<7>[    3.258951] (0)[91:chown][91:chown] sig 17 to [90:partition_permi]
+<7>[    3.259543] (1)[90:partition_permi][90:partition_permi] fork [92:partition_permi]
+<7>[    3.260608] (1)[92:chmod][exec] /system/bin/chmod(3)
+<7>[    3.263464] (1)[92:chmod][92:chmod] exit
+<7>[    3.263689] (1)[92:chmod][92:chmod] sig 17 to [90:partition_permi]
+<7>[    3.264196] (1)[90:partition_permi][90:partition_permi] fork [93:partition_permi]
+<7>[    3.265178] (1)[93:chown][exec] /system/bin/chown(3)
+<7>[    3.268076] (1)[93:chown][93:chown] exit
+<7>[    3.268285] (1)[93:chown][93:chown] sig 17 to [90:partition_permi]
+<7>[    3.268816] (1)[90:partition_permi][90:partition_permi] fork [94:partition_permi]
+<7>[    3.269852] (1)[94:chmod][exec] /system/bin/chmod(3)
+<7>[    3.272680] (1)[94:chmod][94:chmod] exit
+<7>[    3.272925] (1)[94:chmod][94:chmod] sig 17 to [90:partition_permi]
+<7>[    3.273453] (1)[90:partition_permi][90:partition_permi] fork [95:partition_permi]
+<7>[    3.274458] (1)[95:chown][exec] /system/bin/chown(3)
+<7>[    3.277346] (1)[95:chown][95:chown] exit
+<7>[    3.277552] (1)[95:chown][95:chown] sig 17 to [90:partition_permi]
+<7>[    3.278233] (0)[90:partition_permi][90:partition_permi] fork [96:partition_permi]
+<7>[    3.279244] (0)[96:chmod][exec] /system/bin/chmod(3)
+<7>[    3.282834] (0)[96:chmod][96:chmod] exit
+<7>[    3.283031] (0)[96:chmod][96:chmod] sig 17 to [90:partition_permi]
+<7>[    3.283556] (1)[90:partition_permi][90:partition_permi] fork [97:partition_permi]
+<7>[    3.284555] (1)[97:chown][exec] /system/bin/chown(3)
+<7>[    3.287453] (1)[97:chown][97:chown] exit
+<7>[    3.287656] (1)[97:chown][97:chown] sig 17 to [90:partition_permi]
+<7>[    3.288354] (0)[90:partition_permi][90:partition_permi] fork [98:partition_permi]
+<7>[    3.289351] (0)[98:chmod][exec] /system/bin/chmod(3)
+<7>[    3.292891] (0)[98:chmod][98:chmod] exit
+<7>[    3.293088] (0)[98:chmod][98:chmod] sig 17 to [90:partition_permi]
+<7>[    3.293616] (1)[90:partition_permi][90:partition_permi] fork [99:partition_permi]
+<7>[    3.294632] (1)[99:chown][exec] /system/bin/chown(3)
+<7>[    3.297528] (1)[99:chown][99:chown] exit
+<7>[    3.297735] (1)[99:chown][99:chown] sig 17 to [90:partition_permi]
+<7>[    3.298413] (0)[90:partition_permi][90:partition_permi] fork [100:partition_permi]
+<7>[    3.299420] (0)[100:chmod][exec] /system/bin/chmod(3)
+<7>[    3.302998] (0)[100:chmod][100:chmod] exit
+<7>[    3.303197] (0)[100:chmod][100:chmod] sig 17 to [90:partition_permi]
+<7>[    3.303728] (1)[90:partition_permi][90:partition_permi] fork [101:partition_permi]
+<7>[    3.304720] (1)[101:chown][exec] /system/bin/chown(3)
+<7>[    3.307629] (1)[101:chown][101:chown] exit
+<7>[    3.307831] (1)[101:chown][101:chown] sig 17 to [90:partition_permi]
+<7>[    3.308354] (1)[90:partition_permi][90:partition_permi] fork [102:partition_permi]
+<7>[    3.309354] (1)[102:chmod][exec] /system/bin/chmod(3)
+<7>[    3.312283] (1)[102:chmod][102:chmod] exit
+<7>[    3.312487] (1)[102:chmod][102:chmod] sig 17 to [90:partition_permi]
+<7>[    3.312994] (1)[90:partition_permi][90:partition_permi] fork [103:partition_permi]
+<7>[    3.313987] (1)[103:chown][exec] /system/bin/chown(3)
+<7>[    3.316952] (1)[103:chown][103:chown] exit
+<7>[    3.317159] (1)[103:chown][103:chown] sig 17 to [90:partition_permi]
+<7>[    3.317661] (1)[90:partition_permi][90:partition_permi] fork [104:partition_permi]
+<7>[    3.318670] (1)[104:chmod][exec] /system/bin/chmod(3)
+<7>[    3.321571] (1)[104:chmod][104:chmod] exit
+<7>[    3.321776] (1)[104:chmod][104:chmod] sig 17 to [90:partition_permi]
+<7>[    3.322292] (1)[90:partition_permi][90:partition_permi] fork [105:partition_permi]
+<7>[    3.323285] (1)[105:chown][exec] /system/bin/chown(3)
+<7>[    3.326154] (1)[105:chown][105:chown] exit
+<7>[    3.326358] (1)[105:chown][105:chown] sig 17 to [90:partition_permi]
+<7>[    3.326867] (1)[90:partition_permi][90:partition_permi] fork [106:partition_permi]
+<7>[    3.327859] (1)[106:chmod][exec] /system/bin/chmod(3)
+<7>[    3.330751] (1)[106:chmod][106:chmod] exit
+<7>[    3.330948] (1)[106:chmod][106:chmod] sig 17 to [90:partition_permi]
+<7>[    3.331388] (0)[90:partition_permi][90:partition_permi] exit
+<7>[    3.331607] (0)[90:partition_permi][90:partition_permi] sig 17 to [1:init]
+<3>[    3.341043] (0)[1:init][WMT-DEV][I]WMT_init:WMT Version= SOC Consys WMT Driver - v1.0 DATE=2013/01/20
+<4>[    3.341076] (0)[1:init][STP-PSM] [I]stp_psm_init: psm init
+<7>[    3.341194] (1)[2:kthreadd][2:kthreadd] fork [107:kthreadd]
+<4>[    3.341244] (1)[1:init][STP-PSM] [I]_stp_psm_init_monitor: init monitor
+<4>[    3.341277] (0)[107:mtk_stp_psm][STP-PSM] [I]_stp_psm_notify_wmt: In ACT state, dont do WAKEUP/HOST_AWAKE again
+<7>[    3.341342] (0)[2:kthreadd][2:kthreadd] fork [108:kthreadd]
+<4>[    3.341383] (0)[1:init][STPDbg]stp_dbg_init: stp-dbg init
+<4>[    3.341675] (0)[1:init][STPDbg]wcn_compressor_init: create compressor OK! L1 32768 bytes, L2 393216 bytes
+<4>[    3.341695] (0)[1:init][STPDbg]wcn_compressor_reset: OK! compress algorithm 0
+<4>[    3.341710] (0)[1:init][STPDbg]wcn_core_dump_init: create coredump object OK!
+<7>[    3.341734] (0)[1:init][STP] mtk_wcn_stp_dbg_enable:[I] STP dbg mode is turned on
+<3>[    3.341755] (0)[1:init][WMT-DEV][I]WMT_init:driver(major 190) installed 
+<3>[    3.341776] (0)[1:init][WMT-CONF][I]wmt_conf_read_file:WMT config file:/system/etc/firmware/WMT_SOC.cfg
+<3>[    3.342770] (0)[1:init][WMT-CONF][I]wmt_conf_read_file:get full file name(/system/etc/firmware/WMT_SOC.cfg) buf(0xdf9f4000) size(79)
+<3>[    3.342813] (0)[1:init][WMT-CONF][W]wmt_conf_parse:parse (coex_wmt_ant_mode, 1, 0)
+<3>[    3.342834] (0)[1:init][WMT-CONF][W]wmt_conf_parse:parse (wmt_gps_lna_pin, 0, 0)
+<3>[    3.342853] (0)[1:init][WMT-CONF][W]wmt_conf_parse:parse (wmt_gps_lna_enable, 0, 0)
+<3>[    3.342872] (0)[1:init][WMT-CONF][W]wmt_conf_parse:parse (co_clock_flag, 0, 0)
+<3>[    3.342895] (0)[1:init][WMT-CONF][I]wmt_conf_parse:#0(coex_wmt_ant_mode)=>0x1
+<3>[    3.342923] (0)[1:init][WMT-CONF][I]wmt_conf_parse:#1(coex_wmt_wifi_time_ctl)=>0x0
+<3>[    3.342946] (0)[1:init][WMT-CONF][I]wmt_conf_parse:#2(coex_wmt_ext_pta_dev_on)=>0x0
+<3>[    3.342970] (0)[1:init][WMT-CONF][I]wmt_conf_parse:#3(coex_bt_rssi_upper_limit)=>0x0
+<3>[    3.343002] (0)[1:init][WMT-CONF][I]wmt_conf_parse:#4(coex_bt_rssi_mid_limit)=>0x0
+<3>[    3.343028] (0)[1:init][WMT-CONF][I]wmt_conf_parse:#5(coex_bt_rssi_lower_limit)=>0x0
+<3>[    3.343052] (0)[1:init][WMT-CONF][I]wmt_conf_parse:#6(coex_bt_pwr_high)=>0x0
+<3>[    3.343075] (0)[1:init][WMT-CONF][I]wmt_conf_parse:#7(coex_bt_pwr_mid)=>0x0
+<3>[    3.343097] (0)[1:init][WMT-CONF][I]wmt_conf_parse:#8(coex_bt_pwr_low)=>0x0
+<3>[    3.343119] (0)[1:init][WMT-CONF][I]wmt_conf_parse:#9(coex_wifi_rssi_upper_limit)=>0x0
+<3>[    3.343143] (0)[1:init][WMT-CONF][I]wmt_conf_parse:#10(coex_wifi_rssi_mid_limit)=>0x0
+<3>[    3.343166] (0)[1:init][WMT-CONF][I]wmt_conf_parse:#11(coex_wifi_rssi_lower_limit)=>0x0
+<3>[    3.343189] (0)[1:init][WMT-CONF][I]wmt_conf_parse:#12(coex_wifi_pwr_high)=>0x0
+<3>[    3.343211] (0)[1:init][WMT-CONF][I]wmt_conf_parse:#13(coex_wifi_pwr_mid)=>0x0
+<3>[    3.343235] (0)[1:init][WMT-CONF][I]wmt_conf_parse:#14(coex_wifi_pwr_low)=>0x0
+<3>[    3.343268] (0)[1:init][WMT-CONF][I]wmt_conf_parse:#15(coex_ext_pta_hi_tx_tag)=>0x0
+<3>[    3.343293] (0)[1:init][WMT-CONF][I]wmt_conf_parse:#16(coex_ext_pta_hi_rx_tag)=>0x0
+<3>[    3.343317] (0)[1:init][WMT-CONF][I]wmt_conf_parse:#17(coex_ext_pta_lo_tx_tag)=>0x0
+<3>[    3.343340] (0)[1:init][WMT-CONF][I]wmt_conf_parse:#18(coex_ext_pta_lo_rx_tag)=>0x0
+<3>[    3.343364] (0)[1:init][WMT-CONF][I]wmt_conf_parse:#19(coex_ext_pta_sample_t1)=>0x0
+<3>[    3.343387] (0)[1:init][WMT-CONF][I]wmt_conf_parse:#20(coex_ext_pta_sample_t2)=>0x0
+<3>[    3.343410] (0)[1:init][WMT-CONF][I]wmt_conf_parse:#21(coex_ext_pta_wifi_bt_con_trx)=>0x0
+<3>[    3.343434] (0)[1:init][WMT-CONF][I]wmt_conf_parse:#22(coex_misc_ext_pta_on)=>0x0
+<3>[    3.343457] (0)[1:init][WMT-CONF][I]wmt_conf_parse:#23(coex_misc_ext_feature_set)=>0x0
+<3>[    3.343480] (0)[1:init][WMT-CONF][I]wmt_conf_parse:#24(wmt_gps_lna_pin)=>0x0
+<3>[    3.343502] (0)[1:init][WMT-CONF][I]wmt_conf_parse:#25(wmt_gps_lna_enable)=>0x0
+<3>[    3.343525] (0)[1:init][WMT-CONF][I]wmt_conf_parse:#26(pwr_on_rtc_slot)=>0x0
+<3>[    3.343547] (0)[1:init][WMT-CONF][I]wmt_conf_parse:#27(pwr_on_ldo_slot)=>0x0
+<3>[    3.343569] (0)[1:init][WMT-CONF][I]wmt_conf_parse:#28(pwr_on_rst_slot)=>0x0
+<3>[    3.343591] (0)[1:init][WMT-CONF][I]wmt_conf_parse:#29(pwr_on_off_slot)=>0x0
+<3>[    3.343614] (0)[1:init][WMT-CONF][I]wmt_conf_parse:#30(pwr_on_on_slot)=>0x0
+<3>[    3.343635] (0)[1:init][WMT-CONF][I]wmt_conf_parse:#31(co_clock_flag)=>0x0
+<3>[    3.343658] (0)[1:init][WMT-CONF][I]wmt_conf_parse:#32(sdio_driving_cfg)=>0x0
+<3>[    3.343679] (0)[1:init][WMT-CONF][I]wmt_conf_read_file:&gDevWmt.rWmtGenConf=bf05a460
+<7>[    3.343761] (1)[2:kthreadd][2:kthreadd] fork [109:kthreadd]
+<3>[    3.343812] (1)[1:init][WMT-LIB][I]wmt_lib_init:***********Init, hw->ver = 6
+<7>[    3.343830] (1)[1:init][cmb_stub] registered, p_stub_cb:0xdf4d1e1c size(20)
+<3>[    3.343868] (1)[1:init][WMT-CONSYS-HW][I]mtk_wcn_consys_hw_init:EMI mapping OK(0xdfa80000)
+<3>[    3.344256] (0)[109:mtk_wmtd][WMT-LIB][I]wmtd_thread:wmtd thread starts
+<3>[    3.344291] (1)[1:init][WMT-DEV][I]WMT_init:wmt_dev register thermal cb
+<6>[    3.344323] (1)[1:init][BGW] bgw_init_socket: netlink_kernel_create ok
+<3>[    3.344335] (1)[1:init][WMT-DEV][I]WMT_init:success 
+<1>[    3.345741] (0)[1:init]mtk_stp_GPS_chrdev driver(major 191) installed.
+<4>[    3.346990] (0)[1:init][MTK-BT] BT_init: mtk_stp_BT_chrdev driver(major 192) installed.
+<4>[    3.347012] (0)[1:init]Flush type = 0 Rx Queue
+<7>[    3.351943] (0)[1:init][FM_NTC | MAIN]fm_env_setup
+<7>[    3.351963] (0)[1:init][FM_NTC | MAIN]1. fm callback registered
+<7>[    3.351984] (0)[1:init][FM_NTC | MAIN]2. fm low ops registered
+<7>[    3.351995] (0)[1:init][FM_NTC | MAIN]3. fm rds ops registered
+<7>[    3.352009] (0)[1:init][FM_NTC | MAIN]4. fm locks created
+<7>[    3.352021] (0)[1:init][FM_NTC | MAIN]5. fm timer created
+<7>[    3.352034] (0)[1:init][FM_NTC | LINK]fm link setup
+<7>[    3.352059] (0)[1:init][FM_NTC | LINK]cmd_fifo created
+<7>[    3.352081] (0)[1:init][FM_NTC | LINK]evt_fifo created
+<6>[    3.352239] (1)[69:ueventd]init: adding platform device fm
+<7>[    3.352404] (0)[1:init][FM_NTC | MAIN]mt_fm_probe
+<7>[    3.352419] (0)[1:init][FM_NTC | MAIN]pwr state set to 0
+<7>[    3.352527] (1)[2:kthreadd][2:kthreadd] fork [110:kthreadd]
+<7>[    3.352625] (1)[2:kthreadd][2:kthreadd] fork [111:kthreadd]
+<7>[    3.352670] (1)[1:init][FM_NTC | MAIN]MT6627 FM default config
+<7>[    3.352683] (1)[1:init][FM_NTC | MAIN]MT6627 rssi_l:	-296
+<7>[    3.352694] (1)[1:init][FM_NTC | MAIN]MT6627 rssi_s:	-296
+<7>[    3.352704] (1)[1:init][FM_NTC | MAIN]MT6627 pamd_th:	-12
+<7>[    3.352714] (1)[1:init][FM_NTC | MAIN]MT6627 mr_th:	-67
+<7>[    3.352724] (1)[1:init][FM_NTC | MAIN]MT6627 atdc_th:	3496
+<7>[    3.352734] (1)[1:init][FM_NTC | MAIN]MT6627 prx_th:	64
+<7>[    3.352744] (1)[1:init][FM_NTC | MAIN]MT6627 atdev_th:	0
+<7>[    3.352754] (1)[1:init][FM_NTC | MAIN]MT6627 smg_th:	16421
+<7>[    3.352764] (1)[1:init][FM_NTC | MAIN]de_emphasis:	0
+<7>[    3.352774] (1)[1:init][FM_NTC | MAIN]osc_freq:	0
+<7>[    3.353447] (0)[1:init][FM_NTC | CHIP]open "etc/fmr/mt6627_fm_cust.cfg" ok
+<7>[    3.353852] (0)[1:init][FM_NTC | CHIP]read "etc/fmr/mt6627_fm_cust.cfg" part data
+<7>[    3.353891] (0)[1:init][FM_NTC | MAIN]MT6627 FM cust config
+<7>[    3.353903] (0)[1:init][FM_NTC | MAIN]MT6627 rssi_l:	-296
+<7>[    3.353913] (0)[1:init][FM_NTC | MAIN]MT6627 rssi_s:	-296
+<7>[    3.353924] (0)[1:init][FM_NTC | MAIN]MT6627 pamd_th:	-12
+<7>[    3.353933] (0)[1:init][FM_NTC | MAIN]MT6627 mr_th:	-67
+<7>[    3.353943] (0)[1:init][FM_NTC | MAIN]MT6627 atdc_th:	3496
+<7>[    3.353953] (0)[1:init][FM_NTC | MAIN]MT6627 prx_th:	64
+<7>[    3.353963] (0)[1:init][FM_NTC | MAIN]MT6627 atdev_th:	0
+<7>[    3.353973] (0)[1:init][FM_NTC | MAIN]MT6627 smg_th:	16421
+<7>[    3.353983] (0)[1:init][FM_NTC | MAIN]de_emphasis:	0
+<7>[    3.353992] (0)[1:init][FM_NTC | MAIN]osc_freq:	0
+<7>[    3.354007] (0)[1:init][FM_NTC | MAIN]alloc fm:193:0
+<7>[    3.354056] (0)[1:init][FM_NTC | MAIN]create_proc_entry success
+<7>[    3.354154] (0)[1:init][FM_NTC | MAIN]6. fm platform driver registered
+<4>[    3.355203] (0)[1:init][MTK-WIFI] WIFI_init: mtk_wmt_WIFI_chrdev driver(major 153) installed.
+<4>[    3.355503] (0)[1:init]BOOTPROF:      3355.494230:post-fs: on meta modem start
+<3>[    3.360286] (0)[1:init][ccci/com] (0)Ver. v1.4 20120618, @ Jul 16 2015 16:13:57
+<3>[    3.360313] (0)[1:init][ccci/com] (0)kernel base:0x80100000, kernel max addr:0xA0000000
+<4>[    3.360329] (0)[1:init][ASF] 'Thu Nov 1 17:35:20 CST 2012(ASF.JB.6589)'
+<4>[    3.360371] (0)[1:init][ASF.USIF] open /proc/dumchar_info
+<4>[    3.360531] (0)[1:init][ASF.USIF] RN = 2
+<4>[    3.360543] (0)[1:init][ASF.USIF] usif enabled
+<4>[    3.360597] (0)[1:init][ASF.DEV] open /proc/dumchar_info
+<4>[    3.360785] (0)[1:init]search starts from '0x0'
+<4>[    3.360799] (0)[1:init]dev  0, 0x00000000, 0x00000000
+<4>[    3.360828] (0)[1:init]usif part path /dev/preloader
+<4>[    3.360842] (0)[1:init][ASF.DEV] open '/dev/preloader'
+<4>[    3.360874] (0)[1:init][dumchar_open][init] will open /dev/misc-sd for preloader!
+<5>[    3.369124] (0)[0:swapper/0][Power/Battery] ******** battery : bat_thread_wakeup  ********
+<5>[    3.369187] (1)[45:bat_thread_kthr][Power/Battery] [BAT_thread]Cable in, CHR_Type_num=1
+<4>[    3.374999] (0)[1:init][ASF.DEV] ROM INFO ver '0x2'. ID 'AND_ROMINFO_v'
+<4>[    3.375017] (0)[1:init][ASF.DEV] 0x22, 0x22
+<4>[    3.375030] (0)[1:init][ASF] ROM INFO is found
+<4>[    3.375042] (0)[1:init][ASF.DEV] SECRO v3 image len '0x3000'
+<4>[    3.375056] (0)[1:init]dev 11, 0x00000000, 0x00000000
+<4>[    3.375098] (0)[1:init]usif part path /dev/sec_ro
+<4>[    3.375135] (0)[1:init][dumchar_open][init] will open /dev/block/mmcblk0 for sec_ro!
+<4>[    3.375877] (0)[1:init][ASF.DEV]keep sro v3 off: 0x0
+<4>[    3.375922] (0)[1:init][ASF.DEV] SECRO v3 img is found (lock)
+<4>[    3.375937] (0)[1:init]0x41,0x41,0x41,0x41,
+<4>[    3.375964] (0)[1:init]0x22, NSC
+<4>[    3.375975] (0)[1:init]0x41,0x41,0x41,0x41,
+<4>[    3.377169] (0)[1:init][ASF] SECRO hash check pass
+<4>[    3.377182] (0)[1:init]0x22, NSC
+<4>[    3.377192] (0)[1:init]0x41,0x41,0x41,0x41,
+<4>[    3.377223] (0)[1:init]0x41,0x33,0x31,0x32,
+<4>[    3.377250] (0)[1:init]
+<4>[    3.377255] (0)[1:init][AES_EXPORT] SO
+<4>[    3.377281] (0)[1:init]0x2b3112a3
+<4>[    3.377291] (0)[1:init]0x6c8d3259
+<4>[    3.377340] (0)[1:init]0x39,0x32,0x41,0x41,
+<4>[    3.379800] (0)[1:init]Mali<2>: _mali_pm_callback (0)
+<4>[    3.379827] (0)[1:init]Mali<2>: Mali PM: Runtime suspend
+<4>[    3.379847] (0)[1:init]Mali<1>: Mali platform: Got MALI_POWER_MODE_DEEP_SLEEP event, powering off
+<4>[    3.379867] (0)[1:init]Mali<2>: [+]MFG disable_clock 
+<4>[    3.379902] (0)[1:init]Mali<2>: [-]MFG disable_clock 
+<7>[    3.382241] (0)[1:init][ccci/ctl] (1)md1 share memory size: 0x001c4000
+<7>[    3.382265] (0)[1:init][ccci/ctl] (1)AP Smem remap: [9f200000]->[40000000](4f4f4f9f:4f4f4f4f)
+<7>[    3.382283] (0)[1:init][ccci/ctl] (1)MD1 Smem remap:[1f200000]->[40000000](4f4f4f1f:4f4f4f4f)
+<7>[    3.382300] (0)[1:init][ccci/ctl] (1)MD1 ROM mem remap:[1e000000]->[00000000](4f4f4f1f:4f4f4f4f)
+<3>[    3.382492] (0)[1:init][ccci/ctl] (1)md1: md_rom<P:0x9e000000><V:0xdfb22000>, md_smem<P:0x9f200000><V:0xdfc00000>
+<7>[    3.382553] (0)[1:init][ccci/cci] (1)platform_init OK!
+<7>[    3.383284] (0)[1:init][ccci/cci] (1)mk_ccci_dev_node OK!
+<7>[    3.383356] (0)[1:init][ccci/cci] (1)ccci_logic_layer_init OK!
+<7>[    3.385262] (0)[1:init][ccci/cci] (1)ccci_md_ctrl_init OK!
+<7>[    3.385285] (0)[1:init][ccci/cci] (1)ccci_chrdev_init OK!
+<7>[    3.385492] (0)[1:init][ccci/cci] (1)ccci_tty_init OK!
+<7>[    3.385515] (0)[1:init][ccci/cci] (1)ccci_ipc_init OK!
+<7>[    3.385529] (0)[1:init][ccci/cci] (1)ccci_rpc_init OK!
+<7>[    3.385548] (0)[1:init][ccci/cci] (1)ccci_fs_init OK!
+<3>[    3.385560] (0)[1:init][ccci/net] (1)ccmni driver v2
+<6>[    3.386204] (0)[1:init][mtk_net]rtmsg_ifinfo type:16, dev:ccmni0, change:4294967295, pid = 1
+<6>[    3.386818] (0)[1:init][mtk_net]rtmsg_ifinfo type:16, dev:ccmni1, change:4294967295, pid = 1
+<6>[    3.387448] (0)[1:init][mtk_net]rtmsg_ifinfo type:16, dev:ccmni2, change:4294967295, pid = 1
+<7>[    3.387523] (0)[1:init][ccci/cci] (1)ccmni_init OK!
+<7>[    3.387542] (0)[1:init][ccci/cci] (1)ccci_vir_chrdev_init OK!
+<3>[    3.387553] (0)[1:init][ccci/cci] (1)md initial OK!
+<3>[    3.387569] (0)[1:init][ccci/com] (0)ccci module init OK
+<5>[    3.393912] (0)[45:bat_thread_kthr][Power/BatMeter] [oam_run] 20,60,0,21,0,21,22,0
+<5>[    3.393944] (0)[45:bat_thread_kthr][Power/BatMeter] [oam_total_s] 78,78,78,78,78,79,79,78,78,78
+<5>[    3.393970] (0)[45:bat_thread_kthr][Power/BatMeter] [oam_init_inf] 4052, 13, 78, 22, 3986, 25
+<5>[    3.393992] (0)[45:bat_thread_kthr][Power/BatMeter] [oam_run_inf] 3987, 3986, 3993, -245, -285, 244, 245, 0, 0, 1375, 25, 22
+<5>[    3.394021] (0)[45:bat_thread_kthr][Power/BatMeter] [oam_result_inf] 22, 22, 21, 21, 22, 78
+<5>[    3.394047] (0)[45:bat_thread_kthr][Power/Battery] AvgVbat=(3992),bat_vol=(3995),AvgI=(450),I=(460),VChr=(4579),AvgT=(25),T=(25),pre_SOC=(78),SOC=(78),ZCV=(4052)
+<5>[    3.394079] (0)[45:bat_thread_kthr][Power/Battery] [BATTERY] BATTERY_NOTIFY_CASE_0001_VCHARGER (0)
+<5>[    3.394100] (0)[45:bat_thread_kthr][Power/Battery] [TestMode] Disable Safty Timer. bat_tt_enable=3, bat_thr_test_mode=0, bat_thr_test_value=0
+<5>[    3.394127] (0)[45:bat_thread_kthr][Power/Battery] [BATTERY] Pre-CC mode charge, timer=0 on 0 !!
+<4>[    3.394141] (0)[45:bat_thread_kthr]
+<6>[    3.399769] (0)[1:init]socket_create[119]:fd=5 
+<6>[    3.399965] (0)[1:init]socketpair:fd1[121]=6, fd2[122]=7 
+<7>[    3.428987] (1)[1:init][1:init] fork [112:init]
+<7>[    3.429390] (0)[112:init][exec] /remount.sh(3)
+<7>[    3.429732] (0)[112:init][112:init] exit
+<7>[    3.429895] (0)[112:init][112:init] sig 17 to [1:init]
+<6>[    3.430108] (1)[1:init]socket_create[1381]:fd=8 
+<6>[    3.430140] (1)[1:init][mtk_net_dev]devinet_ioctl cmd = 0x8914 rtnl_lock++
+<6>[    3.430155] (1)[1:init][mtk_net_dev]devinet_ioctl cmd = 0x8914 rtnl_lock--
+<6>[    3.430192] (1)[1:init][mtk_net]dev_activate dev = lo 
+<6>[    3.430208] (1)[1:init][mtk_net]rtmsg_ifinfo type:16, dev:lo, change:1, pid = 1
+<6>[    3.430273] (1)[1:init][RTlog insert]   fib_inetaddr_event()  lo NETDEV_UP!
+<6>[    3.430577] (1)[1:init][RTlog insert]   fib_netdev_event()  lo NETDEV_UP!
+<6>[    3.430722] (1)[1:init]socket_close[1381] 
+<5>[    3.430917] (1)[1:init]init: starting 'meta_tst'
+<7>[    3.431094] (1)[1:init][1:init] fork [113:init]
+<5>[    3.431312] (1)[1:init]init: starting 'nvram_daemon'
+<7>[    3.431504] (1)[1:init][1:init] fork [114:init]
+<3>[    3.431662] (1)[1:init]init: cannot find '/system/bin/featured', disabling 'featured'
+<5>[    3.431769] (1)[1:init]init: starting 'debuggerd'
+<7>[    3.431956] (1)[1:init][1:init] fork [115:init]
+<7>[    3.431987] (0)[113:meta_tst][exec] /sbin/meta_tst(3)
+<5>[    3.432178] (1)[1:init]init: starting 'mobile_log_d'
+<7>[    3.432384] (1)[1:init][1:init] fork [116:init]
+<5>[    3.432716] (1)[1:init]init: starting 'conn_launcher'
+<7>[    3.432935] (1)[1:init][1:init] fork [117:init]
+<5>[    3.433138] (1)[1:init]init: starting 'wlanLoader'
+<7>[    3.433453] (1)[1:init][1:init] fork [118:init]
+<5>[    3.433667] (1)[1:init]init: starting 'ccci_fsd'
+<7>[    3.433849] (1)[1:init][1:init] fork [119:init]
+<5>[    3.434031] (1)[1:init]init: starting 'ccci_mdinit'
+<7>[    3.434226] (1)[1:init][1:init] fork [120:init]
+<5>[    3.434486] (1)[1:init]init: starting 'vold'
+<7>[    3.434693] (1)[1:init][1:init] fork [121:init]
+<6>[    3.435225] (1)[1:init][USB] enable_store: device_attr->attr.name: enable
+<3>[    3.435256] (1)[1:init]android_usb: already disabled
+<7>[    3.435296] (0)[115:debuggerd][exec] /system/bin/debuggerd(3)
+<6>[    3.435791] (1)[1:init][USB] functions_store: 
+<5>[    3.435817] (1)[1:init][USB] functions_store: name = acm 
+<6>[    3.435921] (1)[1:init][USB] android_enable_function: name = acm, f->name=ffs 
+<6>[    3.435939] (1)[1:init][USB] android_enable_function: name = acm, f->name=adb 
+<6>[    3.435955] (1)[1:init][USB] android_enable_function: name = acm, f->name=acm 
+<6>[    3.436119] (1)[1:init][USB] enable_store: device_attr->attr.name: enable
+<6>[    3.436144] (1)[1:init][USB] android_bind_enabled_functions: 
+<6>[    3.436161] (1)[1:init][USB] usb_add_function: 
+<5>[    3.436193] (1)[1:init][USB_ACM] acm_bind: ttyGS0: dual speed IN/ep1in-bulk OUT/ep1out-bulk NOTIFY/ep2in-bulk
+<7>[    3.436242] (1)[1:init][MUSB]musb_pullup 2723: MUSB: gadget pull up 1 start
+<7>[    3.436257] (1)[1:init][MUSB]musb_start 613: start, is_host=0 is_active=0
+<4>[    3.436270] (1)[1:init]musb_platform_enable, 0, 0
+<7>[    3.436289] (1)[1:init]enable(1), count(1) res=0
+<7>[    3.436300] (0)[117:logwrapper][exec] /system/bin/logwrapper(3)
+<7>[    3.436315] (1)[1:init][MUSB]musb_readl 72: [MUSB]:access musb_readl function when usb clock is off 0xA4
+<7>[    3.436339] (1)[1:init]enable(0), count(0) res=0
+<7>[    3.436358] (1)[1:init]enable(1), count(1) res=0
+<7>[    3.436375] (1)[1:init][MUSB]musb_writel 106: [MUSB]:access musb_writel function when usb clock is off 0xA4
+<7>[    3.436391] (1)[1:init]enable(0), count(0) res=0
+<4>[    3.436403] (1)[1:init]musb_platform_enable, enable UPLL before connect
+<6>[    3.441678] (0)[121:init]socket_create[141]:fd=9 
+<7>[    3.442656] (0)[117:logwrapper][117:logwrapper] fork [122:logwrapper]
+<7>[    3.449975] (1)[1:init]enable(1), count(1) res=0
+<4>[    3.451012] (0)[1:init][USBPHY]slew calibration:FM_OUT =339,x=4059,value=4
+<4>[    3.451036] (0)[1:init]USB HW reg: index18=0x2b00, index7=0x0
+<4>[    3.451049] (0)[1:init]usb recovery success
+<7>[    3.451069] (0)[1:init][MUSB]dumpTime 1773: [MUSB]Write Operation (1357007838) seconds
+<7>[    3.451084] (0)[1:init][MUSB]musb_start 675: enabled
+<7>[    3.451097] (0)[1:init][MUSB]musb_pullup 2730: MUSB: gadget pull up 1 end
+<7>[    3.451110] (0)[1:init][MUSB]musb_gadget_pullup 2770: musb pullup 1
+<5>[    3.451125] (0)[1:init][USB] enable_store: enable 0->1 case, device_desc.idVendor = 0xe8d, device_desc.idProduct = 0x2007, 
+<7>[    3.452594] (0)[122:6620_launcher][exec] /system/bin/6620_launcher(3)
+<7>[    3.453911] (0)[119:ccci_fsd][exec] /system/bin/ccci_fsd(3)
+<7>[    3.454895] (1)[120:ccci_mdinit][exec] /system/bin/ccci_mdinit(3)
+<3>[    3.456993] (1)[122:6620_launcher][WMT-DEV][I]WMT_open:major 190 minor 0 (pid 122)
+<3>[    3.457019] (1)[122:6620_launcher][WMT-DEV][I]WMT_open:1st call 
+<7>[    3.457484] (1)[116:mobile_log_d][exec] /system/bin/mobile_log_d(3)
+<6>[    3.457587] (0)[122:6620_launcher][mtk_wcn_stp_set_if_tx_type] set STP_IF_TX to BTIF.
+<3>[    3.457607] (0)[122:6620_launcher][WMT-LIB][I]wmt_lib_set_hif:new hifType: 2, fm:2 
+<3>[    3.457670] (0)[109:mtk_wmtd][WMT-CORE][E]opfunc_hif_conf(851):WMT-CORE: WMT HIF info added
+<7>[    3.457705] (0)[122:6620_launcher][STP] mtk_wcn_stp_set_wmt_last_close:[I] set wmt_last_close flag (0)
+<7>[    3.458353] (0)[114:nvram_daemon][exec] /system/bin/nvram_daemon(3)
+<7>[    3.460132] (1)[118:wlan_loader][exec] /system/bin/wlan_loader(3)
+<7>[    3.482611] (1)[121:vold][exec] /system/bin/vold(3)
+<5>[    3.485138] (0)[118:wlan_loader][wlan] initWlan
+<4>[    3.485176] (0)[118:wlan_loader]glRegisterBus
+<4>[    3.485315] (0)[118:wlan_loader]HifAhbPltmProbe
+<4>[    3.485330] (0)[118:wlan_loader]mtk_wcn_wmt_wlan_reg
+<3>[    3.485346] (0)[118:wlan_loader][WMT-EXP][I]mtk_wcn_wmt_wlan_reg:wmt wlan cb register
+<7>[    3.486165] (0)[118:wlan_loader][118:wlan_loader] exit
+<7>[    3.486416] (0)[118:wlan_loader][118:wlan_loader] sig 17 to [1:init]
+<5>[    3.486619] (1)[1:init]init: process 'wlanLoader', pid 118 exited
+<6>[    3.502066] (0)[116:mobile_log_d]socket_create[152]:fd=7 
+<6>[    3.502185] (1)[1:init]socket_accept[1393]:fd=8 
+<6>[    3.502277] (1)[1:init]socket_close[1393] 
+<6>[    3.502344] (0)[116:mobile_log_d]socket_close[152] 
+<6>[    3.509583] (1)[115:debuggerd]socket_create[1394]:fd=7 
+<6>[    3.509679] (1)[115:debuggerd]socket_create[1395]:fd=9 
+<6>[    3.509736] (1)[115:debuggerd]socket_create[1396]:fd=10 
+<6>[    3.509863] (1)[115:debuggerd][aee/aek] ee_destroy_log
+<6>[    3.509881] (1)[115:debuggerd][aee/aek] aed_ee_open:10:55
+<6>[    3.509917] (1)[115:debuggerd][aee/aek] ke_destroy_log
+<6>[    3.509934] (1)[115:debuggerd][aee/aek] aed_ke_open:10:54
+<7>[    3.513829] (0)[116:mobile_log_d][116:mobile_log_d] fork [123:mobile_log_d]
+<7>[    3.514353] (0)[123:sh][exec] /system/bin/sh(3)
+<5>[    3.514983] (1)[115:debuggerd][aee/ipanic] aee-ipanic: No panic data available [Magic header]
+<6>[    3.515188] (1)[115:debuggerd][aee/aek] ee_destroy_log
+<6>[    3.515208] (1)[115:debuggerd][aee/aek] aed_ee_open:10:55
+<7>[    3.515694] (1)[115:debuggerd][115:debuggerd] fork [124:debuggerd]
+<3>[    3.516148] (1)[119:ccci_fsd][ccci/fs ] (1)FS open by ccci_fsd
+<7>[    3.516170] (0)[124:sh][exec] /system/bin/sh(3)
+<3>[    3.516186] (1)[119:ccci_fsd][ccci/ctl] (1)Register a reset handle by ccci_fsd(0)
+<7>[    3.521710] (0)[124:sh][124:sh] fork [125:sh]
+<7>[    3.522434] (0)[123:rm][exec] /system/bin/rm(3)
+<7>[    3.522673] (1)[125:rm][exec] /system/bin/rm(3)
+<7>[    3.526278] (0)[125:rm][125:rm] exit
+<7>[    3.526520] (0)[125:rm][125:rm] sig 17 to [124:sh]
+<7>[    3.526801] (1)[124:sh][124:sh] exit
+<7>[    3.527012] (1)[124:sh][124:sh] sig 17 to [115:debuggerd]
+<7>[    3.532880] (0)[123:rm][123:rm] exit
+<7>[    3.533123] (0)[123:rm][123:rm] sig 17 to [116:mobile_log_d]
+<6>[    3.535952] (0)[114:nvram_daemon]socket_create[153]:fd=7 
+<6>[    3.536081] (1)[1:init]socket_accept[1399]:fd=8 
+<6>[    3.536172] (1)[1:init]socket_close[1399] 
+<6>[    3.536220] (0)[114:nvram_daemon]socket_close[153] 
+<7>[    3.536478] (0)[114:nvram_daemon][114:nvram_daemon] fork [126:nvram_daemon]
+<7>[    3.536551] (0)[114:nvram_daemon][114:nvram_daemon] fork [127:nvram_daemon]
+<7>[    3.536915] (0)[114:nvram_daemon][114:nvram_daemon] fork [128:nvram_daemon]
+<7>[    3.536994] (0)[114:nvram_daemon][114:nvram_daemon] fork [129:nvram_daemon]
+<7>[    3.537096] (0)[114:nvram_daemon][114:nvram_daemon] fork [130:nvram_daemon]
+<7>[    3.537555] (1)[129:nvram_daemon][129:nvram_daemon] exit
+<7>[    3.537609] (0)[114:nvram_daemon][114:nvram_daemon] fork [131:nvram_daemon]
+<7>[    3.537867] (0)[114:nvram_daemon][114:nvram_daemon] fork [132:nvram_daemon]
+<4>[    3.538002] (0)[132:nvram_daemon][dumchar_open][nvram_daemon] will open /dev/block/mmcblk0 for pro_info!
+<4>[    3.538181] (0)[132:nvram_daemon][dumchar_open][nvram_daemon] will open /dev/block/mmcblk0 for pro_info!
+<7>[    3.538688] (0)[132:nvram_daemon][132:nvram_daemon] exit
+<7>[    3.538871] (1)[130:nvram_daemon][130:nvram_daemon] exit
+<7>[    3.539315] (1)[131:nvram_daemon][131:nvram_daemon] exit
+<7>[    3.556467] (0)[128:nvram_daemon][128:nvram_daemon] exit
+<6>[    3.558139] (1)[116:mobile_log_d]socket_create[1400]:fd=10 
+<6>[    3.558304] (1)[1:init]socket_accept[1401]:fd=8 
+<6>[    3.558407] (1)[1:init]socket_close[1401] 
+<6>[    3.558485] (1)[116:mobile_log_d]socket_close[1400] 
+<7>[    3.591739] (1)[126:nvram_daemon][126:nvram_daemon] exit
+<7>[    3.591796] (0)[127:nvram_daemon][127:nvram_daemon] exit
+<7>[    3.591980] (0)[114:nvram_daemon][114:nvram_daemon] exit
+<7>[    3.592348] (0)[114:nvram_daemon][114:nvram_daemon] sig 17 to [1:init]
+<5>[    3.592533] (1)[1:init]init: process 'nvram_daemon', pid 114 exited
+<7>[    3.619155] (0)[0:swapper/0][MUSB]dumpTime 1784: [MUSB]Interrupt Operation (1357007838) seconds
+<7>[    3.619179] (0)[0:swapper/0][MUSB]musb_stage0_irq 595: BUS RESET as Peripheral
+<5>[    3.619196] (0)[0:swapper/0][Power/Battery] [BATTERY] BAT_SetUSBState Success! Set 1
+<5>[    3.619219] (0)[0:swapper/0][Power/Battery] [BATTERY] wake_up_bat. 
+<7>[    3.619241] (0)[0:swapper/0][MUSB]musb_g_ep0_fifo_flush 1281: [MUSB]ep0 fifo flush!
+<7>[    3.629825] (0)[116:mobile_log_d][116:mobile_log_d] fork [133:mobile_log_d]
+<7>[    3.629926] (0)[116:mobile_log_d][116:mobile_log_d] fork [134:mobile_log_d]
+<6>[    3.629941] (1)[133:mobile_log_d]socket_create[1402]:fd=14 
+<7>[    3.630769] (0)[116:mobile_log_d][116:mobile_log_d] fork [135:mobile_log_d]
+<7>[    3.631287] (0)[116:mobile_log_d][116:mobile_log_d] fork [136:mobile_log_d]
+<6>[    3.631575] (1)[135:mobile_log_d]socket_create[1403]:fd=12 
+<7>[    3.631775] (0)[116:mobile_log_d][116:mobile_log_d] fork [137:mobile_log_d]
+<6>[    3.631823] (1)[133:mobile_log_d]socket_accept[1404]:fd=16 
+<7>[    3.632259] (0)[116:mobile_log_d][116:mobile_log_d] fork [138:mobile_log_d]
+<6>[    3.635424] (1)[136:mobile_log_d]socket_create[1405]:fd=11 
+<6>[    3.635591] (0)[133:mobile_log_d]socket_accept[155]:fd=17 
+<6>[    3.635904] (0)[138:mobile_log_d]socket_create[156]:fd=11 
+<6>[    3.636001] (0)[133:mobile_log_d]socket_accept[157]:fd=18 
+<6>[    3.640956] (0)[137:mobile_log_d]socket_create[158]:fd=12 
+<6>[    3.641127] (0)[133:mobile_log_d]socket_accept[159]:fd=19 
+<6>[    3.695649] (0)[0:swapper/0][USB] USB_REQ_GET_DESCRIPTOR: USB_DT_DEVICE, value=18
+<7>[    3.695733] (0)[17:kworker/0:1][USB] android_work: is_hwconnected=1 
+<5>[    3.695793] (0)[17:kworker/0:1][USB] android_work: sent uevent USB_STATE=CONNECTED
+<5>[    3.695817] (0)[17:kworker/0:1][USB] android_work: did not send zero uevent
+<7>[    3.700583] (0)[113:meta_tst][MUSB]musb_stage0_irq 595: BUS RESET as Peripheral
+<5>[    3.700606] (0)[113:meta_tst][Power/Battery] [BATTERY] BAT_SetUSBState Success! Set 1
+<5>[    3.700627] (0)[113:meta_tst][Power/Battery] [BATTERY] wake_up_bat. 
+<7>[    3.700647] (0)[113:meta_tst][MUSB]musb_g_disconnect 3163: MUSB: call gadget disconnect 
+<7>[    3.700662] (0)[113:meta_tst][USB] android_disconnect: 
+<6>[    3.700676] (0)[113:meta_tst][USB] composite_disconnect:  reassign the complete function!!
+<7>[    3.700703] (0)[113:meta_tst][USB] android_disconnect: dev->connected = 0 
+<7>[    3.700727] (0)[113:meta_tst][MUSB]musb_g_ep0_fifo_flush 1281: [MUSB]ep0 fifo flush!
+<7>[    3.700773] (0)[17:kworker/0:1][USB] android_work: is_hwconnected=1 
+<5>[    3.700827] (0)[17:kworker/0:1][USB] android_work: sent uevent USB_STATE=DISCONNECTED
+<5>[    3.700848] (0)[17:kworker/0:1][USB] android_work: did not send zero uevent
+<6>[    3.789404] (0)[113:meta_tst][USB] USB_REQ_GET_DESCRIPTOR: USB_DT_DEVICE, value=18
+<7>[    3.789501] (0)[17:kworker/0:1][USB] android_work: is_hwconnected=1 
+<5>[    3.789578] (0)[17:kworker/0:1][USB] android_work: sent uevent USB_STATE=CONNECTED
+<5>[    3.789601] (0)[17:kworker/0:1][USB] android_work: did not send zero uevent
+<6>[    3.789687] (0)[113:meta_tst][USB] USB_REQ_GET_DESCRIPTOR: USB_DT_CONFIG, value=9
+<6>[    3.790139] (0)[0:swapper/0][USB] USB_REQ_GET_DESCRIPTOR: USB_DT_CONFIG, value=75
+<6>[    3.791199] (0)[0:swapper/0][USB] USB_REQ_GET_DESCRIPTOR: USB_DT_STRING, value=4
+<6>[    3.791413] (0)[0:swapper/0][USB] USB_REQ_GET_DESCRIPTOR: USB_DT_STRING, value=42
+<6>[    3.791674] (0)[0:swapper/0][USB] USB_REQ_GET_DESCRIPTOR: USB_DT_STRING, value=4
+<6>[    3.791947] (0)[0:swapper/0][USB] USB_REQ_GET_DESCRIPTOR: USB_DT_STRING, value=42
+<6>[    3.793869] (0)[0:swapper/0][USB] USB_REQ_GET_DESCRIPTOR: USB_DT_DEVICE, value=18
+<6>[    3.794214] (0)[113:meta_tst][USB] USB_REQ_GET_DESCRIPTOR: USB_DT_CONFIG, value=75
+<6>[    3.794580] (0)[113:meta_tst]android_usb gadget: high-speed config #1: android
+<7>[    3.794611] (0)[113:meta_tst][MUSB]musb_gadget_enable 1997: mt_usb periph: enabled ep2in-bulk for int IN, maxpacket 10
+<7>[    3.794638] (0)[113:meta_tst][MUSB]musb_gadget_enable 1997: mt_usb periph: enabled ep1in-bulk for bulk IN, dma, maxpacket 512
+<7>[    3.794660] (0)[113:meta_tst][MUSB]musb_gadget_enable 1997: mt_usb periph: enabled ep1out-bulk for bulk OUT, dma, maxpacket 512
+<6>[    3.794687] (0)[113:meta_tst][USB] USB_REQ_SET_CONFIGURATION: value=0
+<5>[    3.794717] (0)[113:meta_tst][Power/Battery] [BATTERY] BAT_SetUSBState Success! Set 2
+<5>[    3.794739] (0)[113:meta_tst][Power/Battery] [BATTERY] wake_up_bat. 
+<7>[    3.794796] (0)[17:kworker/0:1][USB] android_work: is_hwconnected=1 
+<5>[    3.794856] (0)[17:kworker/0:1][USB] android_work: sent uevent USB_STATE=CONFIGURED
+<5>[    3.794877] (0)[17:kworker/0:1][USB] android_work: did not send zero uevent
+<5>[    3.880856] (1)[113:meta_tst][USB_ACM] gs_open: ttyGS0 (df42a000,db9c70c0)
+<3>[    3.881051] (1)[113:meta_tst][ccci/tty] (1)[tty_open]meta_tst open ttyC1, ccci_meta, nb_flag:800
+<7>[    3.881234] (1)[113:meta_tst][113:meta_tst] fork [139:meta_tst]
+<7>[    3.881371] (1)[113:meta_tst][113:meta_tst] fork [140:meta_tst]
+<5>[    3.914432] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    3.914461] (0)[0:swapper/0][USB_ACM] acm_setup: rate=0,stop=0,parity=0,data=0
+<5>[    3.914788] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 req21.22 v0000 i0000 len=0
+<3>[    3.956734] (0)[120:ccci_mdinit][ccci/ctl] (1)boot md1
+<3>[    3.956753] (0)[120:ccci_mdinit][ccci/ctl] (1)booting up MODEM: start to load firmware...
+<3>[    3.956770] (0)[120:ccci_mdinit][ccci/ctl] (1)Clear MD1 region protect...
+<3>[    3.956785] (0)[120:ccci_mdinit][ccci/ctl] (1)Clear MPU protect MD1 ROM region<0>
+<3>[    3.956804] (0)[120:ccci_mdinit][ccci/ctl] (1)Clear MPU protect MD1 R/W region<0>
+<3>[    3.956828] (0)[120:ccci_mdinit][ccci/ctl] (1)try to open modem_1_wg_n_E1.img ...
+<3>[    3.956911] (0)[120:ccci_mdinit][ccci/ctl] (1)try to open modem_1_wg_n.img ...
+<7>[    3.957012] (0)[120:ccci_mdinit][ccci/com] (0)sec_open (1)!
+<3>[    3.957025] (0)[120:ccci_mdinit][ccci/ctl] (1)open /etc/firmware/modem_1_wg_n.img OK
+<4>[    3.957765] (0)[120:ccci_mdinit][SFMT_CORE] '/etc/firmware/modem_1_wg_n.img' is not signed
+<4>[    3.957795] (0)[120:ccci_mdinit]NSC
+<4>[    3.957807] (0)[120:ccci_mdinit][SEC_CCCI] image has no sec header
+<3>[    3.957822] (0)[120:ccci_mdinit][ccci/ctl] (1)sign check success(0x0, 0x0)!
+<4>[    3.957845] (0)[120:ccci_mdinit][CFMT_CORE] magic number is wrong
+<3>[    3.957860] (0)[120:ccci_mdinit][ccci/ctl] (1)Not cipher image
+<3>[    4.032455] (0)[120:ccci_mdinit][ccci/ctl] (1)/etc/firmware/modem_1_wg_n.img, image size=0x4c5fec,read size:5005292, tail:0
+<3>[    4.032563] (0)[120:ccci_mdinit][ccci/ctl] (1)
+<3>[    4.032578] (0)[120:ccci_mdinit][ccci/ctl] (1)**********************MD image check***************************
+<3>[    4.032597] (0)[120:ccci_mdinit][ccci/ctl] (1)Modem header check OK!
+<3>[    4.032611] (0)[120:ccci_mdinit][ccci/ctl] (1)(MD)[type]=WG, (AP)[type]=WG
+<3>[    4.032626] (0)[120:ccci_mdinit][ccci/ctl] (1)(MD)[plat]=MT6572_S00, (AP)[plat]=MT6572_S00
+<3>[    4.032642] (0)[120:ccci_mdinit][ccci/ctl] (1)(MD)[size]=1200000, (AP)[size]=1200000
+<3>[    4.032657] (0)[120:ccci_mdinit][ccci/ctl] (1)(MD)[build_ver]=, [build_time]=2015/06/06 09:16
+<3>[    4.032672] (0)[120:ccci_mdinit][ccci/ctl] (1)(MD)[product_ver]=Release
+<3>[    4.032686] (0)[120:ccci_mdinit][ccci/ctl] (1)**********************MD image check***************************
+<3>[    4.032709] (0)[120:ccci_mdinit][ccci/ctl] (1)Load /etc/firmware/modem_1_wg_n.img (size=0x4c5fec) to 0x9e000000
+<7>[    4.032727] (0)[120:ccci_mdinit][ccci/com] (0)sec_close (1)!
+<3>[    4.032759] (0)[120:ccci_mdinit][ccci/ctl] (1)load firmware successful!
+<3>[    4.032775] (0)[120:ccci_mdinit][ccci/ctl] (1)[ccci/cci] power on md1 to run
+<3>[    4.032826] (0)[120:ccci_mdinit][ccci/ctl] (1)MPU Start protect MD1 ROM region<0:9e000000:9e4c8000>
+<3>[    4.032849] (0)[120:ccci_mdinit][ccci/ctl] (1)MPU Start protect MD1 R/W region<1:9e4c8000:9f200000>
+<3>[    4.032869] (0)[120:ccci_mdinit][ccci/ctl] (1)MPU Start protect MD1 Share region<2:9f200000:9f400000>
+<3>[    4.032888] (0)[120:ccci_mdinit][ccci/ctl] (1)MPU Start protect AP region<5:80100000:9e000000>
+<3>[    4.032906] (0)[120:ccci_mdinit][ccci/ctl] (1)MPU Start protect AP region<6:9f400000:a0000000>
+<3>[    4.032925] (0)[120:ccci_mdinit][ccci/ctl] (1)ungate_md1
+<3>[    4.032961] (0)[120:ccci_mdinit][ccci/ctl] (1)wait for MD_INIT_START_BOOT
+<4>[    4.044539] (0)[121:vold]emmc_read_proc: partno:    start_sect   nr_sects  partition_name
+<4>[    4.044551] (0)[121:vold]emmc_p1: 00000400 00000002 "ebr1"
+<4>[    4.044558] (0)[121:vold]emmc_p2: 00004800 00005000 "protect_f"
+<4>[    4.044565] (0)[121:vold]emmc_p3: 00009800 00005000 "protect_s"
+<4>[    4.044572] (0)[121:vold]emmc_p4: 0001ba00 00145000 "android"
+<4>[    4.044579] (0)[121:vold]emmc_p5: 00160a00 000bc000 "cache"
+<4>[    4.044586] (0)[121:vold]emmc_p6: 0021ca00 00296000 "usrdata"
+<4>[    4.044592] (0)[121:vold]emmc_p7: 004b2a00 0029fe00 "fat"
+<4>[    4.044599] (0)[121:vold] 
+<6>[    4.044937] (0)[121:vold]socket_create[161]:fd=7 
+<7>[    4.045232] (0)[121:vold][121:vold] fork [141:vold]
+<6>[    4.050860] (1)[69:ueventd]init: found platform device mtk-msdc.0
+<6>[    4.051393] (1)[69:ueventd]init: found platform device mtk-msdc.0
+<6>[    4.052066] (1)[69:ueventd]init: found platform device mtk-msdc.0
+<6>[    4.052203] (1)[69:ueventd]init: found platform device mtk-msdc.0
+<6>[    4.052409] (1)[69:ueventd]init: found platform device mtk-msdc.0
+<6>[    4.052567] (1)[69:ueventd]init: found platform device mtk-msdc.0
+<6>[    4.052715] (1)[69:ueventd]init: found platform device mtk-msdc.0
+<6>[    4.052855] (1)[69:ueventd]init: found platform device mtk-msdc.0
+<6>[    4.052994] (1)[69:ueventd]init: found platform device mtk-msdc.0
+<6>[    4.053135] (1)[69:ueventd]init: found platform device mtk-msdc.0
+<6>[    4.053535] (1)[69:ueventd]init: found platform device mtk-msdc.0
+<6>[    4.054275] (1)[69:ueventd]init: found platform device mtk-msdc.0
+<6>[    4.055059] (1)[69:ueventd]init: found platform device mtk-msdc.1
+<6>[    4.055204] (1)[69:ueventd]init: found platform device mtk-msdc.1
+<6>[    4.055489] (0)[121:vold]socket_create[163]:fd=12 
+<6>[    4.055674] (1)[1:init]socket_accept[1406]:fd=8 
+<6>[    4.055775] (1)[1:init]socket_close[1406] 
+<6>[    4.056219] (1)[121:vold]socket_close[163] 
+<6>[    4.056289] (1)[121:vold]socket_create[1407]:fd=12 
+<6>[    4.056378] (0)[1:init]socket_accept[164]:fd=8 
+<6>[    4.056454] (0)[1:init]socket_close[164] 
+<6>[    4.056772] (1)[121:vold]socket_close[1407] 
+<6>[    4.056827] (1)[121:vold]socket_create[1408]:fd=12 
+<6>[    4.056903] (0)[1:init]socket_accept[165]:fd=8 
+<6>[    4.056968] (0)[1:init]socket_close[165] 
+<6>[    4.057405] (1)[121:vold]socket_close[1408] 
+<3>[    4.061380] (0)[135:mobile_log_d][ccci/ctl] (1)receive MD_INIT_START_BOOT
+<3>[    4.062473] (0)[120:ccci_mdinit][ccci/ctl] (1)set runtime data: size=280!
+<3>[    4.062499] (0)[120:ccci_mdinit][ccci/ctl] (1)**********************************************
+<7>[    4.062516] (0)[120:ccci_mdinit][ccci/ctl] (1)Prefix                      CCIF
+<3>[    4.062529] (0)[120:ccci_mdinit][ccci/ctl] (1)Platform_L                  MT65
+<3>[    4.062544] (0)[120:ccci_mdinit][ccci/ctl] (1)Platform_H                  72E1
+<3>[    4.062559] (0)[120:ccci_mdinit][ccci/ctl] (1)DriverVersion               0x20121001
+<7>[    4.062575] (0)[120:ccci_mdinit][ccci/ctl] (1)BootChannel                 0
+<3>[    4.062587] (0)[120:ccci_mdinit][ccci/ctl] (1)BootingStartID(Mode)        0x1
+<7>[    4.062601] (0)[120:ccci_mdinit][ccci/ctl] (1)BootAttributes              0
+<7>[    4.062614] (0)[120:ccci_mdinit][ccci/ctl] (1)BootReadyID                 0
+<7>[    4.062626] (0)[120:ccci_mdinit][ccci/ctl] (1)ExceShareMemBase            0x41200118
+<7>[    4.062639] (0)[120:ccci_mdinit][ccci/ctl] (1)ExceShareMemSize            0x800
+<7>[    4.062651] (0)[120:ccci_mdinit][ccci/ctl] (1)MDExExpInfoBase             0x41200918
+<7>[    4.062664] (0)[120:ccci_mdinit][ccci/ctl] (1)MDExExpInfoSize             0xc
+<7>[    4.062677] (0)[120:ccci_mdinit][ccci/ctl] (1)MiscInfoBase                0x41200924
+<7>[    4.062690] (0)[120:ccci_mdinit][ccci/ctl] (1)MiscInfoSize                0x400
+<7>[    4.062702] (0)[120:ccci_mdinit][ccci/ctl] (1)PcmShareMemBase             0x41201000
+<7>[    4.062715] (0)[120:ccci_mdinit][ccci/ctl] (1)PcmShareMemSize             0x8000
+<7>[    4.062728] (0)[120:ccci_mdinit][ccci/ctl] (1)MdlogShareMemBase           0x41209000
+<7>[    4.062741] (0)[120:ccci_mdinit][ccci/ctl] (1)MdlogShareMemSize           0xb5000
+<7>[    4.062754] (0)[120:ccci_mdinit][ccci/ctl] (1)RpcShareMemBase             0x412be000
+<7>[    4.062767] (0)[120:ccci_mdinit][ccci/ctl] (1)RpcShareMemSize             0x1008
+<7>[    4.062780] (0)[120:ccci_mdinit][ccci/ctl] (1)FileShareMemBase            0x412c0000
+<7>[    4.062792] (0)[120:ccci_mdinit][ccci/ctl] (1)FileShareMemSize            0x14014
+<7>[    4.062805] (0)[120:ccci_mdinit][ccci/ctl] (1)UartPortNum                 8
+<7>[    4.062818] (0)[120:ccci_mdinit][ccci/ctl] (1)UartShareMemBase[0]          0x412d5000
+<7>[    4.062831] (0)[120:ccci_mdinit][ccci/ctl] (1)UartShareMemSize[0]          0x8018
+<7>[    4.062845] (0)[120:ccci_mdinit][ccci/ctl] (1)UartShareMemBase[1]          0x412dd018
+<7>[    4.062858] (0)[120:ccci_mdinit][ccci/ctl] (1)UartShareMemSize[1]          0x8018
+<7>[    4.062871] (0)[120:ccci_mdinit][ccci/ctl] (1)UartShareMemBase[2]          0x412e5030
+<7>[    4.062884] (0)[120:ccci_mdinit][ccci/ctl] (1)UartShareMemSize[2]          0x8018
+<7>[    4.062897] (0)[120:ccci_mdinit][ccci/ctl] (1)UartShareMemBase[3]          0x412ed048
+<7>[    4.062911] (0)[120:ccci_mdinit][ccci/ctl] (1)UartShareMemSize[3]          0x8018
+<7>[    4.062924] (0)[120:ccci_mdinit][ccci/ctl] (1)UartShareMemBase[4]          0x412f5060
+<7>[    4.062937] (0)[120:ccci_mdinit][ccci/ctl] (1)UartShareMemSize[4]          0x8018
+<7>[    4.062950] (0)[120:ccci_mdinit][ccci/ctl] (1)UartShareMemBase[5]          0x412fd078
+<7>[    4.062963] (0)[120:ccci_mdinit][ccci/ctl] (1)UartShareMemSize[5]          0x8018
+<7>[    4.062984] (0)[120:ccci_mdinit][ccci/ctl] (1)UartShareMemBase[6]          0x0
+<7>[    4.062997] (0)[120:ccci_mdinit][ccci/ctl] (1)UartShareMemSize[6]          0x0
+<7>[    4.063010] (0)[120:ccci_mdinit][ccci/ctl] (1)UartShareMemBase[7]          0x0
+<7>[    4.063022] (0)[120:ccci_mdinit][ccci/ctl] (1)UartShareMemSize[7]          0x0
+<7>[    4.063043] (0)[120:ccci_mdinit][ccci/ctl] (1)IPCShareMemBase             0x41305270
+<7>[    4.063057] (0)[120:ccci_mdinit][ccci/ctl] (1)IPCShareMemSize             0x2018
+<7>[    4.063069] (0)[120:ccci_mdinit][ccci/ctl] (1)NetPortNum                  3
+<7>[    4.063082] (0)[120:ccci_mdinit][ccci/ctl] (1)MDULNetShareMemBase         0x41307288
+<7>[    4.063096] (0)[120:ccci_mdinit][ccci/ctl] (1)MDULNetShareMemSize         0x4b000
+<7>[    4.063108] (0)[120:ccci_mdinit][ccci/ctl] (1)MDDLNetShareMemBase         0x41352288
+<7>[    4.063122] (0)[120:ccci_mdinit][ccci/ctl] (1)MDDLNetShareMemSize         0x6fea0
+<7>[    4.063134] (0)[120:ccci_mdinit][ccci/ctl] (1)CheckSum                    0
+<7>[    4.063146] (0)[120:ccci_mdinit][ccci/ctl] (1)Postfix                     CCIF
+<7>[    4.063158] (0)[120:ccci_mdinit][ccci/ctl] (1)----------------------------------------------
+<3>[    4.063172] (0)[120:ccci_mdinit][ccci/ctl] (1)ccci_smem_virt              0xdfc00000
+<3>[    4.063187] (0)[120:ccci_mdinit][ccci/ctl] (1)ccci_smem_phy               0x41200000
+<3>[    4.063202] (0)[120:ccci_mdinit][ccci/ctl] (1)ccci_smem_size              0x1c4000
+<7>[    4.063217] (0)[120:ccci_mdinit][ccci/ctl] (1)md_runtime_data_smem_virt   0xdfc00000
+<7>[    4.063230] (0)[120:ccci_mdinit][ccci/ctl] (1)md_runtime_data_smem_phy    0x41200000
+<7>[    4.063243] (0)[120:ccci_mdinit][ccci/ctl] (1)md_runtime_data_smem_size   0x118
+<3>[    4.063255] (0)[120:ccci_mdinit][ccci/ctl] (1)**********************************************
+<3>[    4.063284] (0)[120:ccci_mdinit][ccci/ctl] (1)wait for NORMAL_BOOT_ID @ 1
+<3>[    4.147038] (0)[135:mobile_log_d][ccci/ctl] (1)receive NORMAL_BOOT_ID
+<7>[    4.350482] (1)[140:meta_tst][USB_ACM] gs_start_tx: ttyGS0: tx len=77, 0x55 0x00 0x49 ...
+<5>[    4.399827] (1)[45:bat_thread_kthr][Power/Battery] [BATTERY] In meta or advanced meta mode, disable charging.
+<5>[    4.399862] (1)[45:bat_thread_kthr][Power/Battery] [BATTERY] pchr_turn_on_charging(), enable =0 
+<5>[    4.399937] (1)[45:bat_thread_kthr][Power/Battery] UI_SOC=(78), resetBatteryMeter=(0)
+<5>[    4.400156] (1)[45:bat_thread_kthr][Power/BatMeter] [battery_meter_reset]1 oam_d0=22,oam_d_5=22,ui=78
+<5>[    4.400178] (1)[45:bat_thread_kthr][Power/BatMeter] [battery_meter_reset]2 oam_d0=22,oam_d_5=22,ui=78
+<5>[    4.400201] (1)[45:bat_thread_kthr][Power/Battery] [BATTERY] Charger plug in/out, Call battery_meter_reset. (78)
+<5>[    4.400229] (1)[45:bat_thread_kthr][Power/Battery] [BAT_thread]Cable in, CHR_Type_num=1
+<5>[    4.423250] (1)[45:bat_thread_kthr][Power/BatMeter] [oam_run] 30,60,0,22,0,22,22,0
+<5>[    4.423280] (1)[45:bat_thread_kthr][Power/BatMeter] [oam_total_s] 78,78,78,78,78,78,78,78,78,78
+<5>[    4.423305] (1)[45:bat_thread_kthr][Power/BatMeter] [oam_init_inf] 4052, 13, 78, 22, 3986, 25
+<5>[    4.423328] (1)[45:bat_thread_kthr][Power/BatMeter] [oam_run_inf] 3986, 3986, 3919, 2786, 2734, 245, 245, 7, 7, 1375, 25, 22
+<5>[    4.423356] (1)[45:bat_thread_kthr][Power/BatMeter] [oam_result_inf] 22, 22, 22, 22, 22, 78
+<5>[    4.423381] (1)[45:bat_thread_kthr][Power/Battery] AvgVbat=(3989),bat_vol=(3920),AvgI=(435),I=(0),VChr=(5014),AvgT=(25),T=(25),pre_SOC=(78),SOC=(78),ZCV=(4052)
+<5>[    4.423412] (1)[45:bat_thread_kthr][Power/Battery] [BATTERY] BATTERY_NOTIFY_CASE_0001_VCHARGER (0)
+<5>[    4.423434] (1)[45:bat_thread_kthr][Power/Battery] [TestMode] Disable Safty Timer. bat_tt_enable=3, bat_thr_test_mode=0, bat_thr_test_value=0
+<5>[    4.423461] (1)[45:bat_thread_kthr][Power/Battery] [BATTERY] CC mode charge, timer=0 on 10 !!
+<4>[    4.423476] (1)[45:bat_thread_kthr]
+<7>[    4.849841] (1)[73:ext4lazyinit][73:ext4lazyinit] exit
+<5>[    5.429814] (0)[45:bat_thread_kthr][Power/Battery] [BATTERY] In meta or advanced meta mode, disable charging.
+<5>[    5.429850] (0)[45:bat_thread_kthr][Power/Battery] [BATTERY] pchr_turn_on_charging(), enable =0 
+<5>[    5.429927] (0)[45:bat_thread_kthr][Power/Battery] UI_SOC=(78), resetBatteryMeter=(0)
+<5>[    5.870656] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    5.870692] (0)[0:swapper/0][USB_ACM] acm_setup: rate=0,stop=0,parity=0,data=0
+<5>[    5.871064] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    5.871088] (0)[0:swapper/0][USB_ACM] acm_setup: rate=0,stop=0,parity=0,data=0
+<5>[    5.871575] (0)[0:swapper/0][USB_ACM] gs_rx_push: ttyGS0: actual=27, n_read=0 0x55 0x00 0x16 ...
+<7>[    5.872342] (1)[140:meta_tst][USB_ACM] gs_start_tx: ttyGS0: tx len=38, 0x55 0x00 0x21 ...
+<5>[    5.899234] (0)[0:swapper/0][USB_ACM] gs_rx_push: ttyGS0: actual=43, n_read=0 0x55 0x00 0x26 ...
+<7>[    5.899835] (1)[140:meta_tst][USB_ACM] gs_start_tx: ttyGS0: tx len=49, 0x55 0x00 0x2d ...
+<5>[    5.930451] (0)[0:swapper/0][USB_ACM] gs_rx_push: ttyGS0: actual=43, n_read=0 0x55 0x00 0x26 ...
+<7>[    5.931017] (1)[140:meta_tst][USB_ACM] gs_start_tx: ttyGS0: tx len=73, 0x55 0x00 0x45 ...
+<5>[    5.945971] (0)[0:swapper/0][USB_ACM] gs_rx_push: ttyGS0: actual=23, n_read=0 0x55 0x00 0x12 ...
+<7>[    5.946905] (1)[140:meta_tst][USB_ACM] gs_start_tx: ttyGS0: tx len=421, 0x55 0x01 0xa1 ...
+<5>[    5.977499] (0)[0:swapper/0][USB_ACM] gs_rx_push: ttyGS0: actual=43, n_read=0 0x55 0x00 0x26 ...
+<7>[    5.978054] (1)[140:meta_tst][USB_ACM] gs_start_tx: ttyGS0: tx len=49, 0x55 0x00 0x2d ...
+<5>[    5.992810] (0)[0:swapper/0][USB_ACM] gs_rx_push: ttyGS0: actual=43, n_read=0 0x55 0x00 0x26 ...
+<7>[    5.993331] (1)[140:meta_tst][USB_ACM] gs_start_tx: ttyGS0: tx len=49, 0x55 0x00 0x2d ...
+<5>[    6.024105] (0)[0:swapper/0][USB_ACM] gs_rx_push: ttyGS0: actual=43, n_read=0 0x55 0x00 0x26 ...
+<7>[    6.024669] (1)[140:meta_tst][USB_ACM] gs_start_tx: ttyGS0: tx len=49, 0x55 0x00 0x2d ...
+<5>[    6.039688] (0)[0:swapper/0][USB_ACM] gs_rx_push: ttyGS0: actual=43, n_read=0 0x55 0x00 0x26 ...
+<7>[    6.040262] (1)[140:meta_tst][USB_ACM] gs_start_tx: ttyGS0: tx len=49, 0x55 0x00 0x2d ...
+<7>[    6.060342] (0)[121:vold][121:vold] fork [142:vold]
+<7>[    6.062390] (0)[142:fsck_msdos][exec] /system/bin/fsck_msdos(3)
+<5>[    6.091808] (0)[142:fsck_msdos][USB_ACM] gs_rx_push: ttyGS0: actual=43, n_read=0 0x55 0x00 0x26 ...
+<7>[    6.093203] (1)[140:meta_tst][USB_ACM] gs_start_tx: ttyGS0: tx len=49, 0x55 0x00 0x2d ...
+<5>[    6.102220] (0)[142:fsck_msdos][USB_ACM] gs_rx_push: ttyGS0: actual=43, n_read=0 0x55 0x00 0x26 ...
+<7>[    6.103004] (1)[140:meta_tst][USB_ACM] gs_start_tx: ttyGS0: tx len=49, 0x55 0x00 0x2d ...
+<7>[    6.119068] (0)[142:fsck_msdos][142:fsck_msdos] exit
+<7>[    6.119364] (0)[142:fsck_msdos][142:fsck_msdos] sig 17 to [121:vold]
+<6>[    6.120686] (0)[121:vold]@@fat volume id=0x50cb07da
+<3>[    6.127139] (0)[121:vold][MSDC] msdc1 -> SD card Re-Init! <- msdc_reinit() : L<2022> PID<vold><0x79>
+<3>[    6.127175] (0)[121:vold][MSDC] msdc1 -> SD card Re-Init get host! <- msdc_reinit() : L<2024> PID<vold><0x79>
+<3>[    6.127199] (0)[121:vold][MSDC] msdc1 -> SD card Re-Init get lock! <- msdc_reinit() : L<2026> PID<vold><0x79>
+<3>[    6.127236] (0)[121:vold][MSDC] msdc1 -> SD Card is ready. <- msdc_reinit() : L<2044> PID<vold><0x79>
+<5>[    6.352065] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 req21.22 v0000 i0000 len=0
+<5>[    6.352516] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    6.352540] (0)[0:swapper/0][USB_ACM] acm_setup: rate=0,stop=0,parity=0,data=0
+<5>[    6.352779] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    6.352802] (0)[0:swapper/0][USB_ACM] acm_setup: rate=0,stop=0,parity=0,data=0
+<5>[    6.353166] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    6.353188] (0)[0:swapper/0][USB_ACM] acm_setup: rate=0,stop=0,parity=0,data=0
+<5>[    6.353528] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    6.353550] (0)[0:swapper/0][USB_ACM] acm_setup: rate=0,stop=0,parity=0,data=0
+<5>[    6.353900] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 req21.20 v0000 i0000 len=7
+<5>[    6.353951] (0)[0:swapper/0][USB_ACM] acm_complete_set_line_coding: rate=115200, stop=0, parity=0, data=0
+<5>[    6.354277] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    6.354299] (0)[0:swapper/0][USB_ACM] acm_setup: rate=115200,stop=0,parity=0,data=0
+<5>[    6.354659] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 req21.22 v0003 i0000 len=0
+<5>[    6.354902] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 req21.20 v0000 i0000 len=7
+<5>[    6.354950] (0)[0:swapper/0][USB_ACM] acm_complete_set_line_coding: rate=115200, stop=0, parity=0, data=8
+<5>[    6.355278] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    6.355300] (0)[0:swapper/0][USB_ACM] acm_setup: rate=115200,stop=0,parity=0,data=8
+<5>[    6.355738] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    6.355761] (0)[0:swapper/0][USB_ACM] acm_setup: rate=115200,stop=0,parity=0,data=8
+<5>[    6.356010] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    6.356033] (0)[0:swapper/0][USB_ACM] acm_setup: rate=115200,stop=0,parity=0,data=8
+<5>[    6.356263] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    6.356285] (0)[0:swapper/0][USB_ACM] acm_setup: rate=115200,stop=0,parity=0,data=8
+<5>[    6.356533] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    6.356556] (0)[0:swapper/0][USB_ACM] acm_setup: rate=115200,stop=0,parity=0,data=8
+<5>[    6.356879] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 req21.20 v0000 i0000 len=7
+<5>[    6.356929] (0)[0:swapper/0][USB_ACM] acm_complete_set_line_coding: rate=115200, stop=0, parity=0, data=8
+<5>[    6.357120] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    6.357142] (0)[0:swapper/0][USB_ACM] acm_setup: rate=115200,stop=0,parity=0,data=8
+<5>[    6.357379] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 req21.22 v0003 i0000 len=0
+<5>[    6.357630] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 req21.20 v0000 i0000 len=7
+<5>[    6.357679] (0)[0:swapper/0][USB_ACM] acm_complete_set_line_coding: rate=115200, stop=0, parity=0, data=8
+<5>[    6.357880] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    6.357902] (0)[0:swapper/0][USB_ACM] acm_setup: rate=115200,stop=0,parity=0,data=8
+<5>[    6.358144] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    6.358166] (0)[0:swapper/0][USB_ACM] acm_setup: rate=115200,stop=0,parity=0,data=8
+<5>[    6.358370] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    6.358393] (0)[0:swapper/0][USB_ACM] acm_setup: rate=115200,stop=0,parity=0,data=8
+<5>[    6.358620] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    6.358643] (0)[0:swapper/0][USB_ACM] acm_setup: rate=115200,stop=0,parity=0,data=8
+<5>[    6.358870] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    6.358893] (0)[0:swapper/0][USB_ACM] acm_setup: rate=115200,stop=0,parity=0,data=8
+<5>[    6.359119] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 req21.20 v0000 i0000 len=7
+<5>[    6.359167] (0)[0:swapper/0][USB_ACM] acm_complete_set_line_coding: rate=230400, stop=0, parity=0, data=8
+<5>[    6.359392] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    6.359414] (0)[0:swapper/0][USB_ACM] acm_setup: rate=230400,stop=0,parity=0,data=8
+<5>[    6.359744] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 req21.22 v0003 i0000 len=0
+<5>[    6.360001] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 req21.20 v0000 i0000 len=7
+<5>[    6.360061] (0)[133:mobile_log_d][USB_ACM] acm_complete_set_line_coding: rate=230400, stop=0, parity=0, data=8
+<5>[    6.360379] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    6.360407] (0)[0:swapper/0][USB_ACM] acm_setup: rate=230400,stop=0,parity=0,data=8
+<5>[    6.360634] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    6.360661] (0)[0:swapper/0][USB_ACM] acm_setup: rate=230400,stop=0,parity=0,data=8
+<5>[    6.360872] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    6.360901] (0)[0:swapper/0][USB_ACM] acm_setup: rate=230400,stop=0,parity=0,data=8
+<5>[    6.361122] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    6.361150] (0)[0:swapper/0][USB_ACM] acm_setup: rate=230400,stop=0,parity=0,data=8
+<5>[    6.361373] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    6.361401] (0)[0:swapper/0][USB_ACM] acm_setup: rate=230400,stop=0,parity=0,data=8
+<5>[    6.361622] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 req21.20 v0000 i0000 len=7
+<5>[    6.361675] (0)[0:swapper/0][USB_ACM] acm_complete_set_line_coding: rate=460800, stop=0, parity=0, data=8
+<5>[    6.361870] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    6.361892] (0)[0:swapper/0][USB_ACM] acm_setup: rate=460800,stop=0,parity=0,data=8
+<5>[    6.362124] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 req21.22 v0003 i0000 len=0
+<5>[    6.362369] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 req21.20 v0000 i0000 len=7
+<5>[    6.362416] (0)[0:swapper/0][USB_ACM] acm_complete_set_line_coding: rate=460800, stop=0, parity=0, data=8
+<5>[    6.362621] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    6.362643] (0)[0:swapper/0][USB_ACM] acm_setup: rate=460800,stop=0,parity=0,data=8
+<5>[    6.362875] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    6.362898] (0)[0:swapper/0][USB_ACM] acm_setup: rate=460800,stop=0,parity=0,data=8
+<5>[    6.363120] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    6.363143] (0)[0:swapper/0][USB_ACM] acm_setup: rate=460800,stop=0,parity=0,data=8
+<5>[    6.363370] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    6.363392] (0)[0:swapper/0][USB_ACM] acm_setup: rate=460800,stop=0,parity=0,data=8
+<5>[    6.363620] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    6.363642] (0)[0:swapper/0][USB_ACM] acm_setup: rate=460800,stop=0,parity=0,data=8
+<5>[    6.363869] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 req21.20 v0000 i0000 len=7
+<5>[    6.363918] (0)[0:swapper/0][USB_ACM] acm_complete_set_line_coding: rate=921600, stop=0, parity=0, data=8
+<5>[    6.364120] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    6.364142] (0)[0:swapper/0][USB_ACM] acm_setup: rate=921600,stop=0,parity=0,data=8
+<5>[    6.364369] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 req21.22 v0003 i0000 len=0
+<5>[    6.364619] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 req21.20 v0000 i0000 len=7
+<5>[    6.364666] (0)[0:swapper/0][USB_ACM] acm_complete_set_line_coding: rate=921600, stop=0, parity=0, data=8
+<5>[    6.364870] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    6.364892] (0)[0:swapper/0][USB_ACM] acm_setup: rate=921600,stop=0,parity=0,data=8
+<5>[    6.365125] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    6.365147] (0)[0:swapper/0][USB_ACM] acm_setup: rate=921600,stop=0,parity=0,data=8
+<5>[    6.365370] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    6.365392] (0)[0:swapper/0][USB_ACM] acm_setup: rate=921600,stop=0,parity=0,data=8
+<5>[    6.365620] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    6.365642] (0)[0:swapper/0][USB_ACM] acm_setup: rate=921600,stop=0,parity=0,data=8
+<5>[    6.365870] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    6.365892] (0)[0:swapper/0][USB_ACM] acm_setup: rate=921600,stop=0,parity=0,data=8
+<5>[    6.366152] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 req21.20 v0000 i0000 len=7
+<5>[    6.366201] (0)[0:swapper/0][USB_ACM] acm_complete_set_line_coding: rate=57600, stop=0, parity=0, data=8
+<5>[    6.366495] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    6.366517] (0)[0:swapper/0][USB_ACM] acm_setup: rate=57600,stop=0,parity=0,data=8
+<5>[    6.366770] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 req21.22 v0003 i0000 len=0
+<5>[    6.366994] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 req21.20 v0000 i0000 len=7
+<5>[    6.367042] (0)[0:swapper/0][USB_ACM] acm_complete_set_line_coding: rate=57600, stop=0, parity=0, data=8
+<5>[    6.367246] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    6.367268] (0)[0:swapper/0][USB_ACM] acm_setup: rate=57600,stop=0,parity=0,data=8
+<7>[    7.128258] (1)[121:vold][121:vold] fork [143:vold]
+<7>[    7.129446] (1)[143:fsck_msdos][exec] /system/bin/fsck_msdos(3)
+<3>[    7.132780] (0)[62:mmcqd/1]msdc1 on clock failed ===> retry once
+<5>[    7.180156] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    7.180197] (0)[0:swapper/0][USB_ACM] acm_setup: rate=57600,stop=0,parity=0,data=8
+<5>[    7.180524] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    7.180547] (0)[0:swapper/0][USB_ACM] acm_setup: rate=57600,stop=0,parity=0,data=8
+<5>[    7.180904] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    7.180926] (0)[0:swapper/0][USB_ACM] acm_setup: rate=57600,stop=0,parity=0,data=8
+<5>[    7.181273] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    7.181296] (0)[0:swapper/0][USB_ACM] acm_setup: rate=57600,stop=0,parity=0,data=8
+<5>[    7.181653] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 req21.20 v0000 i0000 len=7
+<5>[    7.181701] (0)[0:swapper/0][USB_ACM] acm_complete_set_line_coding: rate=115200, stop=0, parity=0, data=8
+<5>[    7.182060] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    7.182083] (0)[0:swapper/0][USB_ACM] acm_setup: rate=115200,stop=0,parity=0,data=8
+<5>[    7.182388] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 req21.22 v0003 i0000 len=0
+<5>[    7.182677] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 req21.20 v0000 i0000 len=7
+<5>[    7.182738] (0)[0:swapper/0][USB_ACM] acm_complete_set_line_coding: rate=115200, stop=0, parity=0, data=8
+<5>[    7.183050] (0)[0:swapper/0][USB_ACM] acm_setup: ttyGS0 reqa1.21 v0000 i0000 len=7
+<5>[    7.183072] (0)[0:swapper/0][USB_ACM] acm_setup: rate=115200,stop=0,parity=0,data=8
+<4>[    7.183500] (0)[143:fsck_msdos]gs_rx_push: 7 callbacks suppressed
+<5>[    7.183518] (0)[143:fsck_msdos][USB_ACM] gs_rx_push: ttyGS0: actual=17, n_read=0 0x55 0x00 0x0c ...
+<7>[    7.183542] (0)[143:fsck_msdos][USB_ACM] gs_rx_push Too many data, skipped 285 bytes
+<4>[    7.183928] (1)[139:meta_tst]gs_start_tx: 7 callbacks suppressed
+<7>[    7.183951] (1)[139:meta_tst][USB_ACM] gs_start_tx: ttyGS0: tx len=17, 0x55 0x00 0x0d ...
+<7>[    7.183971] (1)[139:meta_tst][USB_ACM] gs_start_tx Too many data, skipped 347 bytes
+<7>[    7.312355] (1)[143:fsck_msdos][143:fsck_msdos] exit
+<7>[    7.312719] (0)[143:fsck_msdos][143:fsck_msdos] sig 17 to [121:vold]
+<6>[    7.314136] (0)[121:vold]@@fat volume id=0x90164ef8
+<7>[    7.324120] (0)[121:vold][121:vold] fork [144:vold]
+<5>[    7.440873] (0)[0:swapper/0][USB_ACM] gs_rx_push: ttyGS0: actual=17, n_read=0 0x55 0x00 0x0c ...
+<4>[    7.441280] (1)[139:meta_tst][dumchar_open][meta_tst] will open /dev/block/mmcblk0 for pro_info!
+<4>[    7.441352] (1)[139:meta_tst][dumchar_open][meta_tst] will open /dev/block/mmcblk0 for pro_info!
+<7>[    7.442018] (0)[139:meta_tst][USB_ACM] gs_start_tx: ttyGS0: tx len=512, 0x55 0x04 0x17 ...
+<7>[    7.442060] (0)[139:meta_tst][USB_ACM] gs_start_tx: ttyGS0: tx len=512, 0x00 0x00 0x00 ...
+<7>[    7.442082] (0)[139:meta_tst][USB_ACM] gs_start_tx: ttyGS0: tx len=27, 0x00 0x00 0x00 ...
+<5>[    7.477837] (0)[0:swapper/0][USB_ACM] gs_rx_push: ttyGS0: actual=512, n_read=0 0x55 0x04 0x14 ...
+<5>[    7.477875] (0)[0:swapper/0][USB_ACM] gs_rx_push: ttyGS0: actual=512, n_read=0 0x00 0x00 0x00 ...
+<5>[    7.477911] (0)[0:swapper/0][USB_ACM] gs_rx_push: ttyGS0: actual=25, n_read=0 0x00 0x00 0x00 ...
+<4>[    7.478280] (1)[139:meta_tst][dumchar_open][meta_tst] will open /dev/block/mmcblk0 for pro_info!
+<4>[    7.478354] (1)[139:meta_tst][dumchar_open][meta_tst] will open /dev/block/mmcblk0 for pro_info!
+<7>[    7.479924] (0)[139:meta_tst][USB_ACM] gs_start_tx: ttyGS0: tx len=19, 0x55 0x00 0x0f ...
+<5>[    7.544338] (0)[0:swapper/0][USB_ACM] gs_rx_push: ttyGS0: actual=17, n_read=0 0x55 0x00 0x0c ...
+<4>[    7.544608] (1)[139:meta_tst][dumchar_open][meta_tst] will open /dev/block/mmcblk0 for pro_info!
+<4>[    7.544679] (1)[139:meta_tst][dumchar_open][meta_tst] will open /dev/block/mmcblk0 for pro_info!
+<7>[    7.544841] (1)[139:meta_tst][USB_ACM] gs_start_tx: ttyGS0: tx len=512, 0x55 0x04 0x17 ...
+<7>[    7.544875] (1)[139:meta_tst][USB_ACM] gs_start_tx: ttyGS0: tx len=512, 0x00 0x00 0x00 ...
+<7>[    7.544899] (0)[135:mobile_log_d][USB_ACM] gs_start_tx: ttyGS0: tx len=27, 0x00 0x00 0x00 ...

@@ -1,0 +1,628 @@
+-----timezone: GMT
+01-01 02:37:22.761   116   116 D MobileLogD: mkdir /data/ext_sdcard_tool/mtklog/mobilelog/APLog_2013_0101_023718/ complete.
+01-01 02:37:22.761   116   116 D MobileLogD: write "Log Dir: /data/ext_sdcard_tool/mtklog/mobilelog/APLog_2013_0101_023718/" to mblog
+01-01 02:37:22.761   116   116 D MobileLogD: SDcard has mounted! copy!
+01-01 02:37:22.854   116   116 I MobileLogD/Transist: mobilelog rotates size change from 3072K to 15360K
+01-01 02:37:22.988   113   139 D META    : [TST_Drv:] COM port have data<25>:
+01-01 02:37:22.988   113   139 D META    : [TST_Drv:] parse state: RS232_FRAME_LENHI: 0
+01-01 02:37:22.988   113   139 D META    : [TST_Drv:] parse state: RS232_FRAME_LENLO: 14, total: 20
+01-01 02:37:22.988   113   139 D META    : [TST_Drv:] parse state: RS232_FRAME_TYPE: 66 
+01-01 02:37:22.988   113   139 D META    : [TST_Drv:] RS232_FRAME_AP_INJECT_PIRIMITIVE_HEADER: LOCAL len: 16 peer_len : 0 
+01-01 02:37:22.988   113   139 D META    : [TST_Drv:] parse state: RS232_FRAME_CHECKSUM: checksum: 46, ch: 46 
+01-01 02:37:22.988   113   139 D META    : [TST_Drv:] AP side RX 25 bytes
+01-01 02:37:22.988   113   139 D META    : FT: [FTT_Drv:] FTMainThread ID : 14 
+01-01 02:37:22.988   113   139 D META    : FT: [FTT_Drv:] FT_Peripheral_OP META Test 
+01-01 02:37:22.988   113   139 D META    : FT: [FTT_Drv:] FT_Peripheral_OP pFTReq->type is FT_UTILCMD_SET_CLEAN_BOOT_FLAG 
+01-01 02:37:22.988   113   139 D META    : FT: [FTT_Drv:] FT_UTILCMD_SET_CLEAN_BOOT_FLAG META Test mediatek/platform/mt6572/external/meta/ft/ft_fnc.cpp,953,FT_Peripheral_OP
+01-01 02:37:22.988   113   139 D NVRAM   : Enter BackupToBinRegion_all
+01-01 02:37:23.037   113   139 D NVRAM   : FileOp_BackupData_All APBOOT start !
+01-01 02:37:23.037   113   139 D NVRAM   : open dir /data/nvram/APCFG/APRDEB !
+01-01 02:37:23.037   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/APCFG/APRDEB/WIFI)
+01-01 02:37:23.037   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/APCFG/APRDEB/WIFI)
+01-01 02:37:23.038   113   139 D NVRAM   : File size is (514)
+01-01 02:37:23.057   113   139 D NVRAM   : FileInfo: Filenum 1 (addr - 0 / size - 514) 
+01-01 02:37:23.057   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/APCFG/APRDEB/BT_Addr)
+01-01 02:37:23.057   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/APCFG/APRDEB/BT_Addr)
+01-01 02:37:23.057   113   139 D NVRAM   : File size is (32)
+01-01 02:37:23.066   113   139 D NVRAM   : FileInfo: Filenum 2 (addr - 514 / size - 32) 
+01-01 02:37:23.066   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/APCFG/APRDEB/OMADM_USB)
+01-01 02:37:23.066   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/APCFG/APRDEB/WIFI_CUSTOM)
+01-01 02:37:23.066   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/APCFG/APRDEB/WIFI_CUSTOM)
+01-01 02:37:23.066   113   139 D NVRAM   : File size is (6)
+01-01 02:37:23.078   113   139 D NVRAM   : FileInfo: Filenum 3 (addr - 546 / size - 6) 
+01-01 02:37:23.078   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/APCFG/APRDEB/GPS)
+01-01 02:37:23.078   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/APCFG/APRDEB/GPS)
+01-01 02:37:23.079   113   139 D NVRAM   : File size is (54)
+01-01 02:37:23.091   113   139 D NVRAM   : FileInfo: Filenum 4 (addr - 552 / size - 54) 
+01-01 02:37:23.091   113   139 D NVRAM   : FileSize is (54) !
+01-01 02:37:23.091   113   139 D NVRAM   : FileNum is (4) !
+01-01 02:37:23.091   113   139 D NVRAM   : iFileBufLen is (54) !
+01-01 02:37:23.091   113   139 D NVRAM   : APBOOT num (4) !
+01-01 02:37:23.091   113   139 D NVRAM   : FileOp_BackupData_All APCLN start !
+01-01 02:37:23.091   113   139 D NVRAM   : open dir /data/nvram/APCFG/APRDCL !
+01-01 02:37:23.091   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/APCFG/APRDCL/AUXADC)
+01-01 02:37:23.091   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/APCFG/APRDCL/AUXADC)
+01-01 02:37:23.091   113   139 D NVRAM   : File size is (78)
+01-01 02:37:23.103   113   139 D NVRAM   : FileInfo: Filenum 1 (addr - 606 / size - 78) 
+01-01 02:37:23.103   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/APCFG/APRDCL/FILE_VER)
+01-01 02:37:23.104   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/APCFG/APRDCL/FILE_VER)
+01-01 02:37:23.104   113   139 D NVRAM   : File size is (3256)
+01-01 02:37:23.131   113   139 D NVRAM   : FileInfo: Filenum 2 (addr - 684 / size - 3256) 
+01-01 02:37:23.131   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/APCFG/APRDCL/HWMON_ACC)
+01-01 02:37:23.131   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/APCFG/APRDCL/HWMON_ACC)
+01-01 02:37:23.131   113   139 D NVRAM   : File size is (14)
+01-01 02:37:23.145   113   139 D NVRAM   : FileInfo: Filenum 3 (addr - 3940 / size - 14) 
+01-01 02:37:23.145   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/APCFG/APRDCL/Audio_ver1_Vol_custom)
+01-01 02:37:23.145   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/APCFG/APRDCL/Audio_Hd_Record_Scene_Table)
+01-01 02:37:23.145   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/APCFG/APRDCL/Audio_Hd_Record_Param)
+01-01 02:37:23.145   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/APCFG/APRDCL/Audio_Buffer_DC_Calibration_Param)
+01-01 02:37:23.145   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/APCFG/APRDCL/Audio_Sph)
+01-01 02:37:23.145   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/APCFG/APRDCL/Sph_Dual_Mic)
+01-01 02:37:23.145   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/APCFG/APRDCL/Audio_Wb_Sph)
+01-01 02:37:23.145   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/APCFG/APRDCL/Audio_CompFlt)
+01-01 02:37:23.145   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/APCFG/APRDCL/Headphone_CompFlt)
+01-01 02:37:23.145   113   139 D NVRAM   : FileSize is (14) !
+01-01 02:37:23.145   113   139 D NVRAM   : FileNum is (3) !
+01-01 02:37:23.145   113   139 D NVRAM   : iFileBufLen is (68) !
+01-01 02:37:23.145   113   139 D NVRAM   : APCLN num (3) !
+01-01 02:37:23.145   113   139 D NVRAM   : FileOp_BackupData_All MDBOOT start !
+01-01 02:37:23.145   113   139 D NVRAM   : open dir /data/nvram/md/NVRAM/NVD_IMEI !
+01-01 02:37:23.145   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/NVD_IMEI/MP0B_001)
+01-01 02:37:23.145   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/NVD_IMEI/MP0B_001)
+01-01 02:37:23.146   113   139 D NVRAM   : File size is (120)
+01-01 02:37:23.158   113   139 D NVRAM   : FileInfo: Filenum 1 (addr - 3954 / size - 120) 
+01-01 02:37:23.158   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/NVD_IMEI/ST6TA001)
+01-01 02:37:23.158   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/NVD_IMEI/ST6TA001)
+01-01 02:37:23.158   113   139 D NVRAM   : File size is (412)
+01-01 02:37:23.186   113   139 D NVRAM   : FileInfo: Filenum 2 (addr - 4074 / size - 412) 
+01-01 02:37:23.186   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/NVD_IMEI/ST6TB001)
+01-01 02:37:23.186   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/NVD_IMEI/ST6TB001)
+01-01 02:37:23.187   113   139 D NVRAM   : File size is (412)
+01-01 02:37:23.205   113   139 D NVRAM   : FileInfo: Filenum 3 (addr - 4486 / size - 412) 
+01-01 02:37:23.205   113   139 D NVRAM   : FileSize is (412) !
+01-01 02:37:23.205   113   139 D NVRAM   : FileNum is (3) !
+01-01 02:37:23.205   113   139 D NVRAM   : iFileBufLen is (480) !
+01-01 02:37:23.205   113   139 D NVRAM   : MDBOOT num (3) !
+01-01 02:37:23.205   113   139 D NVRAM   : FileOp_BackupData_All MDCLN start !
+01-01 02:37:23.205   113   139 D NVRAM   : open dir /data/nvram/md/NVRAM/CALIBRAT !
+01-01 02:37:23.205   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/MT05_002)
+01-01 02:37:23.205   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/MT05_002)
+01-01 02:37:23.205   113   139 D NVRAM   : File size is (262)
+01-01 02:37:23.227   113   139 D NVRAM   : FileInfo: Filenum 1 (addr - 4898 / size - 262) 
+01-01 02:37:23.227   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/MT06_002)
+01-01 02:37:23.227   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/MT06_002)
+01-01 02:37:23.227   113   139 D NVRAM   : File size is (666)
+01-01 02:37:23.249   113   139 D NVRAM   : FileInfo: Filenum 2 (addr - 5160 / size - 666) 
+01-01 02:37:23.249   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/MT07_002)
+01-01 02:37:23.249   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/MT07_002)
+01-01 02:37:23.249   113   139 D NVRAM   : File size is (666)
+01-01 02:37:23.275   113   139 D NVRAM   : FileInfo: Filenum 3 (addr - 5826 / size - 666) 
+01-01 02:37:23.275   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/MT08_002)
+01-01 02:37:23.275   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/MT08_002)
+01-01 02:37:23.275   113   139 D NVRAM   : File size is (666)
+01-01 02:37:23.303   113   139 D NVRAM   : FileInfo: Filenum 4 (addr - 6492 / size - 666) 
+01-01 02:37:23.303   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/MT09_002)
+01-01 02:37:23.303   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/MT09_002)
+01-01 02:37:23.303   113   139 D NVRAM   : File size is (666)
+01-01 02:37:23.318   113   139 D NVRAM   : FileInfo: Filenum 5 (addr - 7158 / size - 666) 
+01-01 02:37:23.318   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/MT0A_002)
+01-01 02:37:23.318   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/MT0A_002)
+01-01 02:37:23.318   113   139 D NVRAM   : File size is (666)
+01-01 02:37:23.347   113   139 D NVRAM   : FileInfo: Filenum 6 (addr - 7824 / size - 666) 
+01-01 02:37:23.347   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/MT0B_002)
+01-01 02:37:23.347   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/MT0B_002)
+01-01 02:37:23.347   113   139 D NVRAM   : File size is (666)
+01-01 02:37:23.364   113   139 D NVRAM   : FileInfo: Filenum 7 (addr - 8490 / size - 666) 
+01-01 02:37:23.364   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/MT0C_002)
+01-01 02:37:23.364   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/MT0C_002)
+01-01 02:37:23.364   113   139 D NVRAM   : File size is (666)
+01-01 02:37:23.388   113   139 D NVRAM   : FileInfo: Filenum 8 (addr - 9156 / size - 666) 
+01-01 02:37:23.389   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/MT0D_002)
+01-01 02:37:23.389   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/MT0D_002)
+01-01 02:37:23.389   113   139 D NVRAM   : File size is (666)
+01-01 02:37:23.421   113   139 D NVRAM   : FileInfo: Filenum 9 (addr - 9822 / size - 666) 
+01-01 02:37:23.421   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/MT0E_002)
+01-01 02:37:23.421   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/MT0E_002)
+01-01 02:37:23.422   113   139 D NVRAM   : File size is (66)
+01-01 02:37:23.435   113   139 D NVRAM   : FileInfo: Filenum 10 (addr - 10488 / size - 66) 
+01-01 02:37:23.436   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/MT0F_002)
+01-01 02:37:23.436   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/MT0F_002)
+01-01 02:37:23.436   113   139 D NVRAM   : File size is (66)
+01-01 02:37:23.459   113   139 D NVRAM   : FileInfo: Filenum 11 (addr - 10554 / size - 66) 
+01-01 02:37:23.460   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/MT0G_002)
+01-01 02:37:23.460   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/MT0G_002)
+01-01 02:37:23.460   113   139 D NVRAM   : File size is (66)
+01-01 02:37:23.490   113   139 D NVRAM   : FileInfo: Filenum 12 (addr - 10620 / size - 66) 
+01-01 02:37:23.490   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/MT0H_002)
+01-01 02:37:23.490   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/MT0H_002)
+01-01 02:37:23.490   113   139 D NVRAM   : File size is (66)
+01-01 02:37:23.513   113   139 D NVRAM   : FileInfo: Filenum 13 (addr - 10686 / size - 66) 
+01-01 02:37:23.513   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/MT0I_002)
+01-01 02:37:23.513   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/MT0I_002)
+01-01 02:37:23.514   113   139 D NVRAM   : File size is (10)
+01-01 02:37:23.530   113   139 D NVRAM   : FileInfo: Filenum 14 (addr - 10752 / size - 10) 
+01-01 02:37:23.530   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/MT0J_004)
+01-01 02:37:23.530   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/MT0J_004)
+01-01 02:37:23.531   113   139 D NVRAM   : File size is (46)
+01-01 02:37:23.544   113   139 D NVRAM   : FileInfo: Filenum 15 (addr - 10762 / size - 46) 
+01-01 02:37:23.545   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/MT0K_006)
+01-01 02:37:23.545   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/MT0K_006)
+01-01 02:37:23.545   113   139 D NVRAM   : File size is (466)
+01-01 02:37:23.557   113   139 D NVRAM   : FileInfo: Filenum 16 (addr - 10808 / size - 466) 
+01-01 02:37:23.557   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/MT0L_002)
+01-01 02:37:23.557   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/MT0L_002)
+01-01 02:37:23.558   113   139 D NVRAM   : File size is (18)
+01-01 02:37:23.569   113   139 D NVRAM   : FileInfo: Filenum 17 (addr - 11274 / size - 18) 
+01-01 02:37:23.569   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/MT0M_002)
+01-01 02:37:23.569   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/MT0M_002)
+01-01 02:37:23.569   113   139 D NVRAM   : File size is (18)
+01-01 02:37:23.581   113   139 D NVRAM   : FileInfo: Filenum 18 (addr - 11292 / size - 18) 
+01-01 02:37:23.581   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/MT0N_002)
+01-01 02:37:23.582   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/MT0N_002)
+01-01 02:37:23.582   113   139 D NVRAM   : File size is (18)
+01-01 02:37:23.599   113   139 D NVRAM   : FileInfo: Filenum 19 (addr - 11310 / size - 18) 
+01-01 02:37:23.599   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/MT0O_002)
+01-01 02:37:23.599   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/MT0O_002)
+01-01 02:37:23.599   113   139 D NVRAM   : File size is (18)
+01-01 02:37:23.613   113   139 D NVRAM   : FileInfo: Filenum 20 (addr - 11328 / size - 18) 
+01-01 02:37:23.613   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/MT0P_003)
+01-01 02:37:23.613   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/MT0P_003)
+01-01 02:37:23.613   113   139 D NVRAM   : File size is (34)
+01-01 02:37:23.626   113   139 D NVRAM   : FileInfo: Filenum 21 (addr - 11346 / size - 34) 
+01-01 02:37:23.626   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/MT0Q_002)
+01-01 02:37:23.626   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/MT0Q_002)
+01-01 02:37:23.626   113   139 D NVRAM   : File size is (6)
+01-01 02:37:23.637   113   139 D NVRAM   : FileInfo: Filenum 22 (addr - 11380 / size - 6) 
+01-01 02:37:23.638   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/MT0R_000)
+01-01 02:37:23.638   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/MT0R_000)
+01-01 02:37:23.638   113   139 D NVRAM   : File size is (22)
+01-01 02:37:23.650   113   139 D NVRAM   : FileInfo: Filenum 23 (addr - 11386 / size - 22) 
+01-01 02:37:23.650   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/MT0S_000)
+01-01 02:37:23.650   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/MT0S_000)
+01-01 02:37:23.650   113   139 D NVRAM   : File size is (22)
+01-01 02:37:23.661   113   139 D NVRAM   : FileInfo: Filenum 24 (addr - 11408 / size - 22) 
+01-01 02:37:23.662   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/MT0T_000)
+01-01 02:37:23.662   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/MT0T_000)
+01-01 02:37:23.662   113   139 D NVRAM   : File size is (246)
+01-01 02:37:23.674   113   139 D NVRAM   : FileInfo: Filenum 25 (addr - 11430 / size - 246) 
+01-01 02:37:23.674   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/MT0U_000)
+01-01 02:37:23.674   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/MT0U_000)
+01-01 02:37:23.674   113   139 D NVRAM   : File size is (246)
+01-01 02:37:23.689   113   139 D NVRAM   : FileInfo: Filenum 26 (addr - 11676 / size - 246) 
+01-01 02:37:23.689   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/MT1V_000)
+01-01 02:37:23.689   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/MT1V_000)
+01-01 02:37:23.689   113   139 D NVRAM   : File size is (6)
+01-01 02:37:23.698   113   139 D NVRAM   : FileInfo: Filenum 27 (addr - 11922 / size - 6) 
+01-01 02:37:23.698   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL10_000)
+01-01 02:37:23.698   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL10_000)
+01-01 02:37:23.698   113   139 D NVRAM   : File size is (18)
+01-01 02:37:23.712   113   139 D NVRAM   : FileInfo: Filenum 28 (addr - 11928 / size - 18) 
+01-01 02:37:23.712   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL11_000)
+01-01 02:37:23.712   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL11_000)
+01-01 02:37:23.712   113   139 D NVRAM   : File size is (722)
+01-01 02:37:23.724   113   139 D NVRAM   : FileInfo: Filenum 29 (addr - 11946 / size - 722) 
+01-01 02:37:23.724   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL12_000)
+01-01 02:37:23.724   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL12_000)
+01-01 02:37:23.724   113   139 D NVRAM   : File size is (722)
+01-01 02:37:23.735   113   139 D NVRAM   : FileInfo: Filenum 30 (addr - 12668 / size - 722) 
+01-01 02:37:23.735   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL13_000)
+01-01 02:37:23.735   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL13_000)
+01-01 02:37:23.736   113   139 D NVRAM   : File size is (722)
+01-01 02:37:23.751   113   139 D NVRAM   : FileInfo: Filenum 31 (addr - 13390 / size - 722) 
+01-01 02:37:23.751   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL14_000)
+01-01 02:37:23.751   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL14_000)
+01-01 02:37:23.751   113   139 D NVRAM   : File size is (722)
+01-01 02:37:23.760   113   139 D NVRAM   : FileInfo: Filenum 32 (addr - 14112 / size - 722) 
+01-01 02:37:23.760   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL15_000)
+01-01 02:37:23.760   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL15_000)
+01-01 02:37:23.761   113   139 D NVRAM   : File size is (722)
+01-01 02:37:23.761   113   113 D META    : [TST_DRV]Query USB State OK.
+01-01 02:37:23.775   113   139 D NVRAM   : FileInfo: Filenum 33 (addr - 14834 / size - 722) 
+01-01 02:37:23.775   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL16_000)
+01-01 02:37:23.775   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL16_000)
+01-01 02:37:23.775   113   139 D NVRAM   : File size is (722)
+01-01 02:37:23.787   113   139 D NVRAM   : FileInfo: Filenum 34 (addr - 15556 / size - 722) 
+01-01 02:37:23.787   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL17_000)
+01-01 02:37:23.787   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL17_000)
+01-01 02:37:23.787   113   139 D NVRAM   : File size is (722)
+01-01 02:37:23.799   113   139 D NVRAM   : FileInfo: Filenum 35 (addr - 16278 / size - 722) 
+01-01 02:37:23.799   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL18_000)
+01-01 02:37:23.799   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL18_000)
+01-01 02:37:23.800   113   139 D NVRAM   : File size is (722)
+01-01 02:37:23.815   113   139 D NVRAM   : FileInfo: Filenum 36 (addr - 17000 / size - 722) 
+01-01 02:37:23.815   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL19_000)
+01-01 02:37:23.815   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL19_000)
+01-01 02:37:23.815   113   139 D NVRAM   : File size is (722)
+01-01 02:37:23.825   113   139 D NVRAM   : FileInfo: Filenum 37 (addr - 17722 / size - 722) 
+01-01 02:37:23.825   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL1A_000)
+01-01 02:37:23.825   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL1A_000)
+01-01 02:37:23.825   113   139 D NVRAM   : File size is (722)
+01-01 02:37:23.839   113   139 D NVRAM   : FileInfo: Filenum 38 (addr - 18444 / size - 722) 
+01-01 02:37:23.839   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/ULB0_000)
+01-01 02:37:23.839   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/ULB0_000)
+01-01 02:37:23.839   113   139 D NVRAM   : File size is (722)
+01-01 02:37:23.852   113   139 D NVRAM   : FileInfo: Filenum 39 (addr - 19166 / size - 722) 
+01-01 02:37:23.852   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/ULB1_000)
+01-01 02:37:23.852   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/ULB1_000)
+01-01 02:37:23.852   113   139 D NVRAM   : File size is (722)
+01-01 02:37:23.855   116   116 D MobileLogD: prepare to copy .meta_boot files to sdcard
+01-01 02:37:23.855   116   116 I MobileLogD: kernel_log starts copy
+01-01 02:37:23.865   113   139 D NVRAM   : FileInfo: Filenum 40 (addr - 19888 / size - 722) 
+01-01 02:37:23.865   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL1B_000)
+01-01 02:37:23.865   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL1B_000)
+01-01 02:37:23.865   113   139 D NVRAM   : File size is (710)
+01-01 02:37:23.866   116   116 D MobileLogD: Delete temp file /data/log_temp/kernel_log.
+01-01 02:37:23.867   116   116 I MobileLogD: main_log starts copy
+01-01 02:37:23.878   116   116 D MobileLogD: Delete temp file /data/log_temp/main_log.
+01-01 02:37:23.882   116   116 I MobileLogD: events_log starts copy
+01-01 02:37:23.888   116   116 D MobileLogD: Delete temp file /data/log_temp/events_log.
+01-01 02:37:23.890   116   116 I MobileLogD: radio_log starts copy
+01-01 02:37:23.893   113   139 D NVRAM   : FileInfo: Filenum 41 (addr - 20610 / size - 710) 
+01-01 02:37:23.893   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL1C_000)
+01-01 02:37:23.893   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL1C_000)
+01-01 02:37:23.893   113   139 D NVRAM   : File size is (710)
+01-01 02:37:23.898   116   116 D MobileLogD: Delete temp file /data/log_temp/radio_log.
+01-01 02:37:23.898   116   116 D MobileLogD: create local socket server success
+01-01 02:37:23.929   113   139 D NVRAM   : FileInfo: Filenum 42 (addr - 21320 / size - 710) 
+01-01 02:37:23.929   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL1D_000)
+01-01 02:37:23.929   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL1D_000)
+01-01 02:37:23.929   113   139 D NVRAM   : File size is (710)
+01-01 02:37:23.946   113   139 D NVRAM   : FileInfo: Filenum 43 (addr - 22030 / size - 710) 
+01-01 02:37:23.946   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL1E_000)
+01-01 02:37:23.946   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL1E_000)
+01-01 02:37:23.946   113   139 D NVRAM   : File size is (710)
+01-01 02:37:23.970   113   139 D NVRAM   : FileInfo: Filenum 44 (addr - 22740 / size - 710) 
+01-01 02:37:23.970   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL1F_000)
+01-01 02:37:23.970   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL1F_000)
+01-01 02:37:23.970   113   139 D NVRAM   : File size is (710)
+01-01 02:37:23.990   113   139 D NVRAM   : FileInfo: Filenum 45 (addr - 23450 / size - 710) 
+01-01 02:37:23.990   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL1G_000)
+01-01 02:37:23.990   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL1G_000)
+01-01 02:37:23.990   113   139 D NVRAM   : File size is (710)
+01-01 02:37:24.008   113   139 D NVRAM   : FileInfo: Filenum 46 (addr - 24160 / size - 710) 
+01-01 02:37:24.008   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL1H_000)
+01-01 02:37:24.008   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL1H_000)
+01-01 02:37:24.008   113   139 D NVRAM   : File size is (710)
+01-01 02:37:24.020   113   139 D NVRAM   : FileInfo: Filenum 47 (addr - 24870 / size - 710) 
+01-01 02:37:24.020   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL1I_000)
+01-01 02:37:24.020   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL1I_000)
+01-01 02:37:24.020   113   139 D NVRAM   : File size is (710)
+01-01 02:37:24.031   113   139 D NVRAM   : FileInfo: Filenum 48 (addr - 25580 / size - 710) 
+01-01 02:37:24.031   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL1J_000)
+01-01 02:37:24.031   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL1J_000)
+01-01 02:37:24.031   113   139 D NVRAM   : File size is (710)
+01-01 02:37:24.045   113   139 D NVRAM   : FileInfo: Filenum 49 (addr - 26290 / size - 710) 
+01-01 02:37:24.045   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL1K_000)
+01-01 02:37:24.045   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL1K_000)
+01-01 02:37:24.045   113   139 D NVRAM   : File size is (710)
+01-01 02:37:24.057   113   139 D NVRAM   : FileInfo: Filenum 50 (addr - 27000 / size - 710) 
+01-01 02:37:24.057   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/ULB2_000)
+01-01 02:37:24.057   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/ULB2_000)
+01-01 02:37:24.058   113   139 D NVRAM   : File size is (710)
+01-01 02:37:24.069   113   139 D NVRAM   : FileInfo: Filenum 51 (addr - 27710 / size - 710) 
+01-01 02:37:24.069   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/ULB3_000)
+01-01 02:37:24.069   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/ULB3_000)
+01-01 02:37:24.069   113   139 D NVRAM   : File size is (710)
+01-01 02:37:24.086   113   139 D NVRAM   : FileInfo: Filenum 52 (addr - 28420 / size - 710) 
+01-01 02:37:24.086   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL1M_000)
+01-01 02:37:24.086   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL1M_000)
+01-01 02:37:24.086   113   139 D NVRAM   : File size is (98)
+01-01 02:37:24.097   113   139 D NVRAM   : FileInfo: Filenum 53 (addr - 29130 / size - 98) 
+01-01 02:37:24.097   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL1N_000)
+01-01 02:37:24.097   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL1N_000)
+01-01 02:37:24.097   113   139 D NVRAM   : File size is (98)
+01-01 02:37:24.111   113   139 D NVRAM   : FileInfo: Filenum 54 (addr - 29228 / size - 98) 
+01-01 02:37:24.111   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL1O_000)
+01-01 02:37:24.111   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL1O_000)
+01-01 02:37:24.111   113   139 D NVRAM   : File size is (98)
+01-01 02:37:24.122   113   139 D NVRAM   : FileInfo: Filenum 55 (addr - 29326 / size - 98) 
+01-01 02:37:24.122   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL1P_000)
+01-01 02:37:24.122   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL1P_000)
+01-01 02:37:24.122   113   139 D NVRAM   : File size is (98)
+01-01 02:37:24.134   113   139 D NVRAM   : FileInfo: Filenum 56 (addr - 29424 / size - 98) 
+01-01 02:37:24.134   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL1Q_000)
+01-01 02:37:24.134   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL1Q_000)
+01-01 02:37:24.134   113   139 D NVRAM   : File size is (98)
+01-01 02:37:24.149   113   139 D NVRAM   : FileInfo: Filenum 57 (addr - 29522 / size - 98) 
+01-01 02:37:24.149   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL1R_000)
+01-01 02:37:24.149   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL1R_000)
+01-01 02:37:24.149   113   139 D NVRAM   : File size is (98)
+01-01 02:37:24.159   113   139 D NVRAM   : FileInfo: Filenum 58 (addr - 29620 / size - 98) 
+01-01 02:37:24.159   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL1S_000)
+01-01 02:37:24.159   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL1S_000)
+01-01 02:37:24.159   113   139 D NVRAM   : File size is (98)
+01-01 02:37:24.190   113   139 D NVRAM   : FileInfo: Filenum 59 (addr - 29718 / size - 98) 
+01-01 02:37:24.190   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL1T_000)
+01-01 02:37:24.190   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL1T_000)
+01-01 02:37:24.190   113   139 D NVRAM   : File size is (98)
+01-01 02:37:24.203   113   139 D NVRAM   : FileInfo: Filenum 60 (addr - 29816 / size - 98) 
+01-01 02:37:24.203   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL1U_000)
+01-01 02:37:24.203   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL1U_000)
+01-01 02:37:24.203   113   139 D NVRAM   : File size is (98)
+01-01 02:37:24.213   113   139 D NVRAM   : FileInfo: Filenum 61 (addr - 29914 / size - 98) 
+01-01 02:37:24.214   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL1V_000)
+01-01 02:37:24.214   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL1V_000)
+01-01 02:37:24.214   113   139 D NVRAM   : File size is (98)
+01-01 02:37:24.227   113   139 D NVRAM   : FileInfo: Filenum 62 (addr - 30012 / size - 98) 
+01-01 02:37:24.227   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/ULB4_000)
+01-01 02:37:24.227   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/ULB4_000)
+01-01 02:37:24.227   113   139 D NVRAM   : File size is (98)
+01-01 02:37:24.237   113   139 D NVRAM   : FileInfo: Filenum 63 (addr - 30110 / size - 98) 
+01-01 02:37:24.237   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/ULB5_000)
+01-01 02:37:24.237   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/ULB5_000)
+01-01 02:37:24.238   113   139 D NVRAM   : File size is (98)
+01-01 02:37:24.249   113   139 D NVRAM   : FileInfo: Filenum 64 (addr - 30208 / size - 98) 
+01-01 02:37:24.249   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/HL10_000)
+01-01 02:37:24.249   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/HL10_000)
+01-01 02:37:24.249   113   139 D NVRAM   : File size is (100)
+01-01 02:37:24.264   113   139 D NVRAM   : FileInfo: Filenum 65 (addr - 30306 / size - 100) 
+01-01 02:37:24.264   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/HL11_000)
+01-01 02:37:24.264   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/HL11_000)
+01-01 02:37:24.264   113   139 D NVRAM   : File size is (100)
+01-01 02:37:24.273   113   139 D NVRAM   : FileInfo: Filenum 66 (addr - 30406 / size - 100) 
+01-01 02:37:24.273   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/HL12_000)
+01-01 02:37:24.273   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/HL12_000)
+01-01 02:37:24.274   113   139 D NVRAM   : File size is (100)
+01-01 02:37:24.286   113   139 D NVRAM   : FileInfo: Filenum 67 (addr - 30506 / size - 100) 
+01-01 02:37:24.286   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/HL13_000)
+01-01 02:37:24.286   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/HL13_000)
+01-01 02:37:24.286   113   139 D NVRAM   : File size is (100)
+01-01 02:37:24.299   113   139 D NVRAM   : FileInfo: Filenum 68 (addr - 30606 / size - 100) 
+01-01 02:37:24.299   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/HL14_000)
+01-01 02:37:24.299   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/HL14_000)
+01-01 02:37:24.299   113   139 D NVRAM   : File size is (100)
+01-01 02:37:24.309   113   139 D NVRAM   : FileInfo: Filenum 69 (addr - 30706 / size - 100) 
+01-01 02:37:24.310   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/HL15_000)
+01-01 02:37:24.310   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/HL15_000)
+01-01 02:37:24.310   113   139 D NVRAM   : File size is (100)
+01-01 02:37:24.323   113   139 D NVRAM   : FileInfo: Filenum 70 (addr - 30806 / size - 100) 
+01-01 02:37:24.323   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/HL16_000)
+01-01 02:37:24.323   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/HL16_000)
+01-01 02:37:24.323   113   139 D NVRAM   : File size is (100)
+01-01 02:37:24.333   113   139 D NVRAM   : FileInfo: Filenum 71 (addr - 30906 / size - 100) 
+01-01 02:37:24.333   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/HL17_000)
+01-01 02:37:24.333   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/HL17_000)
+01-01 02:37:24.334   113   139 D NVRAM   : File size is (100)
+01-01 02:37:24.345   113   139 D NVRAM   : FileInfo: Filenum 72 (addr - 31006 / size - 100) 
+01-01 02:37:24.345   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/HL18_000)
+01-01 02:37:24.345   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/HL18_000)
+01-01 02:37:24.345   113   139 D NVRAM   : File size is (100)
+01-01 02:37:24.376   113   139 D NVRAM   : FileInfo: Filenum 73 (addr - 31106 / size - 100) 
+01-01 02:37:24.376   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/HL19_000)
+01-01 02:37:24.376   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/HL19_000)
+01-01 02:37:24.376   113   139 D NVRAM   : File size is (100)
+01-01 02:37:24.385   113   139 D NVRAM   : FileInfo: Filenum 74 (addr - 31206 / size - 100) 
+01-01 02:37:24.385   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/ULB6_000)
+01-01 02:37:24.385   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/ULB6_000)
+01-01 02:37:24.385   113   139 D NVRAM   : File size is (100)
+01-01 02:37:24.398   113   139 D NVRAM   : FileInfo: Filenum 75 (addr - 31306 / size - 100) 
+01-01 02:37:24.398   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/ULB7_000)
+01-01 02:37:24.398   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/ULB7_000)
+01-01 02:37:24.398   113   139 D NVRAM   : File size is (100)
+01-01 02:37:24.410   113   139 D NVRAM   : FileInfo: Filenum 76 (addr - 31406 / size - 100) 
+01-01 02:37:24.410   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/HL1A_000)
+01-01 02:37:24.410   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/HL1A_000)
+01-01 02:37:24.410   113   139 D NVRAM   : File size is (74)
+01-01 02:37:24.421   113   139 D NVRAM   : FileInfo: Filenum 77 (addr - 31506 / size - 74) 
+01-01 02:37:24.421   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/HL1B_000)
+01-01 02:37:24.421   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/HL1B_000)
+01-01 02:37:24.421   113   139 D NVRAM   : File size is (74)
+01-01 02:37:24.436   113   139 D NVRAM   : FileInfo: Filenum 78 (addr - 31580 / size - 74) 
+01-01 02:37:24.436   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/HL1C_000)
+01-01 02:37:24.436   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/HL1C_000)
+01-01 02:37:24.436   113   139 D NVRAM   : File size is (74)
+01-01 02:37:24.446   113   139 D NVRAM   : FileInfo: Filenum 79 (addr - 31654 / size - 74) 
+01-01 02:37:24.446   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/HL1D_000)
+01-01 02:37:24.446   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/HL1D_000)
+01-01 02:37:24.446   113   139 D NVRAM   : File size is (74)
+01-01 02:37:24.459   113   139 D NVRAM   : FileInfo: Filenum 80 (addr - 31728 / size - 74) 
+01-01 02:37:24.459   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/HL1E_000)
+01-01 02:37:24.459   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/HL1E_000)
+01-01 02:37:24.460   113   139 D NVRAM   : File size is (74)
+01-01 02:37:24.472   113   139 D NVRAM   : FileInfo: Filenum 81 (addr - 31802 / size - 74) 
+01-01 02:37:24.472   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/HL1F_000)
+01-01 02:37:24.472   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/HL1F_000)
+01-01 02:37:24.472   113   139 D NVRAM   : File size is (74)
+01-01 02:37:24.483   113   139 D NVRAM   : FileInfo: Filenum 82 (addr - 31876 / size - 74) 
+01-01 02:37:24.483   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/HL1G_000)
+01-01 02:37:24.483   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/HL1G_000)
+01-01 02:37:24.484   113   139 D NVRAM   : File size is (74)
+01-01 02:37:24.497   113   139 D NVRAM   : FileInfo: Filenum 83 (addr - 31950 / size - 74) 
+01-01 02:37:24.497   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/HL1H_000)
+01-01 02:37:24.497   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/HL1H_000)
+01-01 02:37:24.497   113   139 D NVRAM   : File size is (74)
+01-01 02:37:24.508   113   139 D NVRAM   : FileInfo: Filenum 84 (addr - 32024 / size - 74) 
+01-01 02:37:24.508   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/HL1I_000)
+01-01 02:37:24.508   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/HL1I_000)
+01-01 02:37:24.508   113   139 D NVRAM   : File size is (74)
+01-01 02:37:24.521   113   139 D NVRAM   : FileInfo: Filenum 85 (addr - 32098 / size - 74) 
+01-01 02:37:24.521   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/HL1J_000)
+01-01 02:37:24.521   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/HL1J_000)
+01-01 02:37:24.521   113   139 D NVRAM   : File size is (74)
+01-01 02:37:24.536   113   139 D NVRAM   : FileInfo: Filenum 86 (addr - 32172 / size - 74) 
+01-01 02:37:24.536   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/ULB8_000)
+01-01 02:37:24.536   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/ULB8_000)
+01-01 02:37:24.536   113   139 D NVRAM   : File size is (74)
+01-01 02:37:24.546   113   139 D NVRAM   : FileInfo: Filenum 87 (addr - 32246 / size - 74) 
+01-01 02:37:24.546   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/ULB9_000)
+01-01 02:37:24.546   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/ULB9_000)
+01-01 02:37:24.547   113   139 D NVRAM   : File size is (74)
+01-01 02:37:24.560   113   139 D NVRAM   : FileInfo: Filenum 88 (addr - 32320 / size - 74) 
+01-01 02:37:24.560   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL1W_000)
+01-01 02:37:24.560   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL1W_000)
+01-01 02:37:24.561   113   139 D NVRAM   : File size is (98)
+01-01 02:37:24.574   113   139 D NVRAM   : FileInfo: Filenum 89 (addr - 32394 / size - 98) 
+01-01 02:37:24.574   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL1X_000)
+01-01 02:37:24.574   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL1X_000)
+01-01 02:37:24.574   113   139 D NVRAM   : File size is (98)
+01-01 02:37:24.585   113   139 D NVRAM   : FileInfo: Filenum 90 (addr - 32492 / size - 98) 
+01-01 02:37:24.585   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL1Y_000)
+01-01 02:37:24.585   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL1Y_000)
+01-01 02:37:24.585   113   139 D NVRAM   : File size is (98)
+01-01 02:37:24.598   113   139 D NVRAM   : FileInfo: Filenum 91 (addr - 32590 / size - 98) 
+01-01 02:37:24.598   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL1Z_000)
+01-01 02:37:24.598   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL1Z_000)
+01-01 02:37:24.598   113   139 D NVRAM   : File size is (98)
+01-01 02:37:24.612   113   139 D NVRAM   : FileInfo: Filenum 92 (addr - 32688 / size - 98) 
+01-01 02:37:24.613   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL20_000)
+01-01 02:37:24.613   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL20_000)
+01-01 02:37:24.613   113   139 D NVRAM   : File size is (98)
+01-01 02:37:24.627   113   139 D NVRAM   : FileInfo: Filenum 93 (addr - 32786 / size - 98) 
+01-01 02:37:24.627   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL21_000)
+01-01 02:37:24.627   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL21_000)
+01-01 02:37:24.627   113   139 D NVRAM   : File size is (98)
+01-01 02:37:24.640   113   139 D NVRAM   : FileInfo: Filenum 94 (addr - 32884 / size - 98) 
+01-01 02:37:24.640   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL22_000)
+01-01 02:37:24.640   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL22_000)
+01-01 02:37:24.640   113   139 D NVRAM   : File size is (98)
+01-01 02:37:24.652   113   139 D NVRAM   : FileInfo: Filenum 95 (addr - 32982 / size - 98) 
+01-01 02:37:24.652   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL23_000)
+01-01 02:37:24.652   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL23_000)
+01-01 02:37:24.652   113   139 D NVRAM   : File size is (98)
+01-01 02:37:24.664   113   139 D NVRAM   : FileInfo: Filenum 96 (addr - 33080 / size - 98) 
+01-01 02:37:24.664   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL24_000)
+01-01 02:37:24.664   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL24_000)
+01-01 02:37:24.664   113   139 D NVRAM   : File size is (98)
+01-01 02:37:24.676   113   139 D NVRAM   : FileInfo: Filenum 97 (addr - 33178 / size - 98) 
+01-01 02:37:24.676   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/UL25_000)
+01-01 02:37:24.676   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/UL25_000)
+01-01 02:37:24.676   113   139 D NVRAM   : File size is (98)
+01-01 02:37:24.687   113   139 D NVRAM   : FileInfo: Filenum 98 (addr - 33276 / size - 98) 
+01-01 02:37:24.687   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/ULBA_000)
+01-01 02:37:24.687   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/ULBA_000)
+01-01 02:37:24.687   113   139 D NVRAM   : File size is (98)
+01-01 02:37:24.703   113   139 D NVRAM   : FileInfo: Filenum 99 (addr - 33374 / size - 98) 
+01-01 02:37:24.703   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/ULBB_000)
+01-01 02:37:24.703   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/ULBB_000)
+01-01 02:37:24.703   113   139 D NVRAM   : File size is (98)
+01-01 02:37:24.713   113   139 D NVRAM   : FileInfo: Filenum 100 (addr - 33472 / size - 98) 
+01-01 02:37:24.713   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/MP09_001)
+01-01 02:37:24.713   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/MP09_001)
+01-01 02:37:24.713   113   139 D NVRAM   : File size is (66)
+01-01 02:37:24.727   113   139 D NVRAM   : FileInfo: Filenum 101 (addr - 33570 / size - 66) 
+01-01 02:37:24.728   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/MPA2_000)
+01-01 02:37:24.728   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/MPA2_000)
+01-01 02:37:24.728   113   139 D NVRAM   : File size is (314)
+01-01 02:37:24.741   113   139 D NVRAM   : FileInfo: Filenum 102 (addr - 33636 / size - 314) 
+01-01 02:37:24.741   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/MPA8_000)
+01-01 02:37:24.741   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/MPA8_000)
+01-01 02:37:24.741   113   139 D NVRAM   : File size is (1354)
+01-01 02:37:24.760   113   139 D NVRAM   : FileInfo: Filenum 103 (addr - 33950 / size - 1354) 
+01-01 02:37:24.760   113   139 D NVRAM   : FileOp_BackupData: (/data/nvram/md/NVRAM/CALIBRAT/MT1F_001)
+01-01 02:37:24.760   113   139 D NVRAM   : FileOp_MakeFile: Handle the file (/data/nvram/md/NVRAM/CALIBRAT/MT1F_001)
+01-01 02:37:24.760   113   139 D NVRAM   : File size is (10)
+01-01 02:37:24.773   113   139 D NVRAM   : FileInfo: Filenum 104 (addr - 35304 / size - 10) 
+01-01 02:37:24.774   113   139 D NVRAM   : FileSize is (10) !
+01-01 02:37:24.774   113   139 D NVRAM   : FileNum is (104) !
+01-01 02:37:24.774   113   139 D NVRAM   : iFileBufLen is (490) !
+01-01 02:37:24.774   113   139 D NVRAM   : MDCLN num (104) !
+01-01 02:37:24.774   113   139 D NVRAM   : FileOp_BackupData_All MDIMP start !
+01-01 02:37:24.774   113   139 D NVRAM   : open dir /data/nvram/md/NVRAM/IMPORTNT !
+01-01 02:37:24.774   113   139 D NVRAM   : FileOp_BackupData open dir: /data/nvram/md/NVRAM/IMPORTNT ,this dir not exist!
+01-01 02:37:24.774   113   139 D NVRAM   : FileOp_BackupData_All MD2BOOT start !
+01-01 02:37:24.774   113   139 D NVRAM   : open dir /data/nvram/md2/NVRAM/NVD_IMEI !
+01-01 02:37:24.774   113   139 D NVRAM   : FileOp_BackupData open dir: /data/nvram/md2/NVRAM/NVD_IMEI ,this dir not exist!
+01-01 02:37:24.774   113   139 D NVRAM   : FileOp_BackupData_All MD2CLN start !
+01-01 02:37:24.774   113   139 D NVRAM   : open dir /data/nvram/md2/NVRAM/CALIBRAT !
+01-01 02:37:24.774   113   139 D NVRAM   : FileOp_BackupData open dir: /data/nvram/md2/NVRAM/CALIBRAT ,this dir not exist!
+01-01 02:37:24.774   113   139 D NVRAM   : FileOp_BackupData_All MD2IMP start !
+01-01 02:37:24.774   113   139 D NVRAM   : open dir /data/nvram/md2/NVRAM/IMPORTNT !
+01-01 02:37:24.774   113   139 D NVRAM   : FileOp_BackupData open dir: /data/nvram/md2/NVRAM/IMPORTNT ,this dir not exist!
+01-01 02:37:24.793   113   139 D NVRAM   : File_Title_Header iApBootNum(4)
+01-01 02:37:24.793   113   139 D NVRAM   : File_Title_Header iApCleanNum(3)
+01-01 02:37:24.793   113   139 D NVRAM   : File_Title_Header iMdBootNum(3)
+01-01 02:37:24.793   113   139 D NVRAM   : File_Title_Header iMdCleanNum(104)
+01-01 02:37:24.793   113   139 D NVRAM   : File_Title_Header iMdImpntNum(0)
+01-01 02:37:24.793   113   139 D NVRAM   : File_Title_Header iMdCoreNum(0)
+01-01 02:37:24.793   113   139 D NVRAM   : File_Title_Header iMdDataNum(0)
+01-01 02:37:24.793   113   139 D NVRAM   : File_Title_Header iMd2BootNum(0)
+01-01 02:37:24.793   113   139 D NVRAM   : File_Title_Header iMd2CleanNum(0)
+01-01 02:37:24.793   113   139 D NVRAM   : File_Title_Header iMd2ImpntNum(0)
+01-01 02:37:24.793   113   139 D NVRAM   : File_Title_Header iFileBufLen(490)
+01-01 02:37:24.793   113   139 D NVRAM   : File_Title_Header BackupFlag(0)
+01-01 02:37:24.807   113   139 D NVRAM   : FileOp_ComputeCheckSum:cc862253
+01-01 02:37:24.819   113   139 D NVRAM   : common file num:25,custom file num:18
+01-01 02:37:24.829   113   139 D NVRAM   : FileOp_BackupData_All end !
+01-01 02:37:24.829   113   139 D NVRAM   : [NVRAM]:info:iMapFileSize:16000,iDatFileSize:35314
+01-01 02:37:24.829   113   139 D NVRAM   : [NVRAM]:cMtdDevName:/dev/nvram
+01-01 02:37:24.829   113   139 D NVRAM   : [NVRAM]:mtd get info:iBlockSize:131072,iPartitionSize:5242880,iBlockNum:35
+01-01 02:37:25.234   113   139 D NVRAM   : [NVRAM_Bitmap]:Block0,0
+01-01 02:37:25.234   113   139 D NVRAM   : [NVRAM_Bitmap]:Block1,0
+01-01 02:37:25.234   113   139 D NVRAM   : [NVRAM_Bitmap]:Block2,0
+01-01 02:37:25.234   113   139 D NVRAM   : [NVRAM_Bitmap]:Block3,0
+01-01 02:37:25.234   113   139 D NVRAM   : [NVRAM_Bitmap]:Block4,0
+01-01 02:37:25.234   113   139 D NVRAM   : [NVRAM_Bitmap]:Block5,0
+01-01 02:37:25.234   113   139 D NVRAM   : [NVRAM_Bitmap]:Block6,0
+01-01 02:37:25.234   113   139 D NVRAM   : [NVRAM_Bitmap]:Block7,0
+01-01 02:37:25.234   113   139 D NVRAM   : [NVRAM_Bitmap]:Block8,0
+01-01 02:37:25.234   113   139 D NVRAM   : [NVRAM_Bitmap]:Block9,0
+01-01 02:37:25.234   113   139 D NVRAM   : [NVRAM_Bitmap]:Block10,0
+01-01 02:37:25.234   113   139 D NVRAM   : [NVRAM_Bitmap]:Block11,0
+01-01 02:37:25.234   113   139 D NVRAM   : [NVRAM_Bitmap]:Block12,0
+01-01 02:37:25.234   113   139 D NVRAM   : [NVRAM_Bitmap]:Block13,0
+01-01 02:37:25.234   113   139 D NVRAM   : [NVRAM_Bitmap]:Block14,0
+01-01 02:37:25.234   113   139 D NVRAM   : [NVRAM_Bitmap]:Block15,0
+01-01 02:37:25.234   113   139 D NVRAM   : [NVRAM_Bitmap]:Block16,0
+01-01 02:37:25.234   113   139 D NVRAM   : [NVRAM_Bitmap]:Block17,0
+01-01 02:37:25.234   113   139 D NVRAM   : [NVRAM_Bitmap]:Block18,0
+01-01 02:37:25.234   113   139 D NVRAM   : [NVRAM_Bitmap]:Block19,0
+01-01 02:37:25.234   113   139 D NVRAM   : [NVRAM_Bitmap]:Block20,0
+01-01 02:37:25.234   113   139 D NVRAM   : [NVRAM_Bitmap]:Block21,0
+01-01 02:37:25.234   113   139 D NVRAM   : [NVRAM_Bitmap]:Block22,0
+01-01 02:37:25.234   113   139 D NVRAM   : [NVRAM_Bitmap]:Block23,0
+01-01 02:37:25.234   113   139 D NVRAM   : [NVRAM_Bitmap]:Block24,0
+01-01 02:37:25.234   113   139 D NVRAM   : [NVRAM_Bitmap]:Block25,0
+01-01 02:37:25.235   113   139 D NVRAM   : [NVRAM_Bitmap]:Block26,0
+01-01 02:37:25.235   113   139 D NVRAM   : [NVRAM_Bitmap]:Block27,0
+01-01 02:37:25.235   113   139 D NVRAM   : [NVRAM_Bitmap]:Block28,0
+01-01 02:37:25.235   113   139 D NVRAM   : [NVRAM_Bitmap]:Block29,0
+01-01 02:37:25.235   113   139 D NVRAM   : [NVRAM_Bitmap]:Block30,0
+01-01 02:37:25.235   113   139 D NVRAM   : [NVRAM_Bitmap]:Block31,0
+01-01 02:37:25.235   113   139 D NVRAM   : [NVRAM_Bitmap]:Block32,0
+01-01 02:37:25.235   113   139 D NVRAM   : [NVRAM_Bitmap]:Block33,0
+01-01 02:37:25.235   113   139 D NVRAM   : [NVRAM_Bitmap]:Block34,0
+01-01 02:37:25.235   113   139 D NVRAM   : [NVRAM]:mtd get info:iBlockSize:131072,iPartitionSize:5242880
+01-01 02:37:25.236   113   139 D NVRAM   : [NVRAM]:pos for mapfile:0,i:0
+01-01 02:37:25.236   113   139 D NVRAM   : [NVRAM Backup]:map file write :16384
+01-01 02:37:25.236   113   139 D NVRAM   : [NVRAM]:pos for bitmap:34
+01-01 02:37:25.236   113   139 D NVRAM   : [NVRAM]:pos:34,bitmap[i]:0
+01-01 02:37:25.236   113   139 D NVRAM   : [NVRAM]:pos:34,bitmap[i]:0
+01-01 02:37:25.236   113   139 D NVRAM   : [NVRAM]:pos:34,bitmap[i]:0
+01-01 02:37:25.236   113   139 D NVRAM   : [NVRAM]:pos:34,bitmap[i]:0
+01-01 02:37:25.237   113   139 D NVRAM   : [NVRAM]:pos:34,bitmap[i]:0
+01-01 02:37:25.237   113   139 D NVRAM   : [NVRAM]:pos:34,bitmap[i]:0
+01-01 02:37:25.237   113   139 D NVRAM   : [NVRAM]:pos:34,bitmap[i]:0
+01-01 02:37:25.237   113   139 D NVRAM   : [NVRAM]:pos:34,bitmap[i]:0
+01-01 02:37:25.237   113   139 D NVRAM   : [NVRAM]:pos:34,bitmap[i]:0
+01-01 02:37:25.237   113   139 D NVRAM   : [NVRAM]:pos:34,bitmap[i]:0
+01-01 02:37:25.237   113   139 D NVRAM   : [NVRAM]:pos:34,bitmap[i]:0
+01-01 02:37:25.237   113   139 D NVRAM   : [NVRAM]:pos:34,bitmap[i]:0
+01-01 02:37:25.237   113   139 D NVRAM   : [NVRAM]:pos:34,bitmap[i]:0
+01-01 02:37:25.237   113   139 D NVRAM   : [NVRAM]:pos:34,bitmap[i]:0
+01-01 02:37:25.237   113   139 D NVRAM   : [NVRAM]:pos:34,bitmap[i]:0
+01-01 02:37:25.237   113   139 D NVRAM   : [NVRAM]:pos:34,bitmap[i]:0
+01-01 02:37:25.237   113   139 D NVRAM   : [NVRAM]:pos:34,bitmap[i]:0
+01-01 02:37:25.237   113   139 D NVRAM   : [NVRAM]:pos:34,bitmap[i]:0
+01-01 02:37:25.237   113   139 D NVRAM   : [NVRAM]:pos:34,bitmap[i]:0
+01-01 02:37:25.237   113   139 D NVRAM   : [NVRAM]:pos:34,bitmap[i]:0
+01-01 02:37:25.237   113   139 D NVRAM   : [NVRAM]:pos:34,bitmap[i]:0
+01-01 02:37:25.237   113   139 D NVRAM   : [NVRAM]:pos:34,bitmap[i]:0
+01-01 02:37:25.237   113   139 D NVRAM   : [NVRAM]:pos:34,bitmap[i]:0
+01-01 02:37:25.237   113   139 D NVRAM   : [NVRAM]:pos:34,bitmap[i]:0
+01-01 02:37:25.237   113   139 D NVRAM   : [NVRAM]:pos:34,bitmap[i]:0
+01-01 02:37:25.237   113   139 D NVRAM   : [NVRAM]:pos:34,bitmap[i]:0
+01-01 02:37:25.237   113   139 D NVRAM   : [NVRAM]:pos:34,bitmap[i]:0
+01-01 02:37:25.237   113   139 D NVRAM   : [NVRAM]:pos:34,bitmap[i]:0
+01-01 02:37:25.237   113   139 D NVRAM   : [NVRAM]:pos:34,bitmap[i]:0
+01-01 02:37:25.237   113   139 D NVRAM   : [NVRAM]:pos:34,bitmap[i]:0
+01-01 02:37:25.238   113   139 D NVRAM   : [NVRAM]:pos:34,bitmap[i]:0
+01-01 02:37:25.238   113   139 D NVRAM   : [NVRAM]:pos:34,bitmap[i]:0
+01-01 02:37:25.238   113   139 D NVRAM   : [NVRAM]:pos:34,bitmap[i]:0
+01-01 02:37:25.238   113   139 D NVRAM   : [NVRAM]:pos:34,bitmap[i]:0
+01-01 02:37:25.238   113   139 D NVRAM   : [NVRAM]:pos:34,bitmap[i]:0
+01-01 02:37:25.238   113   139 D NVRAM   : [NVRAM]:pos for data file:1
+01-01 02:37:25.238   113   139 D NVRAM   : [NVRAM]:iWriteTime:1
+01-01 02:37:25.239   113   139 D NVRAM   : [NVRAM]:end:1
+01-01 02:37:25.239   113   139 D NVRAM   : setBackupFileNum
+01-01 02:37:25.347   113   139 D NVRAM   : SetBackupFileNum Success
+01-01 02:37:25.347   113   139 D NVRAM   : Leave BackupToBinRegion_all

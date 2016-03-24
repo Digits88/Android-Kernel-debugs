@@ -1,0 +1,74 @@
+-----timezone: GMT
+<6>[    7.882103] (0)[116:mobile_log_d]socket_create[174]:fd=20 
+<6>[    7.882228] (0)[1:init]socket_accept[175]:fd=8 
+<6>[    7.882363] (1)[1:init]socket_close[175] 
+<6>[    7.882409] (0)[116:mobile_log_d]socket_close[174] 
+<6>[    7.882471] (0)[116:mobile_log_d]socket_create[176]:fd=20 
+<6>[    7.882543] (1)[1:init]socket_accept[1415]:fd=8 
+<6>[    7.882601] (1)[1:init]socket_close[1415] 
+<6>[    7.882641] (0)[116:mobile_log_d]socket_close[176] 
+<5>[    8.108132] (0)[0:swapper/0][USB_ACM] gs_rx_push: ttyGS0: actual=25, n_read=0 0x55 0x00 0x14 ...
+<4>[    8.108478] (1)[139:meta_tst][dumchar_open][meta_tst] will open /dev/block/mmcblk0 for nvram!
+<4>[    8.108561] (1)[139:meta_tst][dumchar_open][meta_tst] will open /dev/block/mmcblk0 for nvram!
+<4>[    8.108613] (1)[139:meta_tst][dumchar_open][meta_tst] will open /dev/block/mmcblk0 for nvram!
+<4>[    8.111426] (0)[139:meta_tst][dumchar_open][meta_tst] will open /dev/block/mmcblk0 for nvram!
+<4>[    8.111920] (0)[139:meta_tst][dumchar_open][meta_tst] will open /dev/block/mmcblk0 for nvram!
+<4>[    8.111985] (0)[139:meta_tst][dumchar_open][meta_tst] will open /dev/block/mmcblk0 for nvram!
+<4>[    8.459840] (0)[17:kworker/0:1]dbs_check_cpu: turn off CPU
+<4>[    8.469842] (0)[17:kworker/0:1]hp_work_handler: cpu_down(1) kick off
+<7>[    8.469962] (0)[2:kthreadd][2:kthreadd] fork [145:kthreadd]
+<7>[    8.470071] (1)[2:kthreadd][2:kthreadd] fork [146:kthreadd]
+<4>[    8.470150] (0)[17:kworker/0:1]regs_hotplug_callback cpu = 1
+<4>[    8.470310] (1)[7:migration/1][Power/hotplug] platform_cpu_disable, cpu: 1
+<4>[    8.470579] (1)[7:migration/1]regs_hotplug_callback cpu = 1
+<4>[    8.470660] (1)[0:swapper/1][Power/hotplug] platform_cpu_die, cpu: 1
+<5>[    8.470845] (0)[17:kworker/0:1]CPU1: shutdown
+<4>[    8.470860] (0)[17:kworker/0:1][Power/hotplug] platform_cpu_kill, cpu: 1
+<7>[    8.471416] (0)[9:ksoftirqd/1][9:ksoftirqd/1] exit
+<7>[    8.471671] (0)[2:kthreadd][2:kthreadd] fork [147:kthreadd]
+<4>[    8.471793] (0)[17:kworker/0:1]regs_hotplug_callback cpu = 1
+<4>[    8.471914] (0)[17:kworker/0:1]WDT:[mtk_wdt_restart] type  =1, pid=17
+<5>[    8.471930] (0)[17:kworker/0:1][SPM] spm_wdt_restart
+<4>[    8.471942] (0)[17:kworker/0:1][WDK]:Stop CPU:1
+<4>[    8.471954] (0)[17:kworker/0:1][WDK]cpu 1 plug off, wk_stop_kick_cpu
+<7>[    8.472016] (0)[7:migration/1][7:migration/1] exit
+<7>[    8.472390] (0)[146:kworker/1:2][146:kworker/1:2] exit
+<4>[    8.472433] (0)[17:kworker/0:1]regs_hotplug_callback cpu = 1
+<4>[    8.472455] (0)[17:kworker/0:1]hp_work_handler: cpu_down(1) completion
+<7>[    8.569844] (0)[56:kworker/1:1][56:kworker/1:1] exit
+<7>[    8.569927] (0)[8:kworker/1:0][8:kworker/1:0] exit
+<7>[    8.569970] (0)[145:workqueue_trust][145:workqueue_trust] exit
+<4>[    8.759850] (0)[147:kworker/0:2]dbs_check_cpu: turn on CPU
+<4>[    8.769976] (0)[147:kworker/0:2]hp_work_handler: cpu_up(1) kick off
+<7>[    8.770068] (0)[2:kthreadd][2:kthreadd] fork [148:kthreadd]
+<7>[    8.780216] (0)[2:kthreadd][2:kthreadd] fork [149:kthreadd]
+<7>[    8.780312] (0)[2:kthreadd][2:kthreadd] fork [150:kthreadd]
+<4>[    8.790387] (0)[147:kworker/0:2]regs_hotplug_callback cpu = 1
+<2>[    8.790464] (0)[147:kworker/0:2]Boot slave CPU
+<4>[    8.790477] (0)[147:kworker/0:2][Power/hotplug] boot_secondary, cpu: 1
+<4>[    8.791688] (1)[0:swapper/1]CPU1: Booted secondary processor
+<6>[    8.791714] (1)[0:swapper/1]Slave cpu init
+<4>[    8.791723] (1)[0:swapper/1][Power/hotplug] platform_secondary_init, cpu: 1
+<4>[    8.791738] (1)[0:swapper/1][WDK] cpu 1 plug on platform_secondary_init++++++
+<4>[    8.791754] (1)[0:swapper/1]WDT:[mtk_wdt_restart] type  =3, pid=0
+<5>[    8.791768] (1)[0:swapper/1][SPM] spm_wdt_restart
+<4>[    8.791781] (1)[0:swapper/1][WDK] cpu 1 plug on platform_secondary_init------
+<4>[    8.791817] (1)[0:swapper/1]regs_hotplug_callback cpu = 1
+<6>[    8.791843] (1)[0:swapper/1][ca7_timer]generic_timer_setup entry
+<4>[    8.792285] (0)[147:kworker/0:2]regs_hotplug_callback cpu = 1
+<4>[    8.792367] (0)[147:kworker/0:2][wdk]bind thread[68] to cpu[1]
+<4>[    8.792384] (0)[147:kworker/0:2]WDT:[mtk_wdt_restart] type  =1, pid=147
+<5>[    8.792400] (0)[147:kworker/0:2][SPM] spm_wdt_restart
+<4>[    8.792413] (0)[147:kworker/0:2][WDK]cpu 1 plug on wk_start_kick_cpuhp_work_handler: cpu_up(1) completion
+<7>[    8.793250] (1)[2:kthreadd][2:kthreadd] fork [151:kthreadd]
+<6>[    9.019150] (1)[116:mobile_log_d]socket_create[1416]:fd=21 
+<7>[    9.019326] (1)[116:mobile_log_d][116:mobile_log_d] fork [152:mobile_log_d]
+<4>[    9.950070] (0)[139:meta_tst][dumchar_open][meta_tst] will open /dev/block/mmcblk0 for nvram!
+<4>[   10.355793] (0)[139:meta_tst][dumchar_open][meta_tst] will open /dev/block/mmcblk0 for nvram!
+<7>[   10.359928] (0)[2:kthreadd][2:kthreadd] fork [153:kthreadd]
+<4>[   10.468183] (0)[139:meta_tst][dumchar_open][meta_tst] will open /dev/block/mmcblk0 for nvram!
+<4>[   10.468382] (1)[139:meta_tst][dumchar_open][meta_tst] will open /dev/block/mmcblk0 for nvram!
+<4>[   10.468451] (1)[139:meta_tst][dumchar_open][meta_tst] will open /dev/block/mmcblk0 for nvram!
+<4>[   10.468564] (1)[139:meta_tst][dumchar_open][meta_tst] will open /dev/block/mmcblk0 for nvram!
+<4>[   10.516365] (0)[139:meta_tst][dumchar_open][meta_tst] will open /dev/block/mmcblk0 for nvram!
+<4>[   10.516437] (0)[139:meta_tst][dumchar_open][meta_tst] will open /dev/block/mmcblk0 for nvram!
